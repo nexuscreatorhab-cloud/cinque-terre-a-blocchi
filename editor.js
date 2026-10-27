@@ -37,7 +37,7 @@ function ridisegna(){const ov={};for(const k in ufficiali)ov[k]={...ufficiali[k]
 function pannelloIntro(){
   if(!user)return pannelloLogin();
   if(!profilo)return pannelloProfilo();
-  if(profilo.stato_consenso==="in_attesa")return panel("Segna le facciate","Serve un genitore",msg("Hai meno di 14 anni: per partecipare serve l'ok di un genitore. Stiamo preparando il modulo per i genitori, torna presto!"),el("div",{class:"rowb"},el("button",{class:"ghost",text:"Il mio account",on:{click:pannelloAccount}})));
+  if(profilo.stato_consenso==="in_attesa")return pannelloGenitore();
   panel("Segna le facciate","Ciao "+profilo.soprannome+"!",
     el("p",{text:"Tocca una casa per dire com'è davvero: colori, persiane, tetto, balconi e altri dettagli. Scatta una foto della facciata, senza persone."}),
     el("p",{class:"small",text:"Le tue scelte le vedi subito nel tuo paese. Diventano ufficiali per tutti quando almeno 5 persone dicono la stessa cosa e una foto è stata approvata."}),
@@ -46,6 +46,23 @@ function pannelloIntro(){
 
 function vistaSwitch(){const mk=(v,t)=>el("button",{"aria-pressed":String(vista===v),text:t,on:{click:()=>{vista=v;ridisegna();if(casa)pannelloCasa(casa);else pannelloIntro()}}});
   return el("div",{class:"field"},el("div",{class:"h"},el("b",{text:"Cosa vedo"})),el("div",{class:"opts"},mk("mio","Il mio paese"),mk("ufficiale","Paese ufficiale")))}
+
+function pannelloGenitore(gia){
+  if(CFG.anteprima)return panel("Anteprima","Serve un genitore",msg("Sul sito vero qui scrivi l'email di un genitore."));
+  const email=el("input",{type:"email",autocomplete:"off",required:true,placeholder:"email del genitore"});
+  const out=el("div");
+  const invia=el("button",{class:"act",text:gia?"Rimanda":"Scrivi al genitore",on:{click:async()=>{
+    if(!email.checkValidity()){out.replaceChildren(msg("Scrivi un'email valida.","ko"));return}
+    if(user&&email.value.trim().toLowerCase()===(user.email||"").toLowerCase()){out.replaceChildren(msg("Serve l'email di un genitore, non la tua.","ko"));return}
+    invia.disabled=true;
+    const {error}=await sb.functions.invoke("consenso-genitore",{body:{azione:"richiedi",email:email.value.trim()}});
+    invia.disabled=false;
+    if(error){const st=error.context&&error.context.status;out.replaceChildren(msg(st===429?"Hai già mandato troppe richieste oggi. Riprova domani.":"Non sono riuscito a mandare l'email. Riprova tra poco.","ko"));return}
+    pannelloGenitore(true);toast("Abbiamo scritto al tuo genitore")}}});
+  panel("Segna le facciate","Serve un genitore",
+    el("p",{text:gia?"Abbiamo scritto al tuo genitore. Quando conferma dal link nell'email, puoi iniziare a segnare le case.":"Hai meno di 14 anni: per partecipare serve l'ok di un genitore. Scrivi la sua email, gli mandiamo un link per confermare."}),
+    el("label",{},"Email del genitore",email),el("div",{class:"rowb"},invia),out,
+    el("div",{class:"rowb"},el("button",{class:"ghost",text:"Il mio account",on:{click:pannelloAccount}})))}
 
 function pannelloLogin(){
   if(CFG.anteprima)return panel("Anteprima","Accesso spento",el("p",{text:"Questa è un'anteprima per provare il paese. L'accesso con email e il salvataggio funzionano sul sito vero."}));
@@ -98,8 +115,8 @@ function pannelloAccount(){
     el("div",{class:"rowb"},el("button",{class:"ghost",text:"← Indietro",on:{click:pannelloIntro}})))}
 
 async function scaricaDati(){
-  const [p,q,n]=await Promise.all([sb.from("profili").select("*"),sb.from("proposte").select("*"),sb.from("note").select("*")]);
-  const blob=new Blob([JSON.stringify({profilo:p.data,proposte:q.data,note:n.data},null,2)],{type:"application/json"});
+  const [p,q,n,c]=await Promise.all([sb.from("profili").select("*"),sb.from("proposte").select("*"),sb.from("note").select("*"),sb.rpc("il_mio_consenso")]);
+  const blob=new Blob([JSON.stringify({profilo:p.data,proposte:q.data,note:n.data,consenso_genitore:c.error?null:c.data},null,2)],{type:"application/json"});
   const a=el("a",{href:URL.createObjectURL(blob),download:"i-miei-dati-cinque-terre-a-blocchi.json"});document.body.append(a);a.click();a.remove()}
 
 function pannelloCasa(k){

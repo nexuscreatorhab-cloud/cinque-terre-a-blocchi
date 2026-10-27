@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self'; connect-src https://jammrsiqgddxihxhhkbt.supabase.co; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex">
+<title>Consenso del genitore · Cinque Terre a Blocchi</title>
+<link rel="stylesheet" href="privacy.css">
+<script src="consenso.js" defer></script>
+</head>
+<body>
+<main>
+<h1>Consenso del genitore</h1>
+<div id="stato"><p>Caricamento…</p></div>
+
+<section id="richiesta" hidden>
+<p>Il minore con soprannome <b id="nick"></b> ha chiesto di partecipare a <b>Cinque Terre a Blocchi</b>, un gioco online in cui si ricostruiscono a blocchi i borghi delle Cinque Terre, indicando colori e dettagli delle facciate.</p>
+<p>Ai sensi dell'art. 2-quinquies D.Lgs. 196/2003, per i minori di 14 anni è necessario il consenso di chi esercita la responsabilità genitoriale.</p>
+<p>In sintesi: sono trattati soltanto email, soprannome e anno di nascita, oltre ai contributi inviati. Agli altri utenti è visibile solo il soprannome. Le fotografie sono private di metadati e cancellate entro 30 giorni. I riconoscimenti sono esclusivamente virtuali. Non c'è chat tra utenti.</p>
+<p><a href="privacy.html" target="_blank" rel="noopener">Leggi l'informativa completa</a></p>
+<label class="check"><input type="checkbox" id="dichiaro"> Dichiaro di esercitare la responsabilità genitoriale sul minore, di aver letto l'informativa e di acconsentire al trattamento dei suoi dati.</label>
+<div class="bottoni">
+<button id="si" disabled>Acconsento</button>
+<button id="no" class="secondario">Non acconsento</button>
+</div>
+<p class="small">Se non acconsente, l'account del minore viene cancellato subito. Il consenso si può ritirare in qualsiasi momento.</p>
+</section>
+
+<section id="revoca" hidden>
+<p>Ritirando il consenso, l'account del minore verrà cancellato subito, con tutti i suoi dati. L'operazione non si può annullare.</p>
+<div class="bottoni"><button id="ritira">Ritira il consenso e cancella l'account</button></div>
+</section>
+</main>
+</body>
+</html>
