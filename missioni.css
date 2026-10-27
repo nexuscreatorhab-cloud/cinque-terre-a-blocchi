@@ -1,0 +1,34 @@
+:root{--bg:#f6efe0;--card:#fffaf0;--ink:#16191c;--muted:#5a554c;--accent:#c9543b;--ok:#3f7d4e;--line:#e2d6bf}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16191c;--card:#20252a;--ink:#f6efe0;--muted:#b9b2a3;--accent:#e2794f;--ok:#7cc48c;--line:#343b42}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,sans-serif}
+header,main,footer{max-width:640px;margin:0 auto;padding:0 16px}
+header{padding-top:16px}
+h1{font-size:2rem;margin:.3em 0 0}
+h2{font-size:1.15rem;margin:0 0 .6em}
+.claim{font-weight:700;color:var(--accent);margin:.2em 0 1em}
+a{color:var(--accent)}
+.back{font-size:.95rem;text-decoration:none}
+.muted{color:var(--muted)}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin:0 0 16px}
+section:empty{display:none}
+.big{font-size:1.4rem;font-weight:800;margin:.1em 0}
+.tempo{display:inline-block;background:var(--accent);color:#fff;border-radius:999px;padding:2px 10px;font-size:.85rem;font-weight:600}
+.barra{height:12px;background:var(--line);border-radius:6px;overflow:hidden;margin:8px 0 4px}
+.barra>i{display:block;height:100%;background:var(--accent);transition:width .4s}
+.fatta .barra>i{background:var(--ok)}
+.missione{padding:10px 0;border-top:1px solid var(--line)}
+.missione:first-of-type{border-top:0}
+.targhette{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:8px 0 0}
+.targhette li{border:1px solid var(--line);border-radius:10px;padding:6px 10px;font-size:.9rem}
+.livelli{list-style:none;padding:0;margin:0}
+.livelli li{padding:6px 0;border-top:1px solid var(--line)}
+.livelli li:first-child{border-top:0}
+.livelli li.mio{font-weight:700}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.tabs button{font:inherit;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:4px 12px;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg)}
+#lista{margin:0;padding-left:1.6em}
+#lista li{padding:3px 0}
+.btn{display:inline-block;background:var(--accent);color:#fff;border-radius:8px;padding:8px 14px;font-weight:700;text-decoration:none}
+footer{font-size:.8rem;color:var(--muted);padding-bottom:32px}

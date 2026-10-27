@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src https://jammrsiqgddxihxhhkbt.supabase.co wss://jammrsiqgddxihxhhkbt.supabase.co; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Missioni · Cinque Terre a Blocchi</title>
+<link rel="stylesheet" href="missioni.css">
+</head>
+<body>
+<header>
+  <a class="back" href="./">← Torna al mondo</a>
+  <h1>🧱 Missioni</h1>
+  <p class="claim">I turisti la fotografano. Tu la costruisci.</p>
+</header>
+<main>
+  <section id="settimana" aria-live="polite"><p class="muted">Carico la missione…</p></section>
+  <section id="io" aria-live="polite"></section>
+  <section id="classifica"><h2>🏆 Classifica</h2><div class="tabs" id="borghi" role="tablist"></div><ol id="lista"></ol></section>
+  <section id="livelli"><h2>Livelli</h2><ul id="elenco-livelli" class="livelli"></ul></section>
+  <section id="regole">
+    <h2>Regole</h2>
+    <ul>
+      <li>Foto solo dalla strada pubblica: niente persone, targhe o interni.</li>
+      <li>Massimo 30 proposte al giorno.</li>
+      <li>Sotto i 14 anni serve l'ok di un genitore.</li>
+      <li>Niente premi veri: si gioca per il borgo e per la gloria.</li>
+    </ul>
+  </section>
+</main>
+<footer>
+  <a href="privacy.html">Privacy</a> · Mappa © OpenStreetMap contributors · Edifici © Regione Liguria
+</footer>
+<script src="vendor/supabase.js"></script>
+<script src="missioni.js"></script>
+</body>
+</html>
