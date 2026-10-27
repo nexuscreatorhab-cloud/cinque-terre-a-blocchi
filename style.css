@@ -38,6 +38,8 @@ button:disabled{opacity:.5;cursor:default}
 #menu li button{width:100%;text-align:left;display:flex;gap:8px;align-items:baseline;font-family:var(--body);font-size:.9rem;padding:7px 6px}
 #menu li button:hover{background:rgba(255,255,255,.08)}
 #menu .n{font-family:var(--display);color:var(--ochre);min-width:1.2em}
+.hud-r{display:flex;gap:8px;align-items:center}
+#bMis{display:flex;white-space:nowrap;flex-direction:row;gap:4px;align-items:center;height:44px;box-sizing:border-box;padding:0 12px;color:var(--paper);text-decoration:none;font-weight:600;font-size:.9rem;border-color:rgba(230,169,58,.6)}
 .menu-foot{display:flex;justify-content:space-between;align-items:center;gap:8px;border-top:1px solid var(--line);padding-top:8px}
 .menu-foot a{color:var(--muted);font-size:.8rem}
 
@@ -98,6 +100,7 @@ button:disabled{opacity:.5;cursor:default}
 .badge{font-family:var(--display);font-size:.7rem;background:var(--paper);color:var(--ink);padding:1px 6px;border-radius:3px}
 
 @media (max-width:640px){
+  .hud{flex-wrap:nowrap} .brand .tag{display:none} .brand{padding:8px 10px;min-width:0} .brand h1{white-space:nowrap;overflow:hidden;text-overflow:ellipsis} #bMis{padding:0 10px}
   .brand h1{font-size:1rem}
   #ed{top:auto;left:8px;right:8px;width:auto;max-height:62vh;bottom:calc(env(safe-area-inset-bottom,0px) + 8px)}
 }

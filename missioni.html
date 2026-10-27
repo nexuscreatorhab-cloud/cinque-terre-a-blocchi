@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src https://jammrsiqgddxihxhhkbt.supabase.co wss://jammrsiqgddxihxhhkbt.supabase.co; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#1d3b53">
+<title>Missioni · Cinque Terre a Blocchi</title>
+<link rel="stylesheet" href="missioni.css">
+</head>
+<body>
+<header class="hero">
+  <a class="back" href="./">← Torna al mondo</a>
+  <h1>MISSIONI</h1>
+  <p class="claim">I turisti la fotografano.<br><span>Tu la costruisci.</span></p>
+  <div class="borgo" aria-hidden="true">
+    <i class="c1 h3"></i><i class="c2 h5"></i><i class="c3 h4"></i><i class="c4 h6"></i><i class="c5 h3"></i><i class="c6 h5"></i><i class="c7 h4"></i><i class="c8 h6"></i><i class="c1 h4"></i><i class="c3 h3"></i><i class="c5 h5"></i><i class="c2 h4"></i>
+  </div>
+  <div class="mare" aria-hidden="true"></div>
+</header>
+
+<main>
+  <section class="regole" aria-label="Regole del gioco">
+    <div class="regola"><b>📷</b><span>Foto solo dalla strada. Niente persone, targhe o interni.</span></div>
+    <div class="regola"><b>30</b><span>proposte al giorno, non di più.</span></div>
+    <div class="regola"><b>14</b><span>Sotto i 14 anni serve l'ok di un genitore.</span></div>
+    <div class="regola"><b>🏅</b><span>Niente premi veri: si gioca per il borgo e per la gloria.</span></div>
+  </section>
+
+  <section id="settimana" class="blocco missione-top" aria-live="polite"><p class="muted">Carico la missione…</p></section>
+  <section id="io" class="blocco" aria-live="polite"></section>
+  <section id="classifica" class="blocco"><h2>🏆 Classifica</h2><div class="tabs" id="borghi" role="tablist"></div><ol id="lista" class="podio"></ol></section>
+  <section id="livelli" class="blocco"><h2>La scalata</h2><ol id="elenco-livelli" class="scalata"></ol></section>
+</main>
+
+<footer>
+  <a href="privacy.html">Privacy</a> · Mappa © OpenStreetMap contributors · Edifici © Regione Liguria
+</footer>
+<script src="vendor/supabase-2.45.4.js"></script>
+<script src="missioni.js"></script>
+</body>
+</html>
