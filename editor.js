@@ -140,7 +140,7 @@ function pannelloCasa(k){
   const nota=el("textarea",{maxlength:"500",placeholder:"Qualcosa che non c'è nell'elenco? Scrivilo qui (lo legge solo chi gestisce il progetto)."});
   const out=el("div");
   const salva=el("button",{class:"act",text:"Salva",on:{click:async()=>{salva.disabled=true;try{await salvaCasa(k,nota.value.trim(),out)}finally{salva.disabled=false}}}});
-  panel("Casa n. "+k,"Com'è questa casa?",
+  panel("Casa n. "+k,"Com'è questa casa?",qui(k),
     el("p",{class:"small",text:"Scegli solo quello che vedi davvero. Tocca di nuovo un'opzione per toglierla."}),
     vistaSwitch(),...campi,
     el("div",{class:"field"},el("label",{},"Foto della facciata (senza persone)",fileIn),el("p",{class:"small",text:"Serve per rendere ufficiali le tue scelte. La foto la vede solo il controllo automatico e poi viene cancellata."})),
@@ -187,7 +187,19 @@ async function controllaFoto(k,percorso,out){
 // ---------- avvio ----------
 bEdit.addEventListener("click",()=>{const on=bEdit.getAttribute("aria-pressed")!=="true";bEdit.setAttribute("aria-pressed",String(on));
   MONDO.editing=on;document.body.classList.toggle("editing",on);if(on)pannelloIntro();else chiudiPannello()});
+// attività reali da OpenStreetMap: solo nome e tipo, per tutti (anche senza account)
+const TIPI={restaurant:"Ristorante",bar:"Bar",cafe:"Bar",pub:"Pub",fast_food:"Focacceria / cibo da asporto",ice_cream:"Gelateria",bank:"Banca",pharmacy:"Farmacia",post_office:"Ufficio postale",
+  ferry_terminal:"Imbarco battelli",fuel:"Distributore",guest_house:"Affittacamere",hotel:"Hotel",apartment:"Appartamento per vacanze",hostel:"Ostello",
+  clothes:"Abbigliamento",gift:"Souvenir",supermarket:"Supermercato",bakery:"Panificio",convenience:"Alimentari",hairdresser:"Parrucchiere",wine:"Enoteca",deli:"Gastronomia",
+  tobacco:"Tabacchi",optician:"Ottico",shoes:"Scarpe",jewelry:"Gioielleria",chemist:"Profumeria",perfumery:"Profumeria",laundry:"Lavanderia",beauty:"Estetista",
+  greengrocer:"Frutta e verdura",ticket:"Biglietti",confectionery:"Dolciumi",pastry:"Pasticceria",bicycle:"Biciclette",seafood:"Pescheria",travel_agency:"Agenzia viaggi",alcohol:"Enoteca"};
+const CAT={alloggio:"Alloggio",ristorazione:"Da mangiare",negozio:"Negozio",barca:"Barche",tour:"Escursioni",servizio:"Servizio"};
+function tipoAttivita(a){const t=(a.sottotipo||"").split("=")[1];return TIPI[t]||CAT[a.categoria]||"Attività"}
+async function caricaAttivita(){const {data,error}=await sb.from("attivita").select("nome,categoria,sottotipo,edificio").eq("borgo",CFG.borgo).not("edificio","is",null).limit(2000);
+  if(error)return;const m={};for(const a of data)if(a.nome)(m[a.edificio]||=[]).push({nome:a.nome,tipo:tipoAttivita(a)});MONDO.attivita=m}
+function qui(k){const l=(MONDO.attivita||{})[k];return l?el("p",{class:"small qui",text:"Qui c'è: "+l.map(a=>a.nome+" ("+a.tipo.toLowerCase()+")").join(", ")}):null}
 function avvia(){
+  caricaAttivita().catch(()=>{});
   MONDO.onBuilding=k=>{if(!user||!profilo)return pannelloIntro();pannelloCasa(k)};
   sb.auth.onAuthStateChange((ev,session)=>{const nuovo=session?session.user:null;if((nuovo&&nuovo.id)===(user&&user.id))return;user=nuovo;
     setTimeout(async()=>{await caricaProfilo();await caricaMie();ridisegna();

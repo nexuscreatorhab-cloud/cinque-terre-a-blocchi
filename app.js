@@ -184,7 +184,7 @@ function pickBuilding(){const h=ray.intersectObjects(terrain.children);if(!h.len
   const x=Math.floor(p.x),y=Math.floor(p.z);if(!inb(x,y))return null;const i=idx(x,y);return type[i]===5?bidr[i]:null}
 function pick(e){setRay(e);
   if(API.editing){const k=pickBuilding();if(k!=null){if(tut.step===4)highlight(k);if(API.onBuilding)API.onBuilding(k);tut.ev("casa")}return}
-  const objs=[...routeSigns,...[...shownLabels.values()],...pois.filter(p=>p.pin.visible).map(p=>p.pin)];const h=ray.intersectObjects(objs);if(!h.length)return;const o=h[0].object;
+  const objs=[...routeSigns,...[...shownLabels.values()],...pois.filter(p=>p.pin.visible).map(p=>p.pin)];const h=ray.intersectObjects(objs);if(!h.length){const k=pickBuilding();if(k!=null&&API.attivita&&API.attivita[k])showCasa(k);return}const o=h[0].object;
   if(o.userData.r!==undefined)showStop(o.userData.r);else showPoi(o.userData.p)}
 const joy=$("joy"),knob=$("knob");let jv={x:0,y:0},jid=null;
 joy.addEventListener("pointerdown",e=>{jid=e.pointerId;joy.setPointerCapture(jid);jm(e)});joy.addEventListener("pointermove",e=>{if(e.pointerId===jid)jm(e)});
@@ -214,13 +214,16 @@ const rl=$("rList");R.forEach((r,k)=>{const li=document.createElement("li");cons
 $("bTut").onclick=()=>{closeMenu();tut.start()};
 // ---------- scheda ----------
 const cK=$("cK"),cT=$("cT"),cP=$("cP"),cR=$("cR");let shown=null;
-$("cX").onclick=()=>{card.hidden=true;shown=null};
+$("cX").onclick=()=>{card.hidden=true;if(String(shown).startsWith("c"))highlight(null);shown=null};
 function btn(row,t,cls,f){const b=document.createElement("button");b.textContent=t;b.className=cls;b.onclick=f;row.append(b);return b}
 function showStop(k){const r=R[k];shown="r"+k;card.hidden=false;cK.textContent=`Tappa ${k+1} di ${R.length}`;cT.textContent=r.n;cP.textContent=r.t;cR.replaceChildren();
   if(k<R.length-1)btn(cR,"Prossima tappa →","act",()=>{showStop(k+1);const n=R[k+1];goTo(n.x,n.y,n.lx,n.ly)});
   btn(cR,"Portami qui","ghost",()=>goTo(r.x,r.y,r.lx,r.ly))}
 function showPoi(p){if(shown===p)return;shown=p;card.hidden=false;cK.textContent=p.k;cT.textContent=p.n;cP.textContent="Posizione reale da OpenStreetMap.";cR.replaceChildren();
   btn(cR,"Portami lì","act",()=>{const b=nearestWalk(p.x,p.y,12);if(b)goTo(b[0],b[1],p.x,p.y)})}
+// casa con attività reali (solo nome e tipo, da OpenStreetMap)
+function showCasa(k){if(shown==="c"+k)return;shown="c"+k;const l=API.attivita[k];card.hidden=false;cK.textContent=l.length>1?l.length+" attività":l[0].tipo;
+  cT.textContent=l.map(a=>a.nome).join(" · ");cP.textContent=(l.length>1?l.map(a=>a.nome+": "+a.tipo.toLowerCase()).join(" · ")+". ":"")+"Dati © OpenStreetMap contributors.";cR.replaceChildren();highlight(k)}
 // ---------- tutorial guidato ----------
 const coach=$("coach"),tK=$("tK"),tDots=$("tDots"),tT=$("tT"),tP=$("tP"),tR=$("tR");
 const touch=matchMedia("(pointer:coarse)").matches;
