@@ -178,10 +178,10 @@ async function controllaFoto(k,percorso,out){
   out.replaceChildren(msg("Salvato! Ora controllo la foto…"));
   const {data,error}=await sb.functions.invoke("controlla-foto",{body:{foto:percorso}});
   await caricaMie();ridisegna();pannelloCasa(k);
-  const r=document.createElement("div");ed.append(r);
+  const r=document.createElement("div");ed.insertBefore(r,ed.querySelector("h2").nextSibling);ed.scrollTop=0;
   if(error){const st=error.context&&error.context.status;r.replaceChildren(msg(st===429?"Hai controllato tante foto oggi. Riprova domani.":"Il controllo della foto non è riuscito, riprova più tardi.","ko"));return}
-  const titolo=data.esito==="ok"?"Foto approvata ✓":data.esito==="parziale"?`Foto approvata per ${data.approvati} dettagli su ${data.totale}`:"Foto non approvata";
-  r.replaceChildren(msg(titolo,data.esito==="ko"?"ko":"ok"),el("p",{class:"small",text:data.motivo}));r.scrollIntoView({block:"nearest"});
+  const titolo=data.esito==="ok"?"Foto approvata ✓":data.esito==="parziale"?`Foto approvata per ${data.approvati} dettagli su ${data.totale}`.replace(" 1 dettagli"," 1 dettaglio"):"Foto non approvata";
+  r.replaceChildren(msg(titolo,data.esito==="ko"?"ko":"ok"),el("p",{class:"small",text:data.motivo}));
   toast(data.esito==="ko"?"Foto da rifare":"Grazie! Foto controllata 🧱")}
 
 // ---------- avvio ----------
