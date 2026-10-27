@@ -195,7 +195,7 @@ const ud=$("updown"),card=$("card");
 function nearestWalk(px,pz,rad){let best=null,bd=1e9;for(let y=Math.max(0,Math.floor(pz-rad));y<Math.min(GH,pz+rad);y++)for(let x=Math.max(0,Math.floor(px-rad));x<Math.min(GW,px+rad);x++){if(!isWalk(idx(x,y)))continue;const d=Math.hypot(x+.5-px,y+.5-pz);if(d<bd){bd=d;best=[x,y]}}return best}
 function markMode(m){mode=m;$("mWalk").setAttribute("aria-pressed",m==="walk");$("mFly").setAttribute("aria-pressed",m==="fly");ud.hidden=m!=="fly"}
 // cambio modalita' sempre con un movimento morbido, mai un salto
-function setMode(m){if(m===mode||tw)return;
+function setMode(m){if(m===mode||tw)return;jump=null;
   if(m==="fly"){markMode("fly");tweenTo(pos.x,pos.y+18,pos.z,yaw,-.45,1);tut.ev("vola");return}
   let c=nearestWalk(pos.x,pos.z,10),ty=yaw;if(!c){const r=R[Math.min(1,R.length-1)];c=[r.x,r.y];ty=yawTo(r.x+.5,r.y+.5,r.lx,r.ly)}
   tweenTo(c[0]+.5,groundAtCell(c[0],c[1])+.9,c[1]+.5,ty,-.05,1.2,()=>markMode("walk"))}
@@ -255,6 +255,7 @@ window.MONDO=API;window.dispatchEvent(new Event("mondo-pronto"));
 // ---------- loop ----------
 const fwd=new THREE.Vector3(),rt=new THREE.Vector3(),st=new THREE.Vector3(),want=new THREE.Vector3(),camT=new THREE.Vector3();let last=performance.now(),camInit=false;
 function groundAt(x,z){const xi=Math.floor(x),zi=Math.floor(z);if(!inb(xi,zi))return null;const i=idx(xi,zi);return type[i]===6?null:top[i]}
+let jump=null;
 function frame(now){const dt=Math.min(.05,(now-last)/1000);last=now;
   let mx=(keys.d||keys.arrowright?1:0)-(keys.a||keys.arrowleft?1:0)+jv.x, mz=(keys.w||keys.arrowup?1:0)-(keys.s||keys.arrowdown?1:0)-jv.y;
   let up=(keys.e?1:0)-(keys.q?1:0)+vUp;
@@ -265,14 +266,18 @@ function frame(now){const dt=Math.min(.05,(now-last)/1000);last=now;
     const g=groundAt(pos.x,pos.z);pos.y=Math.min(170,Math.max(pos.y,(g??0)+1.5))}
   else{fwd.set(-Math.sin(yaw),0,-Math.cos(yaw));rt.set(Math.cos(yaw),0,-Math.sin(yaw));const v=keys.shift?5:2.6;
     want.set(0,0,0).addScaledVector(fwd,mz*v).addScaledVector(rt,mx*v);vel.lerp(want,sm);vel.y=0;st.copy(vel).multiplyScalar(dt);const cur=pos.y-.9;
-    const ok=(x,z)=>{const g=groundAt(x,z);return g!==null&&g-cur<=.6};const ox=pos.x,oz=pos.z;
+    const ok=(x,z)=>{const g=groundAt(x,z);return g!==null&&g-cur<=1.05};const ox=pos.x,oz=pos.z;
     for(const ax of["x","z"]){const d=ax==="x"?st.x:st.z;if(!d)continue;const nx=ax==="x"?pos.x+d:pos.x,nz=ax==="z"?pos.z+d:pos.z;const r=.28*Math.sign(d);if(ok(nx,nz)&&ok(ax==="x"?nx+r:nx,ax==="z"?nz+r:nz))ax==="x"?pos.x=nx:pos.z=nz;else ax==="x"?vel.x=0:vel.z=0}
     if(tut.step===1){tut.walked+=Math.hypot(pos.x-ox,pos.z-oz);if(tut.walked>4){tut.walked=-1e9;tut.ev("passi")}}
-    const g=groundAt(pos.x,pos.z)??cur;pos.y+=(g+.9-pos.y)*Math.min(1,dt*10)}
+    const g=groundAt(pos.x,pos.z)??cur;
+    // gradino alto: piccolo salto ad arco; in discesa e sui gradini bassi si scende/sale dolcemente
+    if(!jump&&g-cur>.6)jump={t:0,from:pos.y,to:g+.9};
+    if(jump){jump.t+=dt/.25;const k=Math.min(1,jump.t);pos.y=jump.from+(jump.to-jump.from)*k+Math.sin(Math.PI*k)*.45;if(k>=1)jump=null}
+    else pos.y+=(g+.9-pos.y)*Math.min(1,dt*10)}
   const spd=Math.hypot(vel.x,vel.z);
   const moving=mode==="walk"&&!tw&&spd>.3;
   walkPhase=moving?walkPhase+dt*spd*3.4:walkPhase*.8;const sw=Math.sin(walkPhase)*(moving?Math.min(.7,spd*.27):0);
-  legL.rotation.x=sw;legR.rotation.x=-sw;armL.rotation.x=-sw*.8;armR.rotation.x=sw*.8;
+  legL.rotation.x=sw;legR.rotation.x=-sw;armL.rotation.x=-sw*.8;armR.rotation.x=sw*.8;if(jump){armL.rotation.x=armR.rotation.x=Math.PI*.85;legL.rotation.x=.5;legR.rotation.x=-.3}
   // il personaggio si gira verso dove cammina, senza scatti
   const tgt=moving?Math.atan2(-vel.x,-vel.z):yaw;heading+=angDiff(heading,tgt)*Math.min(1,dt*10);
   const flying=mode==="fly";
