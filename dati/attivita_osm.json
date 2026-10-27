@@ -1,0 +1,8097 @@
+{
+"fonte": "© OpenStreetMap contributors (ODbL), via Overpass API",
+"scaricato": "2026-10-27",
+"attivita": [
+{
+"osm_id": "node/310414606",
+"nome": "Midi",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "monterosso",
+"lat": 44.1463563,
+"lon": 9.6547599
+},
+{
+"osm_id": "node/310414709",
+"nome": "Moretto",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1468035,
+"lon": 9.6550304
+},
+{
+"osm_id": "node/310414721",
+"nome": "Belvedere",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1460617,
+"lon": 9.6558706
+},
+{
+"osm_id": "node/330290836",
+"nome": "Micky",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1452584,
+"lon": 9.6465283
+},
+{
+"osm_id": "node/330290923",
+"nome": "La bottega",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "monterosso",
+"lat": 44.1457111,
+"lon": 9.6463734
+},
+{
+"osm_id": "node/367664090",
+"nome": "Terrazza Cigolini",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1456658,
+"lon": 9.6508308
+},
+{
+"osm_id": "node/367664160",
+"nome": "Porto Roca",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "monterosso",
+"lat": 44.1449093,
+"lon": 9.6584526
+},
+{
+"osm_id": "node/944999563",
+"nome": "Crai",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "monterosso",
+"lat": 44.1486457,
+"lon": 9.6550167
+},
+{
+"osm_id": "node/1262254043",
+"nome": "Il Fornaio de Monterosso",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "monterosso",
+"lat": 44.145221,
+"lon": 9.6463387
+},
+{
+"osm_id": "node/1939882563",
+"nome": "Albergo Pasquale",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "monterosso",
+"lat": 44.1460394,
+"lon": 9.6545815
+},
+{
+"osm_id": "node/2291211269",
+"nome": "Villa Adriana",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "monterosso",
+"lat": 44.1457927,
+"lon": 9.6429062
+},
+{
+"osm_id": "node/2452087188",
+"nome": "Affittacamere Anita",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "monterosso",
+"lat": 44.1454618,
+"lon": 9.6456506
+},
+{
+"osm_id": "node/2452087190",
+"nome": "Hotel Baia",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "monterosso",
+"lat": 44.1453566,
+"lon": 9.6472338
+},
+{
+"osm_id": "node/2689469045",
+"nome": "Hotel Ristorante Marina",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "monterosso",
+"lat": 44.147299,
+"lon": 9.653691
+},
+{
+"osm_id": "node/2982391271",
+"nome": "Le agavi",
+"categoria": "negozio",
+"sottotipo": "shop=jewelry",
+"luogo": "monterosso",
+"lat": 44.1455781,
+"lon": 9.652125
+},
+{
+"osm_id": "node/2982391272",
+"nome": "Lo spuntino",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "monterosso",
+"lat": 44.1456742,
+"lon": 9.6515962
+},
+{
+"osm_id": "node/2982391273",
+"nome": "Farmacia Cinque Terre",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "monterosso",
+"lat": 44.1457073,
+"lon": 9.6489177
+},
+{
+"osm_id": "node/3148097359",
+"nome": "Barabba",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1448034,
+"lon": 9.6451122
+},
+{
+"osm_id": "node/3148101575",
+"nome": "Mini Market",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "monterosso",
+"lat": 44.1452288,
+"lon": 9.6459361
+},
+{
+"osm_id": "node/3148108050",
+"nome": "La barcaccia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1456751,
+"lon": 9.64662
+},
+{
+"osm_id": "node/3148108051",
+"nome": "Il brigantino",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1457733,
+"lon": 9.646594
+},
+{
+"osm_id": "node/3148108606",
+"nome": "Gelateria e Bar Il Baretto",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "monterosso",
+"lat": 44.1452171,
+"lon": 9.6467861
+},
+{
+"osm_id": "node/3516027631",
+"nome": "Ciak",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1469872,
+"lon": 9.6548316
+},
+{
+"osm_id": "node/3525321499",
+"nome": "Taverna",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.14653,
+"lon": 9.6462916
+},
+{
+"osm_id": "node/3554123596",
+"nome": "Fast",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "monterosso",
+"lat": 44.1473745,
+"lon": 9.654832
+},
+{
+"osm_id": "node/3554129996",
+"nome": "Bar Pasticceria Laura",
+"categoria": "negozio",
+"sottotipo": "shop=pastry",
+"luogo": "monterosso",
+"lat": 44.1475295,
+"lon": 9.6546399
+},
+{
+"osm_id": "node/3554146993",
+"nome": "Parafarmacia Monterosso",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "monterosso",
+"lat": 44.1485366,
+"lon": 9.6549389
+},
+{
+"osm_id": "node/3554148095",
+"nome": "Banca Carige",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "monterosso",
+"lat": 44.1488341,
+"lon": 9.654917
+},
+{
+"osm_id": "node/3720877374",
+"nome": "Souvenir",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "monterosso",
+"lat": 44.1481826,
+"lon": 9.6561935
+},
+{
+"osm_id": "node/3958481973",
+"nome": "Bar Focacceria Antonio",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "monterosso",
+"lat": 44.1451894,
+"lon": 9.6458107
+},
+{
+"osm_id": "node/4078724600",
+"nome": "Il Gigante",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "monterosso",
+"lat": 44.1446733,
+"lon": 9.6445384
+},
+{
+"osm_id": "node/4261429396",
+"nome": "Cantina di Miky",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1453253,
+"lon": 9.6470828
+},
+{
+"osm_id": "node/4261434354",
+"nome": "La Marina",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1464445,
+"lon": 9.6560684
+},
+{
+"osm_id": "node/4261434361",
+"nome": "Pae Veciu",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1476634,
+"lon": 9.6547533
+},
+{
+"osm_id": "node/4261436172",
+"nome": "Da Ely",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1466611,
+"lon": 9.6546755
+},
+{
+"osm_id": "node/4261436286",
+"nome": "Da Flo",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "monterosso",
+"lat": 44.1452496,
+"lon": 9.6464602
+},
+{
+"osm_id": "node/4261436287",
+"nome": "L'Ancora della Tortuga",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1451227,
+"lon": 9.653855
+},
+{
+"osm_id": "node/4261436288",
+"nome": "da eraldo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1471733,
+"lon": 9.6542837
+},
+{
+"osm_id": "node/4261436389",
+"nome": "La Cambusa",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1470198,
+"lon": 9.6549661
+},
+{
+"osm_id": "node/4261436390",
+"nome": "Il piccolo diavolo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1474193,
+"lon": 9.6546644
+},
+{
+"osm_id": "node/4261436391",
+"nome": "Market La Piazzetta",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "monterosso",
+"lat": 44.147,
+"lon": 9.6544598
+},
+{
+"osm_id": "node/4261436392",
+"nome": "Eldorado Wine Bar",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "monterosso",
+"lat": 44.1466011,
+"lon": 9.6557801
+},
+{
+"osm_id": "node/4264210240",
+"nome": "Il Massimo della Focaccia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "monterosso",
+"lat": 44.1456921,
+"lon": 9.6487775
+},
+{
+"osm_id": "node/4264210699",
+"nome": "Boutique Strainer",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "monterosso",
+"lat": 44.145734,
+"lon": 9.6492257
+},
+{
+"osm_id": "node/4264210700",
+"nome": "Osteria del baia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1453634,
+"lon": 9.6473203
+},
+{
+"osm_id": "node/4266486015",
+"nome": "Il maestrale",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "monterosso",
+"lat": 44.1451268,
+"lon": 9.6447784
+},
+{
+"osm_id": "node/4423563896",
+"nome": "Tosca Bistrot",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1474134,
+"lon": 9.654934
+},
+{
+"osm_id": "node/4734084388",
+"nome": "La Spiaggia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1453203,
+"lon": 9.6467645
+},
+{
+"osm_id": "node/4734084389",
+"nome": "Bar Colpi di Timone",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "monterosso",
+"lat": 44.1456914,
+"lon": 9.6488552
+},
+{
+"osm_id": "node/4832281021",
+"nome": "L'Altamarea",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1477909,
+"lon": 9.6550707
+},
+{
+"osm_id": "node/4966546623",
+"nome": "Torre Aurora Mare Cucina & Cocktails",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1449436,
+"lon": 9.6543453
+},
+{
+"osm_id": "node/5021985224",
+"nome": "Pizzeria la Smorfia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1476698,
+"lon": 9.6548136
+},
+{
+"osm_id": "node/5022064523",
+"nome": "Il Bocconcino",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1456224,
+"lon": 9.6482705
+},
+{
+"osm_id": "node/5022064723",
+"nome": "Gastronomia \"San Martino\"",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1472984,
+"lon": 9.6544556
+},
+{
+"osm_id": "node/5022064727",
+"nome": "Emy's Way Pizzeria Friggitoria",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1464871,
+"lon": 9.654733
+},
+{
+"osm_id": "node/5224412923",
+"nome": "l'Osteria",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1465463,
+"lon": 9.6547108
+},
+{
+"osm_id": "node/5224419123",
+"nome": "The NET",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "monterosso",
+"lat": 44.1474688,
+"lon": 9.654614
+},
+{
+"osm_id": "node/5596530721",
+"nome": "Trattoria Da Oscar",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1475826,
+"lon": 9.6546739
+},
+{
+"osm_id": "node/5775761653",
+"nome": "La Cantina del Pescatore",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1467711,
+"lon": 9.6545969
+},
+{
+"osm_id": "node/5851871085",
+"nome": "Hotel La Spiaggia",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "monterosso",
+"lat": 44.1453271,
+"lon": 9.6468904
+},
+{
+"osm_id": "node/5948609386",
+"nome": "Ciak",
+"categoria": "negozio",
+"sottotipo": "shop=alcohol",
+"luogo": "monterosso",
+"lat": 44.1469355,
+"lon": 9.6549881
+},
+{
+"osm_id": "node/5948609387",
+"nome": "Cinque Terrre Gift",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "monterosso",
+"lat": 44.1471732,
+"lon": 9.6549357
+},
+{
+"osm_id": "node/5948617685",
+"nome": "La Pia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "monterosso",
+"lat": 44.1467238,
+"lon": 9.655469
+},
+{
+"osm_id": "node/5948617686",
+"nome": "Giornali Souvenirs",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "monterosso",
+"lat": 44.1467081,
+"lon": 9.6552004
+},
+{
+"osm_id": "node/5948617688",
+"nome": "Wonderland Bakery",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "monterosso",
+"lat": 44.1474362,
+"lon": 9.65509
+},
+{
+"osm_id": "node/5948617690",
+"nome": "Fabrica d'Arte",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "monterosso",
+"lat": 44.1472948,
+"lon": 9.654825
+},
+{
+"osm_id": "node/5948617785",
+"nome": "Gelateria Arigianale Il Golosone",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "monterosso",
+"lat": 44.1466659,
+"lon": 9.6551915
+},
+{
+"osm_id": "node/5948617786",
+"nome": "Erboristeria Alchimilla",
+"categoria": "negozio",
+"sottotipo": "shop=beauty",
+"luogo": "monterosso",
+"lat": 44.1466,
+"lon": 9.6551879
+},
+{
+"osm_id": "node/5948617787",
+"nome": "Biro",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "monterosso",
+"lat": 44.147115,
+"lon": 9.6549399
+},
+{
+"osm_id": "node/5948617788",
+"nome": "Al Pozzo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1472591,
+"lon": 9.6549511
+},
+{
+"osm_id": "node/5948617790",
+"nome": "Da Vice",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "monterosso",
+"lat": 44.1474759,
+"lon": 9.655123
+},
+{
+"osm_id": "node/5948618886",
+"nome": "Golosone",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "monterosso",
+"lat": 44.1474647,
+"lon": 9.6548603
+},
+{
+"osm_id": "node/5948633185",
+"nome": "Bar Bagni Alga",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "monterosso",
+"lat": 44.1458617,
+"lon": 9.6562544
+},
+{
+"osm_id": "node/6681268987",
+"nome": "Targa Agnese",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "monterosso",
+"lat": 44.1478008,
+"lon": 9.6548766
+},
+{
+"osm_id": "node/6732121985",
+"nome": "Sunnyflat (AirBnB)",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "monterosso",
+"lat": 44.1468942,
+"lon": 9.6540404
+},
+{
+"osm_id": "node/6803086986",
+"nome": "Oratorio",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1468495,
+"lon": 9.6545584
+},
+{
+"osm_id": "node/6924472435",
+"nome": "Sottocasa",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "monterosso",
+"lat": 44.1473067,
+"lon": 9.6546775
+},
+{
+"osm_id": "node/6924512110",
+"nome": "Crédit Agricole",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "monterosso",
+"lat": 44.1484717,
+"lon": 9.6549516
+},
+{
+"osm_id": "node/7731565685",
+"nome": "Dall alba al tramonto",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "monterosso",
+"lat": 44.145743,
+"lon": 9.6488276
+},
+{
+"osm_id": "node/8957470517",
+"nome": "Bar da Stasiun",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "monterosso",
+"lat": 44.1456871,
+"lon": 9.6485651
+},
+{
+"osm_id": "node/9567282499",
+"nome": "A Ciassa",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "monterosso",
+"lat": 44.146555,
+"lon": 9.655343
+},
+{
+"osm_id": "node/9757385436",
+"nome": "Giuliana",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "monterosso",
+"lat": 44.145374,
+"lon": 9.6474156
+},
+{
+"osm_id": "node/9757385437",
+"nome": "Gelateria Yogurteria Slurp 2",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "monterosso",
+"lat": 44.1471591,
+"lon": 9.6549377
+},
+{
+"osm_id": "node/9832101997",
+"nome": "L'antica Terrazza",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "monterosso",
+"lat": 44.1472587,
+"lon": 9.6544632
+},
+{
+"osm_id": "node/9832115318",
+"nome": "La scogliera",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "monterosso",
+"lat": 44.14559,
+"lon": 9.6520521
+},
+{
+"osm_id": "node/9832115329",
+"nome": "Fioravanti Fotografie",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "monterosso",
+"lat": 44.1485368,
+"lon": 9.6551192
+},
+{
+"osm_id": "node/9969701721",
+"nome": "Bar Giò",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1453331,
+"lon": 9.6469755
+},
+{
+"osm_id": "node/10709740888",
+"nome": "Ca‘du Pirata",
+"categoria": "alloggio",
+"sottotipo": "tourism=chalet",
+"luogo": "monterosso",
+"lat": 44.1466927,
+"lon": 9.6537478
+},
+{
+"osm_id": "node/11087157784",
+"nome": "La Bottega del Fritto",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "monterosso",
+"lat": 44.1457312,
+"lon": 9.6486477
+},
+{
+"osm_id": "node/11197847732",
+"nome": "Pesto Lab",
+"categoria": "negozio",
+"sottotipo": "shop=deli",
+"luogo": "monterosso",
+"lat": 44.1481357,
+"lon": 9.6549138
+},
+{
+"osm_id": "node/11199900981",
+"nome": "Lapo's",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1456934,
+"lon": 9.651496
+},
+{
+"osm_id": "node/11200017989",
+"nome": "Enoteca Internazionale",
+"categoria": "negozio",
+"sottotipo": "shop=wine",
+"luogo": "monterosso",
+"lat": 44.1478225,
+"lon": 9.655069
+},
+{
+"osm_id": "node/11208376993",
+"nome": "Buranco",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1473267,
+"lon": 9.6513028
+},
+{
+"osm_id": "node/11208376994",
+"nome": "Buranco",
+"categoria": "negozio",
+"sottotipo": "shop=wine",
+"luogo": "monterosso",
+"lat": 44.1472713,
+"lon": 9.6512835
+},
+{
+"osm_id": "node/11246611193",
+"nome": "Taverna Galin",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1476241,
+"lon": 9.6551228
+},
+{
+"osm_id": "node/11246634430",
+"nome": "Al Carugio",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1474825,
+"lon": 9.6551795
+},
+{
+"osm_id": "node/11246714343",
+"nome": "Il Giardino Incantato",
+"categoria": "alloggio",
+"sottotipo": "tourism=hostel",
+"luogo": "monterosso",
+"lat": 44.1476683,
+"lon": 9.6553238
+},
+{
+"osm_id": "node/11343291895",
+"nome": "Pan e Vino",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "monterosso",
+"lat": 44.1476738,
+"lon": 9.6550288
+},
+{
+"osm_id": "node/11985926197",
+"nome": "Agriturismo Buranco",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "monterosso",
+"lat": 44.1472891,
+"lon": 9.6513196
+},
+{
+"osm_id": "node/13039668455",
+"nome": "Gioielli Del Mare",
+"categoria": "negozio",
+"sottotipo": "shop=jewelry",
+"luogo": "monterosso",
+"lat": 44.1477776,
+"lon": 9.6547646
+},
+{
+"osm_id": "node/13039668463",
+"nome": "Il Casello",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.1459271,
+"lon": 9.6563822
+},
+{
+"osm_id": "node/13039668465",
+"nome": "Lemons",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "monterosso",
+"lat": 44.1475723,
+"lon": 9.6549914
+},
+{
+"osm_id": "node/13039668466",
+"nome": "Brothers",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "monterosso",
+"lat": 44.1476978,
+"lon": 9.6548664
+},
+{
+"osm_id": "node/13039668467",
+"nome": "Piripicchio",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "monterosso",
+"lat": 44.1478363,
+"lon": 9.6548031
+},
+{
+"osm_id": "node/13039668468",
+"nome": "Locanda Il Maestrale",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "monterosso",
+"lat": 44.1482162,
+"lon": 9.6548928
+},
+{
+"osm_id": "node/13039668469",
+"nome": "MaeCaa",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "monterosso",
+"lat": 44.1483177,
+"lon": 9.6548718
+},
+{
+"osm_id": "node/13039668470",
+"nome": "Hotel Margherita",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "monterosso",
+"lat": 44.148094,
+"lon": 9.6550916
+},
+{
+"osm_id": "node/13039668471",
+"nome": "Agavi",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "monterosso",
+"lat": 44.1457053,
+"lon": 9.6515398
+},
+{
+"osm_id": "node/13039668472",
+"nome": "Ely Caffè",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "monterosso",
+"lat": 44.1465985,
+"lon": 9.6546899
+},
+{
+"osm_id": "node/13039668473",
+"nome": "Pastarita",
+"categoria": "negozio",
+"sottotipo": "shop=pasta",
+"luogo": "monterosso",
+"lat": 44.1471777,
+"lon": 9.6544131
+},
+{
+"osm_id": "node/13717879801",
+"nome": "Affittacamere alle 5 terre",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "monterosso",
+"lat": 44.148009,
+"lon": 9.645642
+},
+{
+"osm_id": "node/13720419301",
+"nome": "Focacceria Il Frantoio",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "monterosso",
+"lat": 44.147986,
+"lon": 9.6551152
+},
+{
+"osm_id": "node/14277667521",
+"nome": "Agavi",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "monterosso",
+"lat": 44.1457234,
+"lon": 9.6515546
+},
+{
+"osm_id": "way/163645884",
+"nome": "La Villa degli Argentieri",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "monterosso",
+"lat": 44.1452968,
+"lon": 9.6459117
+},
+{
+"osm_id": "way/163645949",
+"nome": "Hotel Cinque Terre",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "monterosso",
+"lat": 44.1457077,
+"lon": 9.6436545
+},
+{
+"osm_id": "way/163645961",
+"nome": "Hotel Palme",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "monterosso",
+"lat": 44.1455249,
+"lon": 9.6446578
+},
+{
+"osm_id": "way/224374229",
+"nome": "Hotel Villa Accini",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "monterosso",
+"lat": 44.1468815,
+"lon": 9.6470576
+},
+{
+"osm_id": "way/224374271",
+"nome": "Villa Mesco",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "monterosso",
+"lat": 44.1483573,
+"lon": 9.6423266
+},
+{
+"osm_id": "way/444894685",
+"nome": "Beach Bar Stella Marina",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "monterosso",
+"lat": 44.1451241,
+"lon": 9.6468361
+},
+{
+"osm_id": "node/796377158",
+"nome": "Belforte",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "vernazza",
+"lat": 44.1348811,
+"lon": 9.6817396
+},
+{
+"osm_id": "node/4200805383",
+"nome": "Coop",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "vernazza",
+"lat": 44.1347896,
+"lon": 9.6841872
+},
+{
+"osm_id": "node/4266203904",
+"nome": "La Torre",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "vernazza",
+"lat": 44.1339879,
+"lon": 9.6852653
+},
+{
+"osm_id": "node/4381108390",
+"nome": "Banca Carige",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "vernazza",
+"lat": 44.1361109,
+"lon": 9.685099
+},
+{
+"osm_id": "node/4728160490",
+"nome": "Il Baretto",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "vernazza",
+"lat": 44.1347613,
+"lon": 9.6840451
+},
+{
+"osm_id": "node/4728171894",
+"nome": "5 Terre Bistrot",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "vernazza",
+"lat": 44.1345981,
+"lon": 9.6840564
+},
+{
+"osm_id": "node/4728171895",
+"nome": "Farmacia Monte",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "vernazza",
+"lat": 44.1346809,
+"lon": 9.6834825
+},
+{
+"osm_id": "node/4728171896",
+"nome": "Da Piva",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "vernazza",
+"lat": 44.1345746,
+"lon": 9.6834019
+},
+{
+"osm_id": "node/4728171897",
+"nome": "Abbigliamento",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "vernazza",
+"lat": 44.1347684,
+"lon": 9.6827758
+},
+{
+"osm_id": "node/4728171898",
+"nome": "Vulnetia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "vernazza",
+"lat": 44.1349649,
+"lon": 9.6829963
+},
+{
+"osm_id": "node/4728171899",
+"nome": "Bar Ananasso",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "vernazza",
+"lat": 44.1351772,
+"lon": 9.6827129
+},
+{
+"osm_id": "node/4728171902",
+"nome": "Fratelli Basso",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "vernazza",
+"lat": 44.1347953,
+"lon": 9.6834934
+},
+{
+"osm_id": "node/4728181692",
+"nome": "Fritto & Pizza",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "vernazza",
+"lat": 44.1346556,
+"lon": 9.6844065
+},
+{
+"osm_id": "node/4728181693",
+"nome": "Sport Vernazza",
+"categoria": "negozio",
+"sottotipo": "shop=outdoor",
+"luogo": "vernazza",
+"lat": 44.1348874,
+"lon": 9.6834229
+},
+{
+"osm_id": "node/4728181695",
+"nome": "Blue Marlin",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "vernazza",
+"lat": 44.1348065,
+"lon": 9.6842543
+},
+{
+"osm_id": "node/4728183092",
+"nome": "Agave",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "vernazza",
+"lat": 44.134635,
+"lon": 9.6841794
+},
+{
+"osm_id": "node/4728183093",
+"nome": "Gambero Rosso",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "vernazza",
+"lat": 44.1348143,
+"lon": 9.6825451
+},
+{
+"osm_id": "node/4728183390",
+"nome": "Ristorante Luca",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "vernazza",
+"lat": 44.1349771,
+"lon": 9.6818954
+},
+{
+"osm_id": "node/4728183490",
+"nome": "Bar Burgus",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "vernazza",
+"lat": 44.1347892,
+"lon": 9.6826188
+},
+{
+"osm_id": "node/4728183491",
+"nome": "Crédit Agricole",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "vernazza",
+"lat": 44.1347601,
+"lon": 9.6839562
+},
+{
+"osm_id": "node/4728184390",
+"nome": "Taverna Del Capitano",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "vernazza",
+"lat": 44.1350917,
+"lon": 9.6829144
+},
+{
+"osm_id": "node/4728199489",
+"nome": "Batti Batti' Focacceria",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "vernazza",
+"lat": 44.1348081,
+"lon": 9.6829063
+},
+{
+"osm_id": "node/4728199490",
+"nome": "Gelateria Vernazza",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "vernazza",
+"lat": 44.1347842,
+"lon": 9.6836605
+},
+{
+"osm_id": "node/4728200489",
+"nome": "Focacceria Da Sonia",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "vernazza",
+"lat": 44.134793,
+"lon": 9.6835902
+},
+{
+"osm_id": "node/4731242122",
+"nome": "Il Pirata delle 5 Terre",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "vernazza",
+"lat": 44.1364987,
+"lon": 9.6850921
+},
+{
+"osm_id": "node/4731242124",
+"nome": "Gelato Amore Mio",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "vernazza",
+"lat": 44.1346663,
+"lon": 9.6830787
+},
+{
+"osm_id": "node/4734113344",
+"nome": "Bottega Visconti",
+"categoria": "negozio",
+"sottotipo": "shop=deli",
+"luogo": "vernazza",
+"lat": 44.1347903,
+"lon": 9.6831297
+},
+{
+"osm_id": "node/4995424323",
+"nome": "Castello Doria",
+"categoria": "negozio",
+"sottotipo": "shop=ticket",
+"luogo": "vernazza",
+"lat": 44.1345543,
+"lon": 9.6819186
+},
+{
+"osm_id": "node/5021240521",
+"nome": "Lunch Box",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "vernazza",
+"lat": 44.1345949,
+"lon": 9.6839639
+},
+{
+"osm_id": "node/5162633841",
+"nome": "Puna",
+"categoria": "negozio",
+"sottotipo": "shop=seafood",
+"luogo": "vernazza",
+"lat": 44.1349239,
+"lon": 9.6833079
+},
+{
+"osm_id": "node/5224419221",
+"nome": "Pippo a Vernazza",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "vernazza",
+"lat": 44.1362417,
+"lon": 9.685034
+},
+{
+"osm_id": "node/6403499786",
+"nome": "Cheo",
+"categoria": "negozio",
+"sottotipo": "shop=wine",
+"luogo": "vernazza",
+"lat": 44.1362383,
+"lon": 9.6847028
+},
+{
+"osm_id": "node/6652675853",
+"nome": "Gianni Franzi",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "vernazza",
+"lat": 44.1347912,
+"lon": 9.6826889
+},
+{
+"osm_id": "node/6804970819",
+"nome": "Kalos",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "vernazza",
+"lat": 44.1346756,
+"lon": 9.683581
+},
+{
+"osm_id": "node/6804970825",
+"nome": "Gelato Amore Mio",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "vernazza",
+"lat": 44.1346696,
+"lon": 9.6836533
+},
+{
+"osm_id": "node/6804970831",
+"nome": "Enoteca Sciacchetra",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "vernazza",
+"lat": 44.1347685,
+"lon": 9.6838367
+},
+{
+"osm_id": "node/6804970835",
+"nome": "Taverna del Capitano, Rooms",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "vernazza",
+"lat": 44.134761,
+"lon": 9.6839298
+},
+{
+"osm_id": "node/6804970851",
+"nome": "Cinque Terre Riviera",
+"categoria": "tour",
+"sottotipo": "shop=travel_agency",
+"luogo": "vernazza",
+"lat": 44.1346071,
+"lon": 9.6836993
+},
+{
+"osm_id": "node/6804970878",
+"nome": "La Bottega",
+"categoria": "negozio",
+"sottotipo": "shop=deli",
+"luogo": "vernazza",
+"lat": 44.1348893,
+"lon": 9.6844099
+},
+{
+"osm_id": "node/9137614337",
+"nome": "La Cantina Del Molo",
+"categoria": "negozio",
+"sottotipo": "shop=wine",
+"luogo": "vernazza",
+"lat": 44.1347934,
+"lon": 9.683297
+},
+{
+"osm_id": "node/9770422320",
+"nome": "Gelateria Il Porticciolo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "vernazza",
+"lat": 44.1349527,
+"lon": 9.6820039
+},
+{
+"osm_id": "node/10123055227",
+"nome": "Gianni Franzi Deck",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "vernazza",
+"lat": 44.1344203,
+"lon": 9.6825551
+},
+{
+"osm_id": "node/11197295719",
+"nome": "La Focacceria",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "vernazza",
+"lat": 44.1347672,
+"lon": 9.6841269
+},
+{
+"osm_id": "node/11281113919",
+"nome": "Pensione Sorriso",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "vernazza",
+"lat": 44.1354596,
+"lon": 9.6850216
+},
+{
+"osm_id": "node/11985752405",
+"nome": "Appartamenti La Scala",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "vernazza",
+"lat": 44.1346374,
+"lon": 9.6823035
+},
+{
+"osm_id": "node/11985752406",
+"nome": "Santa Marta Rooms",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "vernazza",
+"lat": 44.1349219,
+"lon": 9.6838625
+},
+{
+"osm_id": "node/12222563601",
+"nome": "Emporio Vernazza",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "vernazza",
+"lat": 44.1347117,
+"lon": 9.6829811
+},
+{
+"osm_id": "node/12222563602",
+"nome": "B&B Guglielmina",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "vernazza",
+"lat": 44.1345413,
+"lon": 9.6826585
+},
+{
+"osm_id": "node/12222563702",
+"nome": "Gianni Franzi Albergo",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "vernazza",
+"lat": 44.1344931,
+"lon": 9.6824577
+},
+{
+"osm_id": "node/12222699474",
+"nome": "batti batti",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "vernazza",
+"lat": 44.1347977,
+"lon": 9.6831989
+},
+{
+"osm_id": "node/13036820559",
+"nome": "Al Castello",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "vernazza",
+"lat": 44.1346349,
+"lon": 9.681868
+},
+{
+"osm_id": "node/13036820563",
+"nome": "A Nascia",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "vernazza",
+"lat": 44.1349229,
+"lon": 9.6820916
+},
+{
+"osm_id": "node/13036820564",
+"nome": "Organic Poke",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "vernazza",
+"lat": 44.134758,
+"lon": 9.6819729
+},
+{
+"osm_id": "node/13704924801",
+"nome": "Pizzeria da Ercole",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "vernazza",
+"lat": 44.134681,
+"lon": 9.6832566
+},
+{
+"osm_id": "node/13704925501",
+"nome": "La Bottega del Fritto",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "vernazza",
+"lat": 44.1346006,
+"lon": 9.6831274
+},
+{
+"osm_id": "node/13704965202",
+"nome": "Pirasca",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "vernazza",
+"lat": 44.1345853,
+"lon": 9.6847842
+},
+{
+"osm_id": "way/479354549",
+"nome": "Hotel albergo Barbara",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "vernazza",
+"lat": 44.1349423,
+"lon": 9.6829741
+},
+{
+"osm_id": "node/1879845404",
+"nome": "Cucina Casalinga",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "corniglia",
+"lat": 44.1199976,
+"lon": 9.7078513
+},
+{
+"osm_id": "node/1879845414",
+"nome": "DeMeRiva  (formerly Food and Sea)",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "corniglia",
+"lat": 44.1203296,
+"lon": 9.7086526
+},
+{
+"osm_id": "node/1879845417",
+"nome": "Cecio",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "corniglia",
+"lat": 44.1213042,
+"lon": 9.7079143
+},
+{
+"osm_id": "node/1879845420",
+"nome": "Terra Rossa Enoteca Winebar",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "corniglia",
+"lat": 44.1206278,
+"lon": 9.7088624
+},
+{
+"osm_id": "node/1879845423",
+"nome": "La Posada",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "corniglia",
+"lat": 44.1203933,
+"lon": 9.7107782
+},
+{
+"osm_id": "node/2338577891",
+"nome": "Prodotti tipici",
+"categoria": "negozio",
+"sottotipo": "shop=deli",
+"luogo": "corniglia",
+"lat": 44.1200421,
+"lon": 9.7086387
+},
+{
+"osm_id": "node/4423596902",
+"nome": "Bar Nunzio",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "corniglia",
+"lat": 44.1200121,
+"lon": 9.7080514
+},
+{
+"osm_id": "node/4423596903",
+"nome": "Caffe Matteo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "corniglia",
+"lat": 44.1199268,
+"lon": 9.70817
+},
+{
+"osm_id": "node/4530636991",
+"nome": "Alberto Gelateria",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "corniglia",
+"lat": 44.1200527,
+"lon": 9.7088667
+},
+{
+"osm_id": "node/4742728393",
+"nome": "Casa Fabrizia",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "corniglia",
+"lat": 44.1197728,
+"lon": 9.706994
+},
+{
+"osm_id": "node/4742728394",
+"nome": "L'agave cinque terre",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "corniglia",
+"lat": 44.1198238,
+"lon": 9.706754
+},
+{
+"osm_id": "node/4742728395",
+"nome": "La Scuna",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "corniglia",
+"lat": 44.119839,
+"lon": 9.7073608
+},
+{
+"osm_id": "node/4742728396",
+"nome": "B&B 3 Passi dal Mare",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "corniglia",
+"lat": 44.1198402,
+"lon": 9.707442
+},
+{
+"osm_id": "node/4742728398",
+"nome": "Locanda la Lanterna",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "corniglia",
+"lat": 44.1197872,
+"lon": 9.7075533
+},
+{
+"osm_id": "node/4742728399",
+"nome": "Casa Orietta",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "corniglia",
+"lat": 44.1200058,
+"lon": 9.7081997
+},
+{
+"osm_id": "node/4742728402",
+"nome": "Gelateria Corniglia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "corniglia",
+"lat": 44.1200966,
+"lon": 9.7089984
+},
+{
+"osm_id": "node/4742728404",
+"nome": "Dau Tinola",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "corniglia",
+"lat": 44.1201924,
+"lon": 9.7089446
+},
+{
+"osm_id": "node/4742728405",
+"nome": "Hanging Garden",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "corniglia",
+"lat": 44.1209011,
+"lon": 9.7112279
+},
+{
+"osm_id": "node/4742728406",
+"nome": "Da Beppe",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "corniglia",
+"lat": 44.1208058,
+"lon": 9.7092634
+},
+{
+"osm_id": "node/4742728407",
+"nome": "Cecio",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "corniglia",
+"lat": 44.1213295,
+"lon": 9.7079744
+},
+{
+"osm_id": "node/5022123223",
+"nome": "KM0",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "corniglia",
+"lat": 44.1199663,
+"lon": 9.7083669
+},
+{
+"osm_id": "node/5022123322",
+"nome": "Pan e Vin Bar",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "corniglia",
+"lat": 44.1199748,
+"lon": 9.7084791
+},
+{
+"osm_id": "node/5022128521",
+"nome": "Butiega",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "corniglia",
+"lat": 44.120022,
+"lon": 9.708327
+},
+{
+"osm_id": "node/5022128523",
+"nome": "Enoteca il Pirun",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "corniglia",
+"lat": 44.1199879,
+"lon": 9.7086945
+},
+{
+"osm_id": "node/5025387021",
+"nome": "Fannys Bazar",
+"categoria": "negozio",
+"sottotipo": "shop=variety_store",
+"luogo": "corniglia",
+"lat": 44.1197733,
+"lon": 9.7074617
+},
+{
+"osm_id": "node/5775388554",
+"nome": "Er Posu Cafe",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "corniglia",
+"lat": 44.1199342,
+"lon": 9.7089785
+},
+{
+"osm_id": "node/5775420653",
+"nome": "A Cantina da Mananan",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "corniglia",
+"lat": 44.1199876,
+"lon": 9.7086265
+},
+{
+"osm_id": "node/5799656653",
+"nome": "Trattoria La Lanterna",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "corniglia",
+"lat": 44.1198549,
+"lon": 9.7078862
+},
+{
+"osm_id": "node/5800786153",
+"nome": "Il Tonine",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "corniglia",
+"lat": 44.1196864,
+"lon": 9.7077392
+},
+{
+"osm_id": "node/5949595293",
+"nome": "Cinque Terre Point",
+"categoria": "negozio",
+"sottotipo": "shop=ticket",
+"luogo": "corniglia",
+"lat": 44.1186605,
+"lon": 9.7162202
+},
+{
+"osm_id": "node/5949642691",
+"nome": "Er Posu Cafe'",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "corniglia",
+"lat": 44.1205235,
+"lon": 9.7089616
+},
+{
+"osm_id": "node/6431073400",
+"nome": "La Torre Apartments",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "corniglia",
+"lat": 44.1197146,
+"lon": 9.7081278
+},
+{
+"osm_id": "node/6657391785",
+"nome": "A' Cáneva",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "corniglia",
+"lat": 44.1208032,
+"lon": 9.709174
+},
+{
+"osm_id": "node/7644635585",
+"nome": "Un Mare du Yogurt",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "corniglia",
+"lat": 44.120152,
+"lon": 9.7089555
+},
+{
+"osm_id": "node/7973248339",
+"nome": "Affittacamere Le Terrazze",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "corniglia",
+"lat": 44.1200295,
+"lon": 9.7085416
+},
+{
+"osm_id": "node/8738816018",
+"nome": "Bistro Margherita 2.0",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "corniglia",
+"lat": 44.1199803,
+"lon": 9.7087868
+},
+{
+"osm_id": "node/9117207819",
+"nome": "Lisa Market",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "corniglia",
+"lat": 44.1204033,
+"lon": 9.7090662
+},
+{
+"osm_id": "node/9117207820",
+"nome": "Bistro Margherita",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "corniglia",
+"lat": 44.1202316,
+"lon": 9.7092578
+},
+{
+"osm_id": "node/9117209986",
+"nome": "Poste Italiane",
+"categoria": "servizio",
+"sottotipo": "amenity=post_office",
+"luogo": "corniglia",
+"lat": 44.120053,
+"lon": 9.7096483
+},
+{
+"osm_id": "node/9117209987",
+"nome": "Dispensario Farmaceutico In Corniglia",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "corniglia",
+"lat": 44.1204105,
+"lon": 9.7104227
+},
+{
+"osm_id": "node/9832101974",
+"nome": "Il Magan",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "corniglia",
+"lat": 44.1198077,
+"lon": 9.707378
+},
+{
+"osm_id": "node/10296960906",
+"nome": "Casa Gaspare rooms",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "corniglia",
+"lat": 44.1201449,
+"lon": 9.7090651
+},
+{
+"osm_id": "node/11245452992",
+"nome": "Marina die Corniglia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "corniglia",
+"lat": 44.119595,
+"lon": 9.706238
+},
+{
+"osm_id": "node/11245609381",
+"nome": "Dai Luca",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "corniglia",
+"lat": 44.1201478,
+"lon": 9.7090235
+},
+{
+"osm_id": "node/11293225483",
+"nome": "Punto Zero",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "corniglia",
+"lat": 44.1196606,
+"lon": 9.706856
+},
+{
+"osm_id": "node/13032287732",
+"nome": "Pizzeria Nunzio & Elia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "corniglia",
+"lat": 44.1200872,
+"lon": 9.7083589
+},
+{
+"osm_id": "node/13032287733",
+"nome": "Bar Il Cormorano",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "corniglia",
+"lat": 44.1196644,
+"lon": 9.7126524
+},
+{
+"osm_id": "way/204991393",
+"nome": "Ostello di Corniglia",
+"categoria": "alloggio",
+"sottotipo": "tourism=hostel",
+"luogo": "corniglia",
+"lat": 44.1201476,
+"lon": 9.7096687
+},
+{
+"osm_id": "way/351855469",
+"nome": "Il Baretto",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "corniglia",
+"lat": 44.1186822,
+"lon": 9.7161044
+},
+{
+"osm_id": "node/305995640",
+"nome": "Ostello Cinque Terre",
+"categoria": "alloggio",
+"sottotipo": "tourism=hostel",
+"luogo": "manarola",
+"lat": 44.1078397,
+"lon": 9.7304458
+},
+{
+"osm_id": "node/1939697902",
+"nome": "Coop",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "manarola",
+"lat": 44.107286,
+"lon": 9.7291095
+},
+{
+"osm_id": "node/1939697910",
+"nome": "Poste Italiane",
+"categoria": "servizio",
+"sottotipo": "amenity=post_office",
+"luogo": "manarola",
+"lat": 44.1073184,
+"lon": 9.7291476
+},
+{
+"osm_id": "node/1939770209",
+"nome": "Hotel ca' d'andrean",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "manarola",
+"lat": 44.1081841,
+"lon": 9.7294796
+},
+{
+"osm_id": "node/2338622838",
+"nome": "Bar Enrica",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "manarola",
+"lat": 44.1065336,
+"lon": 9.7272915
+},
+{
+"osm_id": "node/3592227616",
+"nome": "Trattoria dal Billy",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "manarola",
+"lat": 44.1066705,
+"lon": 9.7292454
+},
+{
+"osm_id": "node/3729621654",
+"nome": "La Linea d'Acqua",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "manarola",
+"lat": 44.1061535,
+"lon": 9.7272745
+},
+{
+"osm_id": "node/3729625165",
+"nome": "Vandiris",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "manarola",
+"lat": 44.1058272,
+"lon": 9.726992
+},
+{
+"osm_id": "node/4264210698",
+"nome": "Il Porticciolo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "manarola",
+"lat": 44.106746,
+"lon": 9.7277712
+},
+{
+"osm_id": "node/4437502094",
+"nome": "Farmacia Succursale",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "manarola",
+"lat": 44.1072263,
+"lon": 9.7290398
+},
+{
+"osm_id": "node/4734126399",
+"nome": "Bar la Planoia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "manarola",
+"lat": 44.1065458,
+"lon": 9.7270617
+},
+{
+"osm_id": "node/4734126400",
+"nome": "Alla Marina",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "manarola",
+"lat": 44.1067028,
+"lon": 9.7272282
+},
+{
+"osm_id": "node/4734126401",
+"nome": "Marina Piccola",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "manarola",
+"lat": 44.1066975,
+"lon": 9.7275507
+},
+{
+"osm_id": "node/4734126402",
+"nome": "Il Discovolo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "manarola",
+"lat": 44.1065621,
+"lon": 9.727448
+},
+{
+"osm_id": "node/4734126403",
+"nome": "La Cantina dello Zio Bramante",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "manarola",
+"lat": 44.1067272,
+"lon": 9.7276719
+},
+{
+"osm_id": "node/4734126404",
+"nome": "Trattoria La Scogliera",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "manarola",
+"lat": 44.1066199,
+"lon": 9.7277028
+},
+{
+"osm_id": "node/4734126405",
+"nome": "L'Emporio",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "manarola",
+"lat": 44.1067688,
+"lon": 9.7278734
+},
+{
+"osm_id": "node/4734126406",
+"nome": "Ca' de Baran",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1067927,
+"lon": 9.7282045
+},
+{
+"osm_id": "node/4734126407",
+"nome": "Poche Musse",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "manarola",
+"lat": 44.1067932,
+"lon": 9.7281266
+},
+{
+"osm_id": "node/4734126409",
+"nome": "Aquamarina Souvenir",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "manarola",
+"lat": 44.1069396,
+"lon": 9.7285946
+},
+{
+"osm_id": "node/4734126410",
+"nome": "Emporio Burasca 5 Terre Manarola",
+"categoria": "negozio",
+"sottotipo": "shop=deli",
+"luogo": "manarola",
+"lat": 44.1070118,
+"lon": 9.7288602
+},
+{
+"osm_id": "node/4734126411",
+"nome": "Parruchiera per Signora",
+"categoria": "negozio",
+"sottotipo": "shop=hairdresser",
+"luogo": "manarola",
+"lat": 44.107138,
+"lon": 9.7291632
+},
+{
+"osm_id": "node/4734126412",
+"nome": "Souvenir",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "manarola",
+"lat": 44.1072092,
+"lon": 9.7291887
+},
+{
+"osm_id": "node/4953851721",
+"nome": "La Terrazza85",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1068893,
+"lon": 9.7295602
+},
+{
+"osm_id": "node/5022156723",
+"nome": "Pan & Pumate",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "manarola",
+"lat": 44.1074032,
+"lon": 9.7292128
+},
+{
+"osm_id": "node/5022170622",
+"nome": "Pizzeria la Cambusa",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "manarola",
+"lat": 44.1067162,
+"lon": 9.7276241
+},
+{
+"osm_id": "node/5043183552",
+"nome": "Di Milani Fausto",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "manarola",
+"lat": 44.1067206,
+"lon": 9.7274934
+},
+{
+"osm_id": "node/5775463155",
+"nome": "Cappun Magru",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "manarola",
+"lat": 44.1077869,
+"lon": 9.7300994
+},
+{
+"osm_id": "node/5942564085",
+"nome": "Mini Market",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "manarola",
+"lat": 44.1069161,
+"lon": 9.7285648
+},
+{
+"osm_id": "node/5942564086",
+"nome": "Manarola",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "manarola",
+"lat": 44.1072089,
+"lon": 9.7290092
+},
+{
+"osm_id": "node/5942564285",
+"nome": "Takeaway Pasta",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "manarola",
+"lat": 44.1078867,
+"lon": 9.7292322
+},
+{
+"osm_id": "node/5942564286",
+"nome": "Corbani",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "manarola",
+"lat": 44.1081429,
+"lon": 9.7291739
+},
+{
+"osm_id": "node/5942564485",
+"nome": "Poke Manarola",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "manarola",
+"lat": 44.1083281,
+"lon": 9.7297305
+},
+{
+"osm_id": "node/5942564687",
+"nome": "Casa Capellini",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1078637,
+"lon": 9.7298477
+},
+{
+"osm_id": "node/5942719702",
+"nome": "Cinque Terre Trekking",
+"categoria": "negozio",
+"sottotipo": "shop=outdoor",
+"luogo": "manarola",
+"lat": 44.1082925,
+"lon": 9.7293691
+},
+{
+"osm_id": "node/5942905590",
+"nome": "Ticket Office Boats",
+"categoria": "negozio",
+"sottotipo": "shop=ticket",
+"luogo": "manarola",
+"lat": 44.1066107,
+"lon": 9.7269764
+},
+{
+"osm_id": "node/5943037988",
+"nome": "Birolli 60",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "manarola",
+"lat": 44.1067825,
+"lon": 9.7280193
+},
+{
+"osm_id": "node/5943037990",
+"nome": "Salsedine",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "manarola",
+"lat": 44.1069967,
+"lon": 9.7288375
+},
+{
+"osm_id": "node/5943037991",
+"nome": "Bindi Stilo Maliano",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "manarola",
+"lat": 44.1070681,
+"lon": 9.7287292
+},
+{
+"osm_id": "node/5943037992",
+"nome": "Abbigliamento Souvenir",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "manarola",
+"lat": 44.1073262,
+"lon": 9.7293061
+},
+{
+"osm_id": "node/5943037993",
+"nome": "Explora",
+"categoria": "negozio",
+"sottotipo": "shop=sports",
+"luogo": "manarola",
+"lat": 44.1074914,
+"lon": 9.7292954
+},
+{
+"osm_id": "node/5943041889",
+"nome": "5 Terre",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "manarola",
+"lat": 44.1067749,
+"lon": 9.7279516
+},
+{
+"osm_id": "node/5943041892",
+"nome": "Da Paulin",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "manarola",
+"lat": 44.1081219,
+"lon": 9.7291476
+},
+{
+"osm_id": "node/5943471185",
+"nome": "Cantina",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "manarola",
+"lat": 44.1072809,
+"lon": 9.7301137
+},
+{
+"osm_id": "node/5943471186",
+"nome": "Da Baranin",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1072282,
+"lon": 9.7299818
+},
+{
+"osm_id": "node/5943471187",
+"nome": "Casa de Capitano",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "manarola",
+"lat": 44.1072448,
+"lon": 9.7298918
+},
+{
+"osm_id": "node/5943471385",
+"nome": "A piè de Campu",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "manarola",
+"lat": 44.107191,
+"lon": 9.7311245
+},
+{
+"osm_id": "node/5943471585",
+"nome": "Casa Serravallo",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "manarola",
+"lat": 44.1070023,
+"lon": 9.7296823
+},
+{
+"osm_id": "node/5943471587",
+"nome": "Aria di Mare",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "manarola",
+"lat": 44.1064574,
+"lon": 9.7291443
+},
+{
+"osm_id": "node/5943495585",
+"nome": "Alla Porta Rossa",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "manarola",
+"lat": 44.1062761,
+"lon": 9.7279708
+},
+{
+"osm_id": "node/6124433184",
+"nome": "Nessun Dorma",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "manarola",
+"lat": 44.1074807,
+"lon": 9.7258944
+},
+{
+"osm_id": "node/6403495886",
+"nome": "Cantina Crovara",
+"categoria": "negozio",
+"sottotipo": "shop=wine",
+"luogo": "manarola",
+"lat": 44.1073151,
+"lon": 9.73057
+},
+{
+"osm_id": "node/8738845717",
+"nome": "Fooderia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "manarola",
+"lat": 44.1067719,
+"lon": 9.7279069
+},
+{
+"osm_id": "node/9119850983",
+"nome": "Calandra Art Gallery",
+"categoria": "negozio",
+"sottotipo": "shop=art",
+"luogo": "manarola",
+"lat": 44.1067895,
+"lon": 9.7285606
+},
+{
+"osm_id": "node/9120152909",
+"nome": "La Torretta",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "manarola",
+"lat": 44.1073778,
+"lon": 9.7297526
+},
+{
+"osm_id": "node/9429619966",
+"nome": "Ca' del Monica",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1067864,
+"lon": 9.728156
+},
+{
+"osm_id": "node/9667952117",
+"nome": "La Regina di Manarola",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "manarola",
+"lat": 44.1078933,
+"lon": 9.7297794
+},
+{
+"osm_id": "node/9825772103",
+"nome": "La Piramide",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "manarola",
+"lat": 44.1060146,
+"lon": 9.7272613
+},
+{
+"osm_id": "node/9828568939",
+"nome": "Le Storie de Manarola",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.106293,
+"lon": 9.7280224
+},
+{
+"osm_id": "node/9828568940",
+"nome": "Noah Home",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.106438,
+"lon": 9.7278414
+},
+{
+"osm_id": "node/9828568941",
+"nome": "Da Paulin",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "manarola",
+"lat": 44.1062842,
+"lon": 9.7279945
+},
+{
+"osm_id": "node/9828568942",
+"nome": "Casa Oliva",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1063862,
+"lon": 9.7275741
+},
+{
+"osm_id": "node/9828568943",
+"nome": "Alex Room",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1062528,
+"lon": 9.728212
+},
+{
+"osm_id": "node/9832101968",
+"nome": "Il Sogno De Manarola",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1063037,
+"lon": 9.7286812
+},
+{
+"osm_id": "node/9832101971",
+"nome": "Il Bordone",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1080138,
+"lon": 9.7296422
+},
+{
+"osm_id": "node/9832101972",
+"nome": "La stiva",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1062291,
+"lon": 9.7275017
+},
+{
+"osm_id": "node/9832101975",
+"nome": "Ines Apartments",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1079016,
+"lon": 9.7298508
+},
+{
+"osm_id": "node/9832101977",
+"nome": "Olimpo",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.106832,
+"lon": 9.7293593
+},
+{
+"osm_id": "node/9832101982",
+"nome": "Nessun Dorma",
+"categoria": "negozio",
+"sottotipo": "shop=deli",
+"luogo": "manarola",
+"lat": 44.1072402,
+"lon": 9.7292199
+},
+{
+"osm_id": "node/9832101984",
+"nome": "Via Molini",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1072797,
+"lon": 9.7305075
+},
+{
+"osm_id": "node/9832101995",
+"nome": "Tabaccheria Bramante",
+"categoria": "negozio",
+"sottotipo": "shop=tobacco",
+"luogo": "manarola",
+"lat": 44.107196,
+"lon": 9.7289346
+},
+{
+"osm_id": "node/9832101998",
+"nome": "Alla Porta Rossa",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1063479,
+"lon": 9.7280473
+},
+{
+"osm_id": "node/9832102007",
+"nome": "Acla",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.106293,
+"lon": 9.7270005
+},
+{
+"osm_id": "node/9832102008",
+"nome": "Cà Del Monica",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.106396,
+"lon": 9.7270517
+},
+{
+"osm_id": "node/9832102015",
+"nome": "Ca De Gianchi",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1072888,
+"lon": 9.7290259
+},
+{
+"osm_id": "node/9832115317",
+"nome": "Camera Giglia",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1071492,
+"lon": 9.7291835
+},
+{
+"osm_id": "node/9832115323",
+"nome": "Orizzonti",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1064148,
+"lon": 9.7287778
+},
+{
+"osm_id": "node/9832115324",
+"nome": "Cà Du Nilo",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1072398,
+"lon": 9.7298685
+},
+{
+"osm_id": "node/11244148224",
+"nome": "limún",
+"categoria": "negozio",
+"sottotipo": "shop=pottery",
+"luogo": "manarola",
+"lat": 44.1081767,
+"lon": 9.7292063
+},
+{
+"osm_id": "node/11281089334",
+"nome": "Giovanni Rooms",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "manarola",
+"lat": 44.1079536,
+"lon": 9.729786
+},
+{
+"osm_id": "node/11382217537",
+"nome": "La Vigna di Gigi",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1072158,
+"lon": 9.730839
+},
+{
+"osm_id": "node/12211599002",
+"nome": "Take Away Fried Fish",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "manarola",
+"lat": 44.1066266,
+"lon": 9.727721
+},
+{
+"osm_id": "node/14206397175",
+"nome": "Alberta Rooms",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1067816,
+"lon": 9.7272951
+},
+{
+"osm_id": "node/14228578322",
+"nome": "La Casa del Principe",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "manarola",
+"lat": 44.1079569,
+"lon": 9.7296837
+},
+{
+"osm_id": "way/204992723",
+"nome": "Cantine Burasca",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "manarola",
+"lat": 44.108271,
+"lon": 9.7299081
+},
+{
+"osm_id": "way/351837393",
+"nome": "Rio Groppo",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "manarola",
+"lat": 44.1072329,
+"lon": 9.730748
+},
+{
+"osm_id": "relation/21454687",
+"nome": "Da Aristide",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "manarola",
+"lat": 44.106903,
+"lon": 9.728446
+},
+{
+"osm_id": "node/628608902",
+"nome": "Riomaggiore",
+"categoria": "servizio",
+"sottotipo": "amenity=ferry_terminal",
+"luogo": "riomaggiore",
+"lat": 44.0977601,
+"lon": 9.7377579
+},
+{
+"osm_id": "node/1939676567",
+"nome": "Coop",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "riomaggiore",
+"lat": 44.0994682,
+"lon": 9.738669
+},
+{
+"osm_id": "node/3710332734",
+"nome": "MI VA",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "riomaggiore",
+"lat": 44.0995095,
+"lon": 9.738513
+},
+{
+"osm_id": "node/3710332735",
+"nome": "Il pescato cucinato",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "riomaggiore",
+"lat": 44.0995715,
+"lon": 9.7387023
+},
+{
+"osm_id": "node/3710332736",
+"nome": "lecinqueperle",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "riomaggiore",
+"lat": 44.0994175,
+"lon": 9.7384581
+},
+{
+"osm_id": "node/4206933395",
+"nome": "Vertical Lounge Bar",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "riomaggiore",
+"lat": 44.1001322,
+"lon": 9.739736
+},
+{
+"osm_id": "node/4206935492",
+"nome": "Bar e Vini a Piè de Mà",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "riomaggiore",
+"lat": 44.1005317,
+"lon": 9.7356559
+},
+{
+"osm_id": "node/4206938891",
+"nome": "Bistrot Rio",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "riomaggiore",
+"lat": 44.0989165,
+"lon": 9.737857
+},
+{
+"osm_id": "node/4359073131",
+"nome": "La Dolce Vita",
+"categoria": "alloggio",
+"sottotipo": "tourism=hostel",
+"luogo": "riomaggiore",
+"lat": 44.0997285,
+"lon": 9.7387794
+},
+{
+"osm_id": "node/4726828191",
+"nome": "La Lampara",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "riomaggiore",
+"lat": 44.0993664,
+"lon": 9.7382309
+},
+{
+"osm_id": "node/4726828193",
+"nome": "Banca Carige",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "riomaggiore",
+"lat": 44.0993992,
+"lon": 9.7386577
+},
+{
+"osm_id": "node/4726839091",
+"nome": "La Grotta",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "riomaggiore",
+"lat": 44.099227,
+"lon": 9.7383415
+},
+{
+"osm_id": "node/4726841089",
+"nome": "Alimentari Franca",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "riomaggiore",
+"lat": 44.0991897,
+"lon": 9.7382564
+},
+{
+"osm_id": "node/4726841090",
+"nome": "Il Grottino",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "riomaggiore",
+"lat": 44.0992529,
+"lon": 9.7384104
+},
+{
+"osm_id": "node/4726841091",
+"nome": "Trattoria Via dell'Amore",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "riomaggiore",
+"lat": 44.1009021,
+"lon": 9.7360672
+},
+{
+"osm_id": "node/4726841489",
+"nome": "Ciao Bella B&B",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "riomaggiore",
+"lat": 44.0991279,
+"lon": 9.7389675
+},
+{
+"osm_id": "node/4727437089",
+"nome": "Rosi",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "riomaggiore",
+"lat": 44.0997288,
+"lon": 9.7385727
+},
+{
+"osm_id": "node/4727437090",
+"nome": "Bar Centrale",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "riomaggiore",
+"lat": 44.0999708,
+"lon": 9.7389363
+},
+{
+"osm_id": "node/4731242123",
+"nome": "Bar o'netto",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "riomaggiore",
+"lat": 44.0994025,
+"lon": 9.7384172
+},
+{
+"osm_id": "node/4733799350",
+"nome": "Tipografia Certosa",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "riomaggiore",
+"lat": 44.0998095,
+"lon": 9.7386371
+},
+{
+"osm_id": "node/4733799352",
+"nome": "Tutti Fritti",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "riomaggiore",
+"lat": 44.0997941,
+"lon": 9.7388382
+},
+{
+"osm_id": "node/4733799354",
+"nome": "Gelate Rio",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "riomaggiore",
+"lat": 44.0999963,
+"lon": 9.7389898
+},
+{
+"osm_id": "node/4733799355",
+"nome": "Il Maggiore",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "riomaggiore",
+"lat": 44.099692,
+"lon": 9.7387524
+},
+{
+"osm_id": "node/4733799356",
+"nome": "Non Solo Pizza",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "riomaggiore",
+"lat": 44.1000931,
+"lon": 9.7392821
+},
+{
+"osm_id": "node/4733799357",
+"nome": "The Wine House",
+"categoria": "negozio",
+"sottotipo": "shop=alcohol",
+"luogo": "riomaggiore",
+"lat": 44.1001052,
+"lon": 9.7393519
+},
+{
+"osm_id": "node/4733799358",
+"nome": "Veciu Muin",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "riomaggiore",
+"lat": 44.1000031,
+"lon": 9.7395262
+},
+{
+"osm_id": "node/4733799360",
+"nome": "Fugassa & Faina",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "riomaggiore",
+"lat": 44.1001371,
+"lon": 9.7400781
+},
+{
+"osm_id": "node/4733831870",
+"nome": "Villa Argentina",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "riomaggiore",
+"lat": 44.1007231,
+"lon": 9.7418457
+},
+{
+"osm_id": "node/4733847712",
+"nome": "Bar Stazione",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "riomaggiore",
+"lat": 44.1008764,
+"lon": 9.736185
+},
+{
+"osm_id": "node/4777315361",
+"nome": "Hotel Locanda Ca Da Iride",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "riomaggiore",
+"lat": 44.1004271,
+"lon": 9.7417531
+},
+{
+"osm_id": "node/4820899823",
+"nome": "Fuori Rotta Wine Restaurant",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "riomaggiore",
+"lat": 44.1001171,
+"lon": 9.7384955
+},
+{
+"osm_id": "node/4898343921",
+"nome": "Profumo di mare",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "riomaggiore",
+"lat": 44.098363,
+"lon": 9.7378672
+},
+{
+"osm_id": "node/4925194498",
+"nome": "Hotel La Zorza",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "riomaggiore",
+"lat": 44.0993057,
+"lon": 9.7385436
+},
+{
+"osm_id": "node/4936981221",
+"nome": "la Vista di Marina",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "riomaggiore",
+"lat": 44.0983561,
+"lon": 9.7377226
+},
+{
+"osm_id": "node/5022219422",
+"nome": "Primo Piatto",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "riomaggiore",
+"lat": 44.100138,
+"lon": 9.7398613
+},
+{
+"osm_id": "node/5514934821",
+"nome": "Appartamenti Rivusmaior",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "riomaggiore",
+"lat": 44.099867,
+"lon": 9.7386996
+},
+{
+"osm_id": "node/5514946421",
+"nome": "Caffé Bistrot Nonna Vittoria",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "riomaggiore",
+"lat": 44.0998468,
+"lon": 9.7386651
+},
+{
+"osm_id": "node/5672444621",
+"nome": "VINI 5 TERRE",
+"categoria": "negozio",
+"sottotipo": "shop=wine",
+"luogo": "riomaggiore",
+"lat": 44.0997864,
+"lon": 9.7386135
+},
+{
+"osm_id": "node/5727466221",
+"nome": "Enoteca Dau Cila",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "riomaggiore",
+"lat": 44.0986774,
+"lon": 9.7378623
+},
+{
+"osm_id": "node/5774186254",
+"nome": "Pizzeria Kepris",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "riomaggiore",
+"lat": 44.1010403,
+"lon": 9.7363519
+},
+{
+"osm_id": "node/6403505886",
+"nome": "Enoteca D'uu Scintu",
+"categoria": "negozio",
+"sottotipo": "shop=wine",
+"luogo": "riomaggiore",
+"lat": 44.1001337,
+"lon": 9.7395655
+},
+{
+"osm_id": "node/6403519385",
+"nome": "Terra di Bargón",
+"categoria": "negozio",
+"sottotipo": "shop=wine",
+"luogo": "riomaggiore",
+"lat": 44.0991677,
+"lon": 9.7385586
+},
+{
+"osm_id": "node/6411137585",
+"nome": "Terre Sospese",
+"categoria": "negozio",
+"sottotipo": "shop=wine",
+"luogo": "riomaggiore",
+"lat": 44.1001239,
+"lon": 9.7388264
+},
+{
+"osm_id": "node/6431073401",
+"nome": "Bar Zorza",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "riomaggiore",
+"lat": 44.0992844,
+"lon": 9.7384898
+},
+{
+"osm_id": "node/6517743965",
+"nome": "Cinque Terre Coast to Coast",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "riomaggiore",
+"lat": 44.0993267,
+"lon": 9.7394765
+},
+{
+"osm_id": "node/6927235561",
+"nome": "Lo Scalo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "riomaggiore",
+"lat": 44.0986619,
+"lon": 9.7375184
+},
+{
+"osm_id": "node/7944543343",
+"nome": "Ghemé",
+"categoria": "negozio",
+"sottotipo": "shop=wine",
+"luogo": "riomaggiore",
+"lat": 44.0999161,
+"lon": 9.7387874
+},
+{
+"osm_id": "node/9021110260",
+"nome": "Allo Scalo dei Mille",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "riomaggiore",
+"lat": 44.098705,
+"lon": 9.7375451
+},
+{
+"osm_id": "node/9021117639",
+"nome": "Britta Take Away",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "riomaggiore",
+"lat": 44.1000197,
+"lon": 9.7400503
+},
+{
+"osm_id": "node/9021117910",
+"nome": "Cà dei Duxi",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "riomaggiore",
+"lat": 44.1002749,
+"lon": 9.7402595
+},
+{
+"osm_id": "node/9093366553",
+"nome": "Cinque Terre Residence",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "riomaggiore",
+"lat": 44.0997717,
+"lon": 9.741543
+},
+{
+"osm_id": "node/9111281763",
+"nome": "Old School",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "riomaggiore",
+"lat": 44.1003819,
+"lon": 9.7390499
+},
+{
+"osm_id": "node/9111367911",
+"nome": "Sottozero",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "riomaggiore",
+"lat": 44.0984159,
+"lon": 9.737754
+},
+{
+"osm_id": "node/9111386596",
+"nome": "La Cantina",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "riomaggiore",
+"lat": 44.098923,
+"lon": 9.7377161
+},
+{
+"osm_id": "node/9111440962",
+"nome": "Da Dulin",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "riomaggiore",
+"lat": 44.1000299,
+"lon": 9.7401284
+},
+{
+"osm_id": "node/9111440963",
+"nome": "La cantina del Macellaio",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "riomaggiore",
+"lat": 44.0999884,
+"lon": 9.7394209
+},
+{
+"osm_id": "node/9111440964",
+"nome": "Wash & Dry",
+"categoria": "negozio",
+"sottotipo": "shop=laundry",
+"luogo": "riomaggiore",
+"lat": 44.0999773,
+"lon": 9.7393842
+},
+{
+"osm_id": "node/9111440965",
+"nome": "Coop 5 terre 1",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "riomaggiore",
+"lat": 44.1000731,
+"lon": 9.7392134
+},
+{
+"osm_id": "node/9111440966",
+"nome": "Costeve Frigittoria",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "riomaggiore",
+"lat": 44.0996159,
+"lon": 9.7387154
+},
+{
+"osm_id": "node/9111440967",
+"nome": "Gelateria Artigianale",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "riomaggiore",
+"lat": 44.0995917,
+"lon": 9.7385488
+},
+{
+"osm_id": "node/9113120067",
+"nome": "Locanda dalla Compagnia",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "riomaggiore",
+"lat": 44.1001672,
+"lon": 9.7409213
+},
+{
+"osm_id": "node/9113181148",
+"nome": "Bottega Alimentare",
+"categoria": "negozio",
+"sottotipo": "shop=deli",
+"luogo": "riomaggiore",
+"lat": 44.1001392,
+"lon": 9.7401093
+},
+{
+"osm_id": "node/9113279562",
+"nome": "La Conchiglia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "riomaggiore",
+"lat": 44.0980107,
+"lon": 9.7376378
+},
+{
+"osm_id": "node/9113413835",
+"nome": "Bar binariozero",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "riomaggiore",
+"lat": 44.1008486,
+"lon": 9.7365234
+},
+{
+"osm_id": "node/9656670417",
+"nome": "Osteria la Torpedine",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "riomaggiore",
+"lat": 44.0991946,
+"lon": 9.7386761
+},
+{
+"osm_id": "node/9832102004",
+"nome": "Barbiere De Rio",
+"categoria": "negozio",
+"sottotipo": "shop=hairdresser",
+"luogo": "riomaggiore",
+"lat": 44.0994388,
+"lon": 9.7384956
+},
+{
+"osm_id": "node/9951792077",
+"nome": "Mar-Mar",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "riomaggiore",
+"lat": 44.0994523,
+"lon": 9.7383836
+},
+{
+"osm_id": "node/9956459897",
+"nome": "The Apt La Conchiglia Via Di Loca, 296",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "riomaggiore",
+"lat": 44.0981064,
+"lon": 9.7388069
+},
+{
+"osm_id": "node/11247856779",
+"nome": "Tabacchi",
+"categoria": "negozio",
+"sottotipo": "shop=tobacco",
+"luogo": "riomaggiore",
+"lat": 44.0995643,
+"lon": 9.7385226
+},
+{
+"osm_id": "node/11250488433",
+"nome": "Brothers",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "riomaggiore",
+"lat": 44.0998859,
+"lon": 9.7387355
+},
+{
+"osm_id": "node/13032287729",
+"nome": "Limoniamare",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "riomaggiore",
+"lat": 44.1001168,
+"lon": 9.7405267
+},
+{
+"osm_id": "node/13032287738",
+"nome": "Cantina Finis Terrae",
+"categoria": "negozio",
+"sottotipo": "craft=winery",
+"luogo": "riomaggiore",
+"lat": 44.1003178,
+"lon": 9.7388553
+},
+{
+"osm_id": "node/13638678341",
+"nome": "Ca' della Valletta",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "riomaggiore",
+"lat": 44.0992848,
+"lon": 9.7386137
+},
+{
+"osm_id": "node/13706203501",
+"nome": "Sweet Riomaggiore",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "riomaggiore",
+"lat": 44.0999712,
+"lon": 9.7393261
+},
+{
+"osm_id": "node/13708128201",
+"nome": "Limoni&CD",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "riomaggiore",
+"lat": 44.1000996,
+"lon": 9.7404622
+},
+{
+"osm_id": "node/13716250101",
+"nome": "le Giare",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "riomaggiore",
+"lat": 44.0994706,
+"lon": 9.7392572
+},
+{
+"osm_id": "node/13861662648",
+"nome": "Cucina Centrale",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "riomaggiore",
+"lat": 44.1000482,
+"lon": 9.7391375
+},
+{
+"osm_id": "node/13861662820",
+"nome": "Vertical Lounge Bar",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "riomaggiore",
+"lat": 44.1001315,
+"lon": 9.7398265
+},
+{
+"osm_id": "way/204994823",
+"nome": "Hotel del Sole",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "riomaggiore",
+"lat": 44.1001785,
+"lon": 9.7422458
+},
+{
+"osm_id": "way/204995339",
+"nome": "Rio Rooms",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "riomaggiore",
+"lat": 44.0989587,
+"lon": 9.7375111
+},
+{
+"osm_id": "node/208724666",
+"nome": "Poste Italiane",
+"categoria": "servizio",
+"sottotipo": "amenity=post_office",
+"luogo": "la_spezia",
+"lat": 44.106369,
+"lon": 9.8255133
+},
+{
+"osm_id": "node/208854524",
+"nome": "Eni",
+"categoria": "servizio",
+"sottotipo": "amenity=fuel",
+"luogo": "la_spezia",
+"lat": 44.1143877,
+"lon": 9.8391164
+},
+{
+"osm_id": "node/215846921",
+"nome": "Farmacia della Stazione",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "la_spezia",
+"lat": 44.1096945,
+"lon": 9.8159377
+},
+{
+"osm_id": "node/228153951",
+"nome": "Agip",
+"categoria": "servizio",
+"sottotipo": "amenity=fuel",
+"luogo": "la_spezia",
+"lat": 44.110734,
+"lon": 9.834411
+},
+{
+"osm_id": "node/228154573",
+"nome": "Esso",
+"categoria": "servizio",
+"sottotipo": "amenity=fuel",
+"luogo": "la_spezia",
+"lat": 44.1065406,
+"lon": 9.828963
+},
+{
+"osm_id": "node/418864924",
+"nome": "CDH La Spezia",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "la_spezia",
+"lat": 44.1054573,
+"lon": 9.8209826
+},
+{
+"osm_id": "node/1393113504",
+"nome": "Hotel Firenze e Continentale",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "la_spezia",
+"lat": 44.1103928,
+"lon": 9.8153555
+},
+{
+"osm_id": "node/1393113507",
+"nome": "Hotel Venezia",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "la_spezia",
+"lat": 44.1104548,
+"lon": 9.8157772
+},
+{
+"osm_id": "node/1683111190",
+"nome": "Farmacia Internazionale",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "la_spezia",
+"lat": 44.1143148,
+"lon": 9.810512
+},
+{
+"osm_id": "node/1683120163",
+"nome": "InCoop",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "la_spezia",
+"lat": 44.1141938,
+"lon": 9.8100426
+},
+{
+"osm_id": "node/1718013621",
+"nome": "Zara",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1043652,
+"lon": 9.8193723
+},
+{
+"osm_id": "node/1718013622",
+"nome": "Bar Centrale",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1041635,
+"lon": 9.8197046
+},
+{
+"osm_id": "node/1718031436",
+"nome": "Naturalmente Fashion",
+"categoria": "negozio",
+"sottotipo": "shop=hairdresser",
+"luogo": "la_spezia",
+"lat": 44.1073419,
+"lon": 9.8184582
+},
+{
+"osm_id": "node/1718031437",
+"nome": "Farmacia Spezzina",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "la_spezia",
+"lat": 44.1070485,
+"lon": 9.8181393
+},
+{
+"osm_id": "node/1796958109",
+"nome": "Affittacamere Lunamar",
+"categoria": "alloggio",
+"sottotipo": "tourism=motel",
+"luogo": "la_spezia",
+"lat": 44.1103289,
+"lon": 9.816038
+},
+{
+"osm_id": "node/1864967381",
+"nome": "Terminal Traghetti di La Spezia",
+"categoria": "servizio",
+"sottotipo": "amenity=ferry_terminal",
+"luogo": "la_spezia",
+"lat": 44.1025765,
+"lon": 9.8251147
+},
+{
+"osm_id": "node/1939294235",
+"nome": "Deutsche Bank",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.1041672,
+"lon": 9.8197809
+},
+{
+"osm_id": "node/1939294237",
+"nome": "Pizzeria Mima",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.104961,
+"lon": 9.8155256
+},
+{
+"osm_id": "node/1939336162",
+"nome": "Albergo Teatro s.n.c.",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "la_spezia",
+"lat": 44.103546,
+"lon": 9.8215774
+},
+{
+"osm_id": "node/1939336165",
+"nome": "Pinseria Bella Napoli",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1028186,
+"lon": 9.8207928
+},
+{
+"osm_id": "node/1939336512",
+"nome": "The Murphy's Pub",
+"categoria": "ristorazione",
+"sottotipo": "amenity=pub",
+"luogo": "la_spezia",
+"lat": 44.102492,
+"lon": 9.8201956
+},
+{
+"osm_id": "node/2023924793",
+"nome": "Bella Napoli",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1082892,
+"lon": 9.8114864
+},
+{
+"osm_id": "node/2025507325",
+"nome": "Coop",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "la_spezia",
+"lat": 44.1085664,
+"lon": 9.8108889
+},
+{
+"osm_id": "node/2027051979",
+"nome": "Il forno delle delizie",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "la_spezia",
+"lat": 44.1142183,
+"lon": 9.8109259
+},
+{
+"osm_id": "node/2027051981",
+"nome": "Panificio Rizzoli",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "la_spezia",
+"lat": 44.1130802,
+"lon": 9.8105235
+},
+{
+"osm_id": "node/2027126905",
+"nome": "Crédit Agricole",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.1087542,
+"lon": 9.8165808
+},
+{
+"osm_id": "node/2027126921",
+"nome": "Tabaccheria Razzuoli",
+"categoria": "negozio",
+"sottotipo": "shop=tobacco",
+"luogo": "la_spezia",
+"lat": 44.1094182,
+"lon": 9.8162146
+},
+{
+"osm_id": "node/2027126936",
+"nome": "Ufficio Postale La Spezia 3",
+"categoria": "servizio",
+"sottotipo": "amenity=post_office",
+"luogo": "la_spezia",
+"lat": 44.1077977,
+"lon": 9.8156836
+},
+{
+"osm_id": "node/2027126974",
+"nome": "Pam",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "la_spezia",
+"lat": 44.1102422,
+"lon": 9.8147981
+},
+{
+"osm_id": "node/2027127028",
+"nome": "F.I.C.O (fatto in casa ora)",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1095042,
+"lon": 9.8161471
+},
+{
+"osm_id": "node/2048962916",
+"nome": "il Rossetto",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1131303,
+"lon": 9.8189403
+},
+{
+"osm_id": "node/2053488572",
+"nome": "Farmacia Schiaffino",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "la_spezia",
+"lat": 44.1089874,
+"lon": 9.8120971
+},
+{
+"osm_id": "node/2130996447",
+"nome": "La Taverna Del Metallo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=pub",
+"luogo": "la_spezia",
+"lat": 44.1076469,
+"lon": 9.8180602
+},
+{
+"osm_id": "node/2337603807",
+"nome": "Mirabello terme petroli",
+"categoria": "servizio",
+"sottotipo": "amenity=fuel",
+"luogo": "la_spezia",
+"lat": 44.1008399,
+"lon": 9.8292314
+},
+{
+"osm_id": "node/2337633429",
+"nome": "UniCredit Bank",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.105417,
+"lon": 9.8262242
+},
+{
+"osm_id": "node/2699684512",
+"nome": "Bluwash Self Service Laundromat",
+"categoria": "negozio",
+"sottotipo": "shop=laundry",
+"luogo": "la_spezia",
+"lat": 44.1085561,
+"lon": 9.8124783
+},
+{
+"osm_id": "node/2935342020",
+"nome": "MarineRei",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1049089,
+"lon": 9.8215513
+},
+{
+"osm_id": "node/3190754058",
+"nome": "Distro",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.104576,
+"lon": 9.8207244
+},
+{
+"osm_id": "node/3471197513",
+"nome": "Il Ristorantino di Bayon",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1036673,
+"lon": 9.8212614
+},
+{
+"osm_id": "node/3792742515",
+"nome": "TotalErg",
+"categoria": "servizio",
+"sottotipo": "amenity=fuel",
+"luogo": "la_spezia",
+"lat": 44.1134319,
+"lon": 9.8371725
+},
+{
+"osm_id": "node/3831113160",
+"nome": "La Pia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.0993426,
+"lon": 9.8260564
+},
+{
+"osm_id": "node/4163828812",
+"nome": "B&B Cernaia",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "la_spezia",
+"lat": 44.1080239,
+"lon": 9.8192487
+},
+{
+"osm_id": "node/4171186593",
+"nome": "Maison Saint Bon Holidays Apartments",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "la_spezia",
+"lat": 44.110021,
+"lon": 9.8165718
+},
+{
+"osm_id": "node/4193771315",
+"nome": "Doro",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "la_spezia",
+"lat": 44.1050021,
+"lon": 9.8224918
+},
+{
+"osm_id": "node/4194065086",
+"nome": "Il Quadrifoglio",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1138432,
+"lon": 9.8110132
+},
+{
+"osm_id": "node/4195633768",
+"nome": "Osteria all'Inferno",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1048487,
+"lon": 9.8181133
+},
+{
+"osm_id": "node/4195634207",
+"nome": "Amo - Ristorante & Cocktails",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1048526,
+"lon": 9.8214894
+},
+{
+"osm_id": "node/4195820884",
+"nome": "La Pia Centenaria",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1121041,
+"lon": 9.8352214
+},
+{
+"osm_id": "node/4200803474",
+"nome": "Gelateria Artigianale",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "la_spezia",
+"lat": 44.1083216,
+"lon": 9.8170106
+},
+{
+"osm_id": "node/4200805224",
+"nome": "Gusto Gelateria",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "la_spezia",
+"lat": 44.1083673,
+"lon": 9.8172841
+},
+{
+"osm_id": "node/4200805384",
+"nome": "Trattoria dei Folli",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1044589,
+"lon": 9.8233314
+},
+{
+"osm_id": "node/4200805385",
+"nome": "Ekom",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "la_spezia",
+"lat": 44.1102845,
+"lon": 9.8321343
+},
+{
+"osm_id": "node/4200805386",
+"nome": "Pizza Mondo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1102844,
+"lon": 9.8328328
+},
+{
+"osm_id": "node/4200805489",
+"nome": "Bar Remo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1083693,
+"lon": 9.8169278
+},
+{
+"osm_id": "node/4207301426",
+"nome": "Il Gabbiano",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "la_spezia",
+"lat": 44.1086578,
+"lon": 9.8263978
+},
+{
+"osm_id": "node/4207572825",
+"nome": "Pizzeria Sotto I Portici",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1110863,
+"lon": 9.8349721
+},
+{
+"osm_id": "node/4207573858",
+"nome": "KFC",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1131893,
+"lon": 9.8375768
+},
+{
+"osm_id": "node/4278777298",
+"nome": "Bistro del Bastione",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1055228,
+"lon": 9.8229827
+},
+{
+"osm_id": "node/4281425591",
+"nome": "Affittacamere Casa Danè",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "la_spezia",
+"lat": 44.1106998,
+"lon": 9.8153508
+},
+{
+"osm_id": "node/4337705889",
+"nome": "Pizzeria Il Lagora",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1034452,
+"lon": 9.8203945
+},
+{
+"osm_id": "node/4359103656",
+"nome": "Ostello Lungomare La Spezia",
+"categoria": "alloggio",
+"sottotipo": "tourism=hostel",
+"luogo": "la_spezia",
+"lat": 44.1100815,
+"lon": 9.8316426
+},
+{
+"osm_id": "node/4362548947",
+"nome": "In's Mercato",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "la_spezia",
+"lat": 44.1077773,
+"lon": 9.8144895
+},
+{
+"osm_id": "node/4362593744",
+"nome": "Tabacchini",
+"categoria": "negozio",
+"sottotipo": "shop=tobacco",
+"luogo": "la_spezia",
+"lat": 44.1086739,
+"lon": 9.8125843
+},
+{
+"osm_id": "node/4380298055",
+"nome": "Caffè Elìte",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1095656,
+"lon": 9.8160822
+},
+{
+"osm_id": "node/4380298057",
+"nome": "Hotel Aurora",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "la_spezia",
+"lat": 44.1104802,
+"lon": 9.8142104
+},
+{
+"osm_id": "node/4383785692",
+"nome": "Scooter Point",
+"categoria": "negozio",
+"sottotipo": "shop=scooter",
+"luogo": "la_spezia",
+"lat": 44.1039663,
+"lon": 9.8177997
+},
+{
+"osm_id": "node/4384418593",
+"nome": "Da Sandro",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1076586,
+"lon": 9.8178467
+},
+{
+"osm_id": "node/4386786658",
+"nome": "Sartoria & shopping - Queen pan",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "la_spezia",
+"lat": 44.1100227,
+"lon": 9.8153272
+},
+{
+"osm_id": "node/4386786659",
+"nome": "L'Albatros",
+"categoria": "alloggio",
+"sottotipo": "tourism=hostel",
+"luogo": "la_spezia",
+"lat": 44.1097264,
+"lon": 9.8153637
+},
+{
+"osm_id": "node/4386786660",
+"nome": "Mezzora",
+"categoria": "negozio",
+"sottotipo": "shop=laundry",
+"luogo": "la_spezia",
+"lat": 44.1099986,
+"lon": 9.8153845
+},
+{
+"osm_id": "node/4411406610",
+"nome": "La Pucceria di Anna e Enzo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1150327,
+"lon": 9.8341884
+},
+{
+"osm_id": "node/4512057692",
+"nome": "Il Piccolo Faro",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.1059959,
+"lon": 9.8288143
+},
+{
+"osm_id": "node/4512130490",
+"nome": "Bar Costa",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.1066718,
+"lon": 9.8295311
+},
+{
+"osm_id": "node/4512137289",
+"nome": "Chiosco delle Palme",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.1029223,
+"lon": 9.8251064
+},
+{
+"osm_id": "node/4720625440",
+"nome": "Vai O Resti",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1051908,
+"lon": 9.8188437
+},
+{
+"osm_id": "node/4720629193",
+"nome": "Pantondo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1048282,
+"lon": 9.820136
+},
+{
+"osm_id": "node/4720670306",
+"nome": "Il Picchio Rosso",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1097363,
+"lon": 9.8308096
+},
+{
+"osm_id": "node/4786128021",
+"nome": "Viva la Vida",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.1050795,
+"lon": 9.8214452
+},
+{
+"osm_id": "node/4786923945",
+"nome": "La Pia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1048754,
+"lon": 9.8204689
+},
+{
+"osm_id": "node/4816359356",
+"nome": "Osteria della Corte",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.10865,
+"lon": 9.8154687
+},
+{
+"osm_id": "node/4820024822",
+"nome": "Basko",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "la_spezia",
+"lat": 44.108715,
+"lon": 9.8285969
+},
+{
+"osm_id": "node/4878856916",
+"nome": "Carrefour Market",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "la_spezia",
+"lat": 44.1073177,
+"lon": 9.8171556
+},
+{
+"osm_id": "node/4878857227",
+"nome": "La Porta per le 5 Terre",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1103113,
+"lon": 9.8159413
+},
+{
+"osm_id": "node/4880163848",
+"nome": "IP",
+"categoria": "servizio",
+"sottotipo": "amenity=fuel",
+"luogo": "la_spezia",
+"lat": 44.1106515,
+"lon": 9.8295913
+},
+{
+"osm_id": "node/4880163849",
+"nome": "Conad",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "la_spezia",
+"lat": 44.1101603,
+"lon": 9.8296385
+},
+{
+"osm_id": "node/4880163867",
+"nome": "Ristorante Pizzeria La Brace",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1113629,
+"lon": 9.8401796
+},
+{
+"osm_id": "node/4880163870",
+"nome": "Bergero",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "la_spezia",
+"lat": 44.1120214,
+"lon": 9.8414698
+},
+{
+"osm_id": "node/4880163871",
+"nome": "Crédit Agricole",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.1113756,
+"lon": 9.8414595
+},
+{
+"osm_id": "node/5136103021",
+"nome": "Gandolfo",
+"categoria": "negozio",
+"sottotipo": "shop=furniture",
+"luogo": "la_spezia",
+"lat": 44.1074667,
+"lon": 9.8159228
+},
+{
+"osm_id": "node/5144785821",
+"nome": "Pepe Nero",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1048465,
+"lon": 9.8211751
+},
+{
+"osm_id": "node/5146240472",
+"nome": "Pescheria",
+"categoria": "negozio",
+"sottotipo": "shop=seafood",
+"luogo": "la_spezia",
+"lat": 44.1022034,
+"lon": 9.8243554
+},
+{
+"osm_id": "node/5254423936",
+"nome": "Trattoria del Ponte",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1135937,
+"lon": 9.8105631
+},
+{
+"osm_id": "node/5316546921",
+"nome": "Il Papeoto",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.10431,
+"lon": 9.8179328
+},
+{
+"osm_id": "node/5386783222",
+"nome": "Alice",
+"categoria": "negozio",
+"sottotipo": "shop=alcohol",
+"luogo": "la_spezia",
+"lat": 44.102096,
+"lon": 9.8211076
+},
+{
+"osm_id": "node/5514079021",
+"nome": "Friggitoria Pane e Tulipani",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1078029,
+"lon": 9.8177269
+},
+{
+"osm_id": "node/5647423221",
+"nome": "Nana Meat & Wine",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1101319,
+"lon": 9.8163654
+},
+{
+"osm_id": "node/5851845518",
+"nome": "Q8",
+"categoria": "servizio",
+"sottotipo": "amenity=fuel",
+"luogo": "la_spezia",
+"lat": 44.1093701,
+"lon": 9.8324107
+},
+{
+"osm_id": "node/5857258185",
+"nome": "La Zigoela",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1032046,
+"lon": 9.8200647
+},
+{
+"osm_id": "node/5861376836",
+"nome": "La Perla del fortino",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1116237,
+"lon": 9.8415488
+},
+{
+"osm_id": "node/5861389991",
+"nome": "La Carabaccia Osteria e Cucina",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1073341,
+"lon": 9.816452
+},
+{
+"osm_id": "node/5861427710",
+"nome": "Locanda del Mercato",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1059819,
+"lon": 9.8190104
+},
+{
+"osm_id": "node/5861435827",
+"nome": "Trattoria Bellavista",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1046788,
+"lon": 9.8185885
+},
+{
+"osm_id": "node/5899813191",
+"nome": "Pasticceria Silvana La Spezia",
+"categoria": "negozio",
+"sottotipo": "shop=confectionery",
+"luogo": "la_spezia",
+"lat": 44.109992,
+"lon": 9.8105261
+},
+{
+"osm_id": "node/5906554430",
+"nome": "Enoteca Dei Bardi",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1035732,
+"lon": 9.821073
+},
+{
+"osm_id": "node/5913216664",
+"nome": "The Poet Hotel",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "la_spezia",
+"lat": 44.1080987,
+"lon": 9.8148135
+},
+{
+"osm_id": "node/5913216665",
+"nome": "Carrefour Express",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "la_spezia",
+"lat": 44.1074333,
+"lon": 9.8169443
+},
+{
+"osm_id": "node/5913663085",
+"nome": "Dai Pescatori",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1022165,
+"lon": 9.8242596
+},
+{
+"osm_id": "node/5914400198",
+"nome": "Pizza Gourmet",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1063956,
+"lon": 9.8174342
+},
+{
+"osm_id": "node/5950952587",
+"nome": "Cibiamo Station",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1110396,
+"lon": 9.8146951
+},
+{
+"osm_id": "node/5950961385",
+"nome": "McDonald's",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1113585,
+"lon": 9.8134712
+},
+{
+"osm_id": "node/5950961785",
+"nome": "Infopoint Parco Nazionale delle Cinque Terre",
+"categoria": "negozio",
+"sottotipo": "shop=ticket",
+"luogo": "la_spezia",
+"lat": 44.1111086,
+"lon": 9.8144718
+},
+{
+"osm_id": "node/6130455385",
+"nome": "Joy",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.1147943,
+"lon": 9.8356303
+},
+{
+"osm_id": "node/6368102286",
+"nome": "5 Terre Backpackers city",
+"categoria": "alloggio",
+"sottotipo": "tourism=hostel",
+"luogo": "la_spezia",
+"lat": 44.110562,
+"lon": 9.8155769
+},
+{
+"osm_id": "node/6401958386",
+"nome": "Tao Sushi",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1137671,
+"lon": 9.8408819
+},
+{
+"osm_id": "node/6418900985",
+"nome": "Grand hostel Manin",
+"categoria": "alloggio",
+"sottotipo": "tourism=hostel",
+"luogo": "la_spezia",
+"lat": 44.1042246,
+"lon": 9.8230726
+},
+{
+"osm_id": "node/6432485705",
+"nome": "Vicolo Intherno",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1053142,
+"lon": 9.8188551
+},
+{
+"osm_id": "node/6440105687",
+"nome": "Masaniello",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1090117,
+"lon": 9.8167657
+},
+{
+"osm_id": "node/6456475887",
+"nome": "Ortofrutta",
+"categoria": "negozio",
+"sottotipo": "shop=greengrocer",
+"luogo": "la_spezia",
+"lat": 44.109532,
+"lon": 9.8170441
+},
+{
+"osm_id": "node/6456475888",
+"nome": "Basko Supermercato",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "la_spezia",
+"lat": 44.1072346,
+"lon": 9.8162403
+},
+{
+"osm_id": "node/6456480085",
+"nome": "Antica Osteria dell'Uva",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1045312,
+"lon": 9.8208161
+},
+{
+"osm_id": "node/6456485985",
+"nome": "La Casa dei Treni",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1105177,
+"lon": 9.8162306
+},
+{
+"osm_id": "node/6459160785",
+"nome": "Shamrock Pub",
+"categoria": "ristorazione",
+"sottotipo": "amenity=pub",
+"luogo": "la_spezia",
+"lat": 44.1040676,
+"lon": 9.8185909
+},
+{
+"osm_id": "node/6517553229",
+"nome": "Hosteria dei barli",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.107317,
+"lon": 9.8174326
+},
+{
+"osm_id": "node/6517553232",
+"nome": "Lia Rooms",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "la_spezia",
+"lat": 44.1072963,
+"lon": 9.81747
+},
+{
+"osm_id": "node/6528451286",
+"nome": "Antica Trattoria Sevieri",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1053339,
+"lon": 9.8185183
+},
+{
+"osm_id": "node/6528456786",
+"nome": "La Posta",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1050219,
+"lon": 9.8255172
+},
+{
+"osm_id": "node/6742402954",
+"nome": "Bama",
+"categoria": "ristorazione",
+"sottotipo": "amenity=pub",
+"luogo": "la_spezia",
+"lat": 44.1040655,
+"lon": 9.8211341
+},
+{
+"osm_id": "node/6833825186",
+"nome": "Cruise Terminal",
+"categoria": "servizio",
+"sottotipo": "amenity=ferry_terminal",
+"luogo": "la_spezia",
+"lat": 44.1081847,
+"lon": 9.8379483
+},
+{
+"osm_id": "node/7446639357",
+"nome": "OASI",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1055442,
+"lon": 9.8224859
+},
+{
+"osm_id": "node/7640856685",
+"nome": "Trattoria Nuova Spezia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1032352,
+"lon": 9.8185148
+},
+{
+"osm_id": "node/7645975690",
+"nome": "Bolle in Pentola",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1042512,
+"lon": 9.8229685
+},
+{
+"osm_id": "node/7648429985",
+"nome": "Meetbar",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.1073079,
+"lon": 9.818143
+},
+{
+"osm_id": "node/7881392955",
+"nome": "Tiffany Café",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.1086115,
+"lon": 9.8290125
+},
+{
+"osm_id": "node/8063924289",
+"nome": "Spaziocucine Due s.a.s. di Spediacci Matteo & C.",
+"categoria": "negozio",
+"sottotipo": "shop=kitchen",
+"luogo": "la_spezia",
+"lat": 44.1112091,
+"lon": 9.8358193
+},
+{
+"osm_id": "node/8092047992",
+"nome": "Brico",
+"categoria": "negozio",
+"sottotipo": "shop=doityourself",
+"luogo": "la_spezia",
+"lat": 44.114209,
+"lon": 9.8358844
+},
+{
+"osm_id": "node/8939352717",
+"nome": "Charget",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1050639,
+"lon": 9.8208421
+},
+{
+"osm_id": "node/8947059817",
+"nome": "YU Bubble Tea",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1069155,
+"lon": 9.81798
+},
+{
+"osm_id": "node/9057165317",
+"nome": "La Lanterna",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1090162,
+"lon": 9.8308029
+},
+{
+"osm_id": "node/9176140017",
+"nome": "Osteria dal 1936",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1095454,
+"lon": 9.815544
+},
+{
+"osm_id": "node/9558339007",
+"nome": "Kandinsky 2.0",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1048992,
+"lon": 9.8209722
+},
+{
+"osm_id": "node/9595852186",
+"nome": "Da Luigi",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1057362,
+"lon": 9.8181223
+},
+{
+"osm_id": "node/9595861823",
+"nome": "Nuts",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1049916,
+"lon": 9.8178392
+},
+{
+"osm_id": "node/9595879089",
+"nome": "Bar Tonelli",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.106669,
+"lon": 9.8268401
+},
+{
+"osm_id": "node/9595909112",
+"nome": "Doria",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.1040344,
+"lon": 9.8209276
+},
+{
+"osm_id": "node/9595909113",
+"nome": "Spezialità",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1035837,
+"lon": 9.8222462
+},
+{
+"osm_id": "node/9647883568",
+"nome": "Costello",
+"categoria": "alloggio",
+"sottotipo": "tourism=hostel",
+"luogo": "la_spezia",
+"lat": 44.1067413,
+"lon": 9.8160547
+},
+{
+"osm_id": "node/9726135702",
+"nome": "Crédit Agricole",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.1054381,
+"lon": 9.825364
+},
+{
+"osm_id": "node/9806156110",
+"nome": "UniCredit Bank",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.103625,
+"lon": 9.822489
+},
+{
+"osm_id": "node/9806156112",
+"nome": "Punto Caldo Bertagna;Bretagna Punto Caldo",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "la_spezia",
+"lat": 44.1041615,
+"lon": 9.8215824
+},
+{
+"osm_id": "node/9905507885",
+"nome": "Panificio Condotti",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "la_spezia",
+"lat": 44.106397,
+"lon": 9.8180457
+},
+{
+"osm_id": "node/9959514264",
+"nome": "Baldini Gomme",
+"categoria": "negozio",
+"sottotipo": "shop=tyres",
+"luogo": "la_spezia",
+"lat": 44.1099865,
+"lon": 9.8278877
+},
+{
+"osm_id": "node/9959535850",
+"nome": "Bar Derby",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1098025,
+"lon": 9.8279636
+},
+{
+"osm_id": "node/9970812858",
+"nome": "B&B \"Perla Bianca\"",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1082825,
+"lon": 9.814263
+},
+{
+"osm_id": "node/9981146925",
+"nome": "Lord Byron",
+"categoria": "servizio",
+"sottotipo": "amenity=ferry_terminal",
+"luogo": "la_spezia",
+"lat": 44.1047896,
+"lon": 9.8309993
+},
+{
+"osm_id": "node/10015230657",
+"nome": "Dal Toscano 1890",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1067882,
+"lon": 9.815106
+},
+{
+"osm_id": "node/10029647006",
+"nome": "Farmacia Bonaschi",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "la_spezia",
+"lat": 44.1036152,
+"lon": 9.8221507
+},
+{
+"osm_id": "node/10046649959",
+"nome": "C'est Bon",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1101693,
+"lon": 9.815536
+},
+{
+"osm_id": "node/10125935611",
+"nome": "mivà",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1052156,
+"lon": 9.8217068
+},
+{
+"osm_id": "node/10125961436",
+"nome": "Sergio Vezzoni",
+"categoria": "negozio",
+"sottotipo": "shop=shoes",
+"luogo": "la_spezia",
+"lat": 44.1052469,
+"lon": 9.8217732
+},
+{
+"osm_id": "node/10125962283",
+"nome": "Felia Farmacia Croce Bianca",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "la_spezia",
+"lat": 44.1052818,
+"lon": 9.8218409
+},
+{
+"osm_id": "node/10799294857",
+"nome": "Dimeglio Supermercato",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "la_spezia",
+"lat": 44.1088299,
+"lon": 9.8161169
+},
+{
+"osm_id": "node/10807778032",
+"nome": "Ebike5",
+"categoria": "servizio",
+"sottotipo": "amenity=bicycle_rental",
+"luogo": "la_spezia",
+"lat": 44.1051404,
+"lon": 9.8151729
+},
+{
+"osm_id": "node/10934010705",
+"nome": "Casa Carcosa",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "la_spezia",
+"lat": 44.1101791,
+"lon": 9.8120936
+},
+{
+"osm_id": "node/10936159524",
+"nome": "Il Fornaio Matto",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "la_spezia",
+"lat": 44.109121,
+"lon": 9.815244
+},
+{
+"osm_id": "node/10936396428",
+"nome": "Antojos",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1098278,
+"lon": 9.8127093
+},
+{
+"osm_id": "node/10941361280",
+"nome": "Gustosando Caffè Gelateria",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "la_spezia",
+"lat": 44.1100003,
+"lon": 9.8113301
+},
+{
+"osm_id": "node/10941385634",
+"nome": "il Chiosco di Piazza Brin",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.10951,
+"lon": 9.8123641
+},
+{
+"osm_id": "node/10943531008",
+"nome": "Lievito Madre",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "la_spezia",
+"lat": 44.1088082,
+"lon": 9.8128509
+},
+{
+"osm_id": "node/10960386105",
+"nome": "Caffetteria Crastan",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1038087,
+"lon": 9.8221818
+},
+{
+"osm_id": "node/10970349760",
+"nome": "Del Rio Michele",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "la_spezia",
+"lat": 44.1051817,
+"lon": 9.8172047
+},
+{
+"osm_id": "node/10970359020",
+"nome": "Burger's Garage",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1120993,
+"lon": 9.8355645
+},
+{
+"osm_id": "node/11003406902",
+"nome": "Hotel Mary",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "la_spezia",
+"lat": 44.1108219,
+"lon": 9.8133853
+},
+{
+"osm_id": "node/11062974150",
+"nome": "Chicken Chicken Punjabi Dhaba",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1082231,
+"lon": 9.8171752
+},
+{
+"osm_id": "node/11063010956",
+"nome": "Golden Weed",
+"categoria": "negozio",
+"sottotipo": "shop=cannabis",
+"luogo": "la_spezia",
+"lat": 44.1098092,
+"lon": 9.8157559
+},
+{
+"osm_id": "node/11063015948",
+"nome": "Mozzachiodi",
+"categoria": "negozio",
+"sottotipo": "shop=jewelry",
+"luogo": "la_spezia",
+"lat": 44.1085521,
+"lon": 9.8171145
+},
+{
+"osm_id": "node/11063024265",
+"nome": "Ruggia",
+"categoria": "negozio",
+"sottotipo": "shop=shoes",
+"luogo": "la_spezia",
+"lat": 44.1082703,
+"lon": 9.8171002
+},
+{
+"osm_id": "node/11063028123",
+"nome": "Alì Babà",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1091389,
+"lon": 9.8164453
+},
+{
+"osm_id": "node/11063031141",
+"nome": "Golfo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.107911,
+"lon": 9.8176344
+},
+{
+"osm_id": "node/11063031521",
+"nome": "Ali",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1101154,
+"lon": 9.8150842
+},
+{
+"osm_id": "node/11076441005",
+"nome": "Guest Apartment Andrea",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1099437,
+"lon": 9.8179536
+},
+{
+"osm_id": "node/11087523992",
+"nome": "Golfo della Luna",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "la_spezia",
+"lat": 44.1094146,
+"lon": 9.8155906
+},
+{
+"osm_id": "node/11111150302",
+"nome": "Tigotà",
+"categoria": "negozio",
+"sottotipo": "shop=chemist",
+"luogo": "la_spezia",
+"lat": 44.110689,
+"lon": 9.8328217
+},
+{
+"osm_id": "node/11111188798",
+"nome": "Arcaplanet",
+"categoria": "negozio",
+"sottotipo": "shop=pet",
+"luogo": "la_spezia",
+"lat": 44.1064451,
+"lon": 9.8158418
+},
+{
+"osm_id": "node/11111222474",
+"nome": "City Market",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "la_spezia",
+"lat": 44.1087741,
+"lon": 9.8305249
+},
+{
+"osm_id": "node/11111228037",
+"nome": "Bar Crastan",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1071033,
+"lon": 9.8155423
+},
+{
+"osm_id": "node/11111229198",
+"nome": "Lo Scrigno",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.110601,
+"lon": 9.8326832
+},
+{
+"osm_id": "node/11111231321",
+"nome": "Mondo Frutta 1",
+"categoria": "negozio",
+"sottotipo": "shop=greengrocer",
+"luogo": "la_spezia",
+"lat": 44.1090489,
+"lon": 9.8148694
+},
+{
+"osm_id": "node/11111231636",
+"nome": "Ridiamoci un taglio",
+"categoria": "negozio",
+"sottotipo": "shop=hairdresser",
+"luogo": "la_spezia",
+"lat": 44.1088382,
+"lon": 9.830601
+},
+{
+"osm_id": "node/11111237433",
+"nome": "Banco Desio",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.1065893,
+"lon": 9.8163549
+},
+{
+"osm_id": "node/11117229874",
+"nome": "Il Dolce Angolo",
+"categoria": "negozio",
+"sottotipo": "shop=confectionery",
+"luogo": "la_spezia",
+"lat": 44.1076053,
+"lon": 9.8178894
+},
+{
+"osm_id": "node/11117247039",
+"nome": "Pink Benny",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1022917,
+"lon": 9.8208697
+},
+{
+"osm_id": "node/11117253988",
+"nome": "La via lattea",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "la_spezia",
+"lat": 44.1075048,
+"lon": 9.8177763
+},
+{
+"osm_id": "node/11117258774",
+"nome": "La Réserve",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1083914,
+"lon": 9.8172459
+},
+{
+"osm_id": "node/11117258775",
+"nome": "Little Bistrot",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.0994495,
+"lon": 9.8270901
+},
+{
+"osm_id": "node/11117265179",
+"nome": "Flying Tiger Copenhagen",
+"categoria": "negozio",
+"sottotipo": "shop=variety_store",
+"luogo": "la_spezia",
+"lat": 44.1078928,
+"lon": 9.8174913
+},
+{
+"osm_id": "node/11117265180",
+"nome": "BPER Banca",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.103934,
+"lon": 9.8217095
+},
+{
+"osm_id": "node/11117276060",
+"nome": "Club 1920",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1033899,
+"lon": 9.8221949
+},
+{
+"osm_id": "node/11117282460",
+"nome": "Lola",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1040152,
+"lon": 9.8218688
+},
+{
+"osm_id": "node/11117282461",
+"nome": "Max Mara",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1042443,
+"lon": 9.8213135
+},
+{
+"osm_id": "node/11117287330",
+"nome": "Caffetteria Orefici",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1051683,
+"lon": 9.8204027
+},
+{
+"osm_id": "node/11117288999",
+"nome": "Lo scrigno",
+"categoria": "negozio",
+"sottotipo": "shop=tobacco",
+"luogo": "la_spezia",
+"lat": 44.1047869,
+"lon": 9.8239169
+},
+{
+"osm_id": "node/11117291279",
+"nome": "Resilience Cafè",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1051013,
+"lon": 9.8240252
+},
+{
+"osm_id": "node/11117291280",
+"nome": "donna",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1038345,
+"lon": 9.8221427
+},
+{
+"osm_id": "node/11117291281",
+"nome": "Vodafone",
+"categoria": "negozio",
+"sottotipo": "shop=mobile_phone",
+"luogo": "la_spezia",
+"lat": 44.1054718,
+"lon": 9.8202571
+},
+{
+"osm_id": "node/11117291282",
+"nome": "Eyespace",
+"categoria": "negozio",
+"sottotipo": "shop=optician",
+"luogo": "la_spezia",
+"lat": 44.1072324,
+"lon": 9.8181959
+},
+{
+"osm_id": "node/11117291734",
+"nome": "Tabaccheria del Prione",
+"categoria": "negozio",
+"sottotipo": "shop=tobacco",
+"luogo": "la_spezia",
+"lat": 44.1048706,
+"lon": 9.8208239
+},
+{
+"osm_id": "node/11117292408",
+"nome": "Bar Peola",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.104774,
+"lon": 9.8238224
+},
+{
+"osm_id": "node/11117292409",
+"nome": "Jiao Zi",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1069384,
+"lon": 9.818254
+},
+{
+"osm_id": "node/11117292780",
+"nome": "ParadIce",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "la_spezia",
+"lat": 44.1052701,
+"lon": 9.8227994
+},
+{
+"osm_id": "node/11117292781",
+"nome": "You only live once",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.0996197,
+"lon": 9.8276402
+},
+{
+"osm_id": "node/11117296592",
+"nome": "Calzedonia",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1056841,
+"lon": 9.8199444
+},
+{
+"osm_id": "node/11117301002",
+"nome": "NaNa",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1049628,
+"lon": 9.8207537
+},
+{
+"osm_id": "node/11117301003",
+"nome": "la gordona",
+"categoria": "negozio",
+"sottotipo": "shop=jewelry",
+"luogo": "la_spezia",
+"lat": 44.1057965,
+"lon": 9.8194841
+},
+{
+"osm_id": "node/11117303113",
+"nome": "Deutsche Bank",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.1041289,
+"lon": 9.8244448
+},
+{
+"osm_id": "node/11117305827",
+"nome": "Carla Dorgia",
+"categoria": "negozio",
+"sottotipo": "shop=shoes",
+"luogo": "la_spezia",
+"lat": 44.1043547,
+"lon": 9.8213131
+},
+{
+"osm_id": "node/11176917224",
+"nome": "UniCredit Bank",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.1129959,
+"lon": 9.8373845
+},
+{
+"osm_id": "node/11204755591",
+"nome": "Wonderful",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.1042219,
+"lon": 9.8241477
+},
+{
+"osm_id": "node/11262940380",
+"nome": "Spiga D'Oro",
+"categoria": "negozio",
+"sottotipo": "shop=pastry",
+"luogo": "la_spezia",
+"lat": 44.1077416,
+"lon": 9.8167798
+},
+{
+"osm_id": "node/11281018189",
+"nome": "Sciuscettùa Rooms",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "la_spezia",
+"lat": 44.1104453,
+"lon": 9.8178723
+},
+{
+"osm_id": "node/11343158917",
+"nome": "Panificio D'Asaro Leandro",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "la_spezia",
+"lat": 44.104483,
+"lon": 9.8235883
+},
+{
+"osm_id": "node/11403837603",
+"nome": "NH Hotel",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "la_spezia",
+"lat": 44.1066277,
+"lon": 9.8277263
+},
+{
+"osm_id": "node/11403837615",
+"nome": "HOB - House Of Burgers",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1046455,
+"lon": 9.8217325
+},
+{
+"osm_id": "node/11417863456",
+"nome": "Team F",
+"categoria": "negozio",
+"sottotipo": "shop=furniture",
+"luogo": "la_spezia",
+"lat": 44.1071814,
+"lon": 9.8170275
+},
+{
+"osm_id": "node/11432681286",
+"nome": "Pizzicheria • Salumeria Merani",
+"categoria": "negozio",
+"sottotipo": "shop=deli",
+"luogo": "la_spezia",
+"lat": 44.1082786,
+"lon": 9.8167594
+},
+{
+"osm_id": "node/11518389957",
+"nome": "Terminal Café",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1106088,
+"lon": 9.8150561
+},
+{
+"osm_id": "node/11684406561",
+"nome": "Centro Agrario",
+"categoria": "negozio",
+"sottotipo": "shop=garden_centre",
+"luogo": "la_spezia",
+"lat": 44.1087517,
+"lon": 9.814568
+},
+{
+"osm_id": "node/11830458109",
+"nome": "Origami House",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1047434,
+"lon": 9.8219442
+},
+{
+"osm_id": "node/11878684478",
+"nome": "Fish & Chicken",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1092386,
+"lon": 9.8163655
+},
+{
+"osm_id": "node/11878688631",
+"nome": "Bibimbap",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1049936,
+"lon": 9.8209316
+},
+{
+"osm_id": "node/11878688818",
+"nome": "Stella Marina",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "la_spezia",
+"lat": 44.105065,
+"lon": 9.8209614
+},
+{
+"osm_id": "node/11878691608",
+"nome": "Come Una Volta",
+"categoria": "negozio",
+"sottotipo": "shop=greengrocer",
+"luogo": "la_spezia",
+"lat": 44.1059482,
+"lon": 9.8178018
+},
+{
+"osm_id": "node/11878698642",
+"nome": "Pesto Fiore",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1091751,
+"lon": 9.8166278
+},
+{
+"osm_id": "node/11878703990",
+"nome": "Old Boy",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1063157,
+"lon": 9.8187416
+},
+{
+"osm_id": "node/11878711884",
+"nome": "Magie da Formo",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "la_spezia",
+"lat": 44.1071724,
+"lon": 9.8268488
+},
+{
+"osm_id": "node/11878722410",
+"nome": "Prima Scelta",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.106387,
+"lon": 9.8186761
+},
+{
+"osm_id": "node/11933068619",
+"nome": "Pantondo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1074208,
+"lon": 9.8180694
+},
+{
+"osm_id": "node/11942686596",
+"nome": "Oncio",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1078707,
+"lon": 9.8175053
+},
+{
+"osm_id": "node/12079838192",
+"nome": "Osteria Da Bartali",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1059333,
+"lon": 9.8248004
+},
+{
+"osm_id": "node/12081090840",
+"nome": "Pizzium",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1051752,
+"lon": 9.8229726
+},
+{
+"osm_id": "node/12081561344",
+"nome": "Pizzium",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1051752,
+"lon": 9.8229726
+},
+{
+"osm_id": "node/12081633436",
+"nome": "Marla Rooms",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "la_spezia",
+"lat": 44.1091926,
+"lon": 9.8128603
+},
+{
+"osm_id": "node/12247624879",
+"nome": "Colesterolo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1067596,
+"lon": 9.8178273
+},
+{
+"osm_id": "node/12264540901",
+"nome": "Adel Gelateria Caffetteria",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1041337,
+"lon": 9.8204367
+},
+{
+"osm_id": "node/12264541001",
+"nome": "The Soleil Cafè & Cocktails",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.1048396,
+"lon": 9.8189957
+},
+{
+"osm_id": "node/12458597998",
+"nome": "Mr.Lisa • L4G SNC",
+"categoria": "negozio",
+"sottotipo": "shop=e-cigarette",
+"luogo": "la_spezia",
+"lat": 44.1088094,
+"lon": 9.8169849
+},
+{
+"osm_id": "node/12463457993",
+"nome": "Super Shop",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "la_spezia",
+"lat": 44.1090407,
+"lon": 9.8165246
+},
+{
+"osm_id": "node/12468500521",
+"nome": "B315 - Caffetteria Italia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1080803,
+"lon": 9.8173382
+},
+{
+"osm_id": "node/12468616842",
+"nome": "Boutique Legami Milano",
+"categoria": "negozio",
+"sottotipo": "shop=variety_store",
+"luogo": "la_spezia",
+"lat": 44.1044611,
+"lon": 9.8212204
+},
+{
+"osm_id": "node/12468626844",
+"nome": "Il Bocconcino",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1068141,
+"lon": 9.818371
+},
+{
+"osm_id": "node/12468649594",
+"nome": "Original Marines",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1050456,
+"lon": 9.8205139
+},
+{
+"osm_id": "node/12504946336",
+"nome": "Enoteca Cinque Sensi",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1037286,
+"lon": 9.8216848
+},
+{
+"osm_id": "node/12655703086",
+"nome": "DORO",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "la_spezia",
+"lat": 44.1146986,
+"lon": 9.8416205
+},
+{
+"osm_id": "node/12660761300",
+"nome": "Guest House Beautiful Dream",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1094887,
+"lon": 9.8151318
+},
+{
+"osm_id": "node/12660774001",
+"nome": "Alta Marea Rooms",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.109491,
+"lon": 9.8151325
+},
+{
+"osm_id": "node/12660774002",
+"nome": "Bixio Suites",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1094919,
+"lon": 9.8151335
+},
+{
+"osm_id": "node/12695476560",
+"nome": "Wycon Cosmetics",
+"categoria": "negozio",
+"sottotipo": "shop=cosmetics",
+"luogo": "la_spezia",
+"lat": 44.105742,
+"lon": 9.8198034
+},
+{
+"osm_id": "node/12722586361",
+"nome": "Ondablu",
+"categoria": "negozio",
+"sottotipo": "shop=laundry",
+"luogo": "la_spezia",
+"lat": 44.1140964,
+"lon": 9.8105992
+},
+{
+"osm_id": "node/12749349532",
+"nome": "MILLSTONE HOUSE",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "la_spezia",
+"lat": 44.11581,
+"lon": 9.8259653
+},
+{
+"osm_id": "node/12757996274",
+"nome": "LAVÌA MILANO",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1052811,
+"lon": 9.820281
+},
+{
+"osm_id": "node/12758006525",
+"nome": "OOF",
+"categoria": "negozio",
+"sottotipo": "shop=optician",
+"luogo": "la_spezia",
+"lat": 44.1062118,
+"lon": 9.8190968
+},
+{
+"osm_id": "node/12758011596",
+"nome": "Farmacia Baracchini",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "la_spezia",
+"lat": 44.1085596,
+"lon": 9.8165669
+},
+{
+"osm_id": "node/12758040155",
+"nome": "Spazio cellulare",
+"categoria": "negozio",
+"sottotipo": "shop=mobile_phone",
+"luogo": "la_spezia",
+"lat": 44.1054557,
+"lon": 9.8200589
+},
+{
+"osm_id": "node/12758041927",
+"nome": "Altritempi",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1063917,
+"lon": 9.8188852
+},
+{
+"osm_id": "node/12758048065",
+"nome": "Luigi vezzoni",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1066241,
+"lon": 9.818671
+},
+{
+"osm_id": "node/12758055101",
+"nome": "Pinalli",
+"categoria": "negozio",
+"sottotipo": "shop=perfumery",
+"luogo": "la_spezia",
+"lat": 44.1066889,
+"lon": 9.8186109
+},
+{
+"osm_id": "node/12782201956",
+"nome": "Premi sport",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1090915,
+"lon": 9.8149307
+},
+{
+"osm_id": "node/12782218631",
+"nome": "Close & Cosy",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "la_spezia",
+"lat": 44.1095422,
+"lon": 9.8154443
+},
+{
+"osm_id": "node/12782227168",
+"nome": "World Services",
+"categoria": "tour",
+"sottotipo": "shop=travel_agency",
+"luogo": "la_spezia",
+"lat": 44.1101843,
+"lon": 9.8149976
+},
+{
+"osm_id": "node/12795857305",
+"nome": "Ubik",
+"categoria": "negozio",
+"sottotipo": "shop=books",
+"luogo": "la_spezia",
+"lat": 44.1080059,
+"lon": 9.8174163
+},
+{
+"osm_id": "node/12804611483",
+"nome": "Bjoin",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.109544,
+"lon": 9.8163506
+},
+{
+"osm_id": "node/12804628662",
+"nome": "Zhong",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1094522,
+"lon": 9.8164155
+},
+{
+"osm_id": "node/12813535850",
+"nome": "Eclettica Cocktail Lab",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.1048891,
+"lon": 9.8203306
+},
+{
+"osm_id": "node/12813535851",
+"nome": "Il Trittico",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1041683,
+"lon": 9.8220391
+},
+{
+"osm_id": "node/12832452186",
+"nome": "Caffetteria Garibaldi",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.1076824,
+"lon": 9.8160582
+},
+{
+"osm_id": "node/12832452187",
+"nome": "Merceria Bartolo",
+"categoria": "negozio",
+"sottotipo": "shop=sewing",
+"luogo": "la_spezia",
+"lat": 44.1079162,
+"lon": 9.8163558
+},
+{
+"osm_id": "node/12839569330",
+"nome": "Graffiti House",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1083422,
+"lon": 9.8159389
+},
+{
+"osm_id": "node/12855027793",
+"nome": "Eva Affitacamere",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1084399,
+"lon": 9.8186101
+},
+{
+"osm_id": "node/12855039298",
+"nome": "al Canto del Golfo",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1077361,
+"lon": 9.819189
+},
+{
+"osm_id": "node/12874915573",
+"nome": "La caffetteria di asyha",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1113797,
+"lon": 9.8117452
+},
+{
+"osm_id": "node/12875462575",
+"nome": "Trigramma",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1049477,
+"lon": 9.8214183
+},
+{
+"osm_id": "node/12892293604",
+"nome": "Stradoni 34",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1087336,
+"lon": 9.8102741
+},
+{
+"osm_id": "node/12898893081",
+"nome": "PROFUMI BIJOUX COSMESI \"LA FENICE\"",
+"categoria": "negozio",
+"sottotipo": "shop=perfumery",
+"luogo": "la_spezia",
+"lat": 44.1075055,
+"lon": 9.8174835
+},
+{
+"osm_id": "node/12941420007",
+"nome": "Medimarket parafarmacia",
+"categoria": "negozio",
+"sottotipo": "shop=chemist",
+"luogo": "la_spezia",
+"lat": 44.1058526,
+"lon": 9.8186393
+},
+{
+"osm_id": "node/12959454291",
+"nome": "Felia",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "la_spezia",
+"lat": 44.105275,
+"lon": 9.8204141
+},
+{
+"osm_id": "node/12966387699",
+"nome": "Oncio",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1039377,
+"lon": 9.8219862
+},
+{
+"osm_id": "node/12966387700",
+"nome": "La Piadineria",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1039777,
+"lon": 9.8219326
+},
+{
+"osm_id": "node/12966392341",
+"nome": "Primadonna",
+"categoria": "negozio",
+"sottotipo": "shop=shoes",
+"luogo": "la_spezia",
+"lat": 44.1040809,
+"lon": 9.8217495
+},
+{
+"osm_id": "node/12966396894",
+"nome": "Tabacchi",
+"categoria": "negozio",
+"sottotipo": "shop=tobacco",
+"luogo": "la_spezia",
+"lat": 44.1039119,
+"lon": 9.8220253
+},
+{
+"osm_id": "node/12979644775",
+"nome": "Piùme (ex Ipersoap)",
+"categoria": "negozio",
+"sottotipo": "shop=houseware",
+"luogo": "la_spezia",
+"lat": 44.1060349,
+"lon": 9.8232488
+},
+{
+"osm_id": "node/12992072893",
+"nome": "5 terre central",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1091549,
+"lon": 9.8157804
+},
+{
+"osm_id": "node/12992133696",
+"nome": "Leo's home",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1088149,
+"lon": 9.8161498
+},
+{
+"osm_id": "node/12992137432",
+"nome": "L'angolo della frutta",
+"categoria": "negozio",
+"sottotipo": "shop=greengrocer",
+"luogo": "la_spezia",
+"lat": 44.1089785,
+"lon": 9.8125538
+},
+{
+"osm_id": "node/12992169021",
+"nome": "Cornici e vernici",
+"categoria": "negozio",
+"sottotipo": "shop=frame",
+"luogo": "la_spezia",
+"lat": 44.1091092,
+"lon": 9.8146611
+},
+{
+"osm_id": "node/12992181011",
+"nome": "Bar Latino \"D'Manolin\"",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1087921,
+"lon": 9.8124439
+},
+{
+"osm_id": "node/13022649057",
+"nome": "Intimissimi",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1040058,
+"lon": 9.8216011
+},
+{
+"osm_id": "node/13022649058",
+"nome": "CarlaDorgia",
+"categoria": "negozio",
+"sottotipo": "shop=shoes",
+"luogo": "la_spezia",
+"lat": 44.1041384,
+"lon": 9.8216246
+},
+{
+"osm_id": "node/13022649059",
+"nome": "Intimissimi Uomo",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1041226,
+"lon": 9.8215157
+},
+{
+"osm_id": "node/13022649060",
+"nome": "Scuola Nautica Italiana",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1041435,
+"lon": 9.821407
+},
+{
+"osm_id": "node/13022649061",
+"nome": "DAMANZO Gioielleria",
+"categoria": "negozio",
+"sottotipo": "shop=jewelry",
+"luogo": "la_spezia",
+"lat": 44.1042721,
+"lon": 9.8214577
+},
+{
+"osm_id": "node/13022649062",
+"nome": "PASCAL",
+"categoria": "negozio",
+"sottotipo": "shop=perfumery",
+"luogo": "la_spezia",
+"lat": 44.1042093,
+"lon": 9.8213665
+},
+{
+"osm_id": "node/13022649063",
+"nome": "Prione 70",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.104315,
+"lon": 9.8213591
+},
+{
+"osm_id": "node/13022649064",
+"nome": "MIRABELLO",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1043046,
+"lon": 9.821373
+},
+{
+"osm_id": "node/13022649066",
+"nome": "TESIUS",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1043524,
+"lon": 9.8212092
+},
+{
+"osm_id": "node/13022649067",
+"nome": "mochi",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1043737,
+"lon": 9.8211905
+},
+{
+"osm_id": "node/13022649069",
+"nome": "Tezenis",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1044617,
+"lon": 9.8211008
+},
+{
+"osm_id": "node/13022649070",
+"nome": "Cremeria del Prione",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "la_spezia",
+"lat": 44.1045065,
+"lon": 9.821138
+},
+{
+"osm_id": "node/13022649071",
+"nome": "NOOR",
+"categoria": "negozio",
+"sottotipo": "shop=perfumery",
+"luogo": "la_spezia",
+"lat": 44.1045377,
+"lon": 9.8210968
+},
+{
+"osm_id": "node/13022649072",
+"nome": "L'Erbolario",
+"categoria": "negozio",
+"sottotipo": "shop=herbalist",
+"luogo": "la_spezia",
+"lat": 44.1045763,
+"lon": 9.8210626
+},
+{
+"osm_id": "node/13022649073",
+"nome": "Iliad",
+"categoria": "negozio",
+"sottotipo": "shop=telecommunication",
+"luogo": "la_spezia",
+"lat": 44.1046254,
+"lon": 9.8209242
+},
+{
+"osm_id": "node/13022649074",
+"nome": "luna piena",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1046707,
+"lon": 9.8208854
+},
+{
+"osm_id": "node/13022649075",
+"nome": "Abruzzese",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1047306,
+"lon": 9.8209435
+},
+{
+"osm_id": "node/13022649076",
+"nome": "Panigacci al Volo",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1047209,
+"lon": 9.8208371
+},
+{
+"osm_id": "node/13022649077",
+"nome": "Casa della Penna",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "la_spezia",
+"lat": 44.104786,
+"lon": 9.8207702
+},
+{
+"osm_id": "node/13022649078",
+"nome": "ruggeri intimo",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1048293,
+"lon": 9.8208589
+},
+{
+"osm_id": "node/13022649079",
+"nome": "PO̲KE STO̲RE",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1048355,
+"lon": 9.8207221
+},
+{
+"osm_id": "node/13022649080",
+"nome": "Stroili Oro",
+"categoria": "negozio",
+"sottotipo": "shop=jewelry",
+"luogo": "la_spezia",
+"lat": 44.104887,
+"lon": 9.8206739
+},
+{
+"osm_id": "node/13022649081",
+"nome": "Gamaldi",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1049231,
+"lon": 9.8207577
+},
+{
+"osm_id": "node/13022649082",
+"nome": "NAU!",
+"categoria": "negozio",
+"sottotipo": "shop=optician",
+"luogo": "la_spezia",
+"lat": 44.1050936,
+"lon": 9.8206317
+},
+{
+"osm_id": "node/13022649083",
+"nome": "Pasticceria Cioccolateria \"ILLICE\"",
+"categoria": "negozio",
+"sottotipo": "shop=pastry",
+"luogo": "la_spezia",
+"lat": 44.1051126,
+"lon": 9.820466
+},
+{
+"osm_id": "node/13022649084",
+"nome": "Mondadori",
+"categoria": "negozio",
+"sottotipo": "shop=books",
+"luogo": "la_spezia",
+"lat": 44.1051319,
+"lon": 9.8204422
+},
+{
+"osm_id": "node/13030974238",
+"nome": "Generali",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.1055262,
+"lon": 9.8248433
+},
+{
+"osm_id": "node/13030974241",
+"nome": "Mitili & Mitili",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1017172,
+"lon": 9.8248979
+},
+{
+"osm_id": "node/13030974242",
+"nome": "Terrazza Olivia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1027724,
+"lon": 9.8240012
+},
+{
+"osm_id": "node/13030974245",
+"nome": "Audio Progress",
+"categoria": "negozio",
+"sottotipo": "shop=hearing_aids",
+"luogo": "la_spezia",
+"lat": 44.1039584,
+"lon": 9.8193341
+},
+{
+"osm_id": "node/13030974247",
+"nome": "Fideuram",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.1048801,
+"lon": 9.8239926
+},
+{
+"osm_id": "node/13030974248",
+"nome": "Kasanova",
+"categoria": "negozio",
+"sottotipo": "shop=houseware",
+"luogo": "la_spezia",
+"lat": 44.1073271,
+"lon": 9.8151242
+},
+{
+"osm_id": "node/13030974249",
+"nome": "BluKids",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1064486,
+"lon": 9.8165157
+},
+{
+"osm_id": "node/13030974251",
+"nome": "Pera Tech",
+"categoria": "negozio",
+"sottotipo": "shop=electronics",
+"luogo": "la_spezia",
+"lat": 44.1062537,
+"lon": 9.816354
+},
+{
+"osm_id": "node/13030974252",
+"nome": "Widiba",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.105041,
+"lon": 9.823117
+},
+{
+"osm_id": "node/13030974253",
+"nome": "Max Relax",
+"categoria": "negozio",
+"sottotipo": "shop=bed",
+"luogo": "la_spezia",
+"lat": 44.1075862,
+"lon": 9.8160162
+},
+{
+"osm_id": "node/13030974256",
+"nome": "Alleanza",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "la_spezia",
+"lat": 44.1052768,
+"lon": 9.8245237
+},
+{
+"osm_id": "node/13030974257",
+"nome": "Trattoria Roma",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1105879,
+"lon": 9.8155146
+},
+{
+"osm_id": "node/13030974260",
+"nome": "Ca' De Greg",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "la_spezia",
+"lat": 44.1096735,
+"lon": 9.8197687
+},
+{
+"osm_id": "node/13030974261",
+"nome": "All'ombra Delle Sophore",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "la_spezia",
+"lat": 44.1096865,
+"lon": 9.8197585
+},
+{
+"osm_id": "node/13030974263",
+"nome": "Arcadia",
+"categoria": "negozio",
+"sottotipo": "shop=collector",
+"luogo": "la_spezia",
+"lat": 44.1049644,
+"lon": 9.8228286
+},
+{
+"osm_id": "node/13030974264",
+"nome": "Acronia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.104449,
+"lon": 9.8223912
+},
+{
+"osm_id": "node/13030974265",
+"nome": "Yamaha",
+"categoria": "negozio",
+"sottotipo": "shop=motorcycle",
+"luogo": "la_spezia",
+"lat": 44.1097045,
+"lon": 9.8166932
+},
+{
+"osm_id": "node/13030974266",
+"nome": "Cintoi",
+"categoria": "negozio",
+"sottotipo": "shop=bicycle",
+"luogo": "la_spezia",
+"lat": 44.1096824,
+"lon": 9.8167433
+},
+{
+"osm_id": "node/13031757073",
+"nome": "Royal cafe",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1074531,
+"lon": 9.8169979
+},
+{
+"osm_id": "node/13036862435",
+"nome": "Granella",
+"categoria": "negozio",
+"sottotipo": "shop=furniture",
+"luogo": "la_spezia",
+"lat": 44.1093654,
+"lon": 9.817774
+},
+{
+"osm_id": "node/13036862437",
+"nome": "Gambrinus",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.1099062,
+"lon": 9.8168124
+},
+{
+"osm_id": "node/13036862442",
+"nome": "Sal's",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1105679,
+"lon": 9.8155476
+},
+{
+"osm_id": "node/13043056103",
+"nome": "Elegant Apartments",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1054486,
+"lon": 9.820257
+},
+{
+"osm_id": "node/13043056106",
+"nome": "Affitacamere del Prione",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1055616,
+"lon": 9.820108
+},
+{
+"osm_id": "node/13043056109",
+"nome": "Acoustic Center",
+"categoria": "negozio",
+"sottotipo": "shop=hearing_aids",
+"luogo": "la_spezia",
+"lat": 44.1055846,
+"lon": 9.8198421
+},
+{
+"osm_id": "node/13043056110",
+"nome": "7X8",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1056458,
+"lon": 9.8199717
+},
+{
+"osm_id": "node/13043056111",
+"nome": "GrandVision",
+"categoria": "negozio",
+"sottotipo": "shop=optician",
+"luogo": "la_spezia",
+"lat": 44.1057017,
+"lon": 9.8198653
+},
+{
+"osm_id": "node/13043056112",
+"nome": "JUST in CASE",
+"categoria": "negozio",
+"sottotipo": "shop=mobile_phone_accessories",
+"luogo": "la_spezia",
+"lat": 44.1056225,
+"lon": 9.8197841
+},
+{
+"osm_id": "node/13043056113",
+"nome": "Dan John",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1057339,
+"lon": 9.8195952
+},
+{
+"osm_id": "node/13043056114",
+"nome": "Souvenirs & Gallery",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "la_spezia",
+"lat": 44.1057765,
+"lon": 9.8195243
+},
+{
+"osm_id": "node/13043056115",
+"nome": "Prénatal",
+"categoria": "negozio",
+"sottotipo": "shop=baby_goods",
+"luogo": "la_spezia",
+"lat": 44.1059223,
+"lon": 9.8195405
+},
+{
+"osm_id": "node/13043056116",
+"nome": "LE MONELLE",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1058529,
+"lon": 9.8194103
+},
+{
+"osm_id": "node/13043056117",
+"nome": "DRESS UOMO",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1058671,
+"lon": 9.8193951
+},
+{
+"osm_id": "node/13043056118",
+"nome": "MONICA 176",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1059562,
+"lon": 9.8194822
+},
+{
+"osm_id": "node/13043056119",
+"nome": "DRESS DONNA",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1058761,
+"lon": 9.81938
+},
+{
+"osm_id": "node/13043056120",
+"nome": "Zeppole di S.Giuseppe",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.1059369,
+"lon": 9.8192917
+},
+{
+"osm_id": "node/13043056123",
+"nome": "Bar Tripoli/Vestopazzo",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1059825,
+"lon": 9.8192474
+},
+{
+"osm_id": "node/13043056124",
+"nome": "MK-Store",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1060377,
+"lon": 9.8193418
+},
+{
+"osm_id": "node/13043056125",
+"nome": "3B",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.106063,
+"lon": 9.8192743
+},
+{
+"osm_id": "node/13043056126",
+"nome": "Fratelli Carli dal 1911",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "la_spezia",
+"lat": 44.1061599,
+"lon": 9.8191682
+},
+{
+"osm_id": "node/13043056129",
+"nome": "Niba",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1061717,
+"lon": 9.8189573
+},
+{
+"osm_id": "node/13043056131",
+"nome": "Triumph",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1062848,
+"lon": 9.818987
+},
+{
+"osm_id": "node/13043056132",
+"nome": "brothers",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1063011,
+"lon": 9.8189757
+},
+{
+"osm_id": "node/13043056133",
+"nome": "Fiorella - Vogue",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.106282,
+"lon": 9.8187815
+},
+{
+"osm_id": "node/13043056134",
+"nome": "claro",
+"categoria": "negozio",
+"sottotipo": "shop=optician",
+"luogo": "la_spezia",
+"lat": 44.1064921,
+"lon": 9.81881
+},
+{
+"osm_id": "node/13043056137",
+"nome": "Tigotà",
+"categoria": "negozio",
+"sottotipo": "shop=chemist",
+"luogo": "la_spezia",
+"lat": 44.1065525,
+"lon": 9.8185771
+},
+{
+"osm_id": "node/13043056138",
+"nome": "Tally Weijl",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1066546,
+"lon": 9.8184858
+},
+{
+"osm_id": "node/13043056139",
+"nome": "Memory",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.10672,
+"lon": 9.8184405
+},
+{
+"osm_id": "node/13043056141",
+"nome": "WHYN0T BIJOUX&ACCESSORIES",
+"categoria": "negozio",
+"sottotipo": "shop=fashion_accessories",
+"luogo": "la_spezia",
+"lat": 44.106791,
+"lon": 9.8183799
+},
+{
+"osm_id": "node/13043056149",
+"nome": "BALDINI Telefonia/Elettrodomestici",
+"categoria": "negozio",
+"sottotipo": "shop=appliance",
+"luogo": "la_spezia",
+"lat": 44.1072816,
+"lon": 9.8181663
+},
+{
+"osm_id": "node/13043056150",
+"nome": "il Caffe'",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.1073262,
+"lon": 9.8179382
+},
+{
+"osm_id": "node/13043056152",
+"nome": "Il FornaioⓇ",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "la_spezia",
+"lat": 44.1073867,
+"lon": 9.8181097
+},
+{
+"osm_id": "node/13043056153",
+"nome": "VIVIANA",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1074062,
+"lon": 9.8178801
+},
+{
+"osm_id": "node/13043056154",
+"nome": "Spazio Uomo",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1074908,
+"lon": 9.8180013
+},
+{
+"osm_id": "node/13043056155",
+"nome": "Il Tuo Tabbaccaio",
+"categoria": "negozio",
+"sottotipo": "shop=tobacco",
+"luogo": "la_spezia",
+"lat": 44.1074531,
+"lon": 9.8178326
+},
+{
+"osm_id": "node/13043056156",
+"nome": "MAGIC Store",
+"categoria": "negozio",
+"sottotipo": "shop=gift",
+"luogo": "la_spezia",
+"lat": 44.1074824,
+"lon": 9.8178162
+},
+{
+"osm_id": "node/13043056160",
+"nome": "Tai Wan Bubble Tea",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1076291,
+"lon": 9.8178811
+},
+{
+"osm_id": "node/13043056161",
+"nome": "pretty",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1075623,
+"lon": 9.8177351
+},
+{
+"osm_id": "node/13043056162",
+"nome": "BarbaPizza",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1076143,
+"lon": 9.8176887
+},
+{
+"osm_id": "node/13043056163",
+"nome": "Naruto Ramen",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1077343,
+"lon": 9.817795
+},
+{
+"osm_id": "node/13043056166",
+"nome": "Ming E",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1077455,
+"lon": 9.8176314
+},
+{
+"osm_id": "node/13043056169",
+"nome": "honest outlet",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1078367,
+"lon": 9.8175336
+},
+{
+"osm_id": "node/13043056170",
+"nome": "fastweb",
+"categoria": "negozio",
+"sottotipo": "shop=mobile_phone",
+"luogo": "la_spezia",
+"lat": 44.1078572,
+"lon": 9.8175181
+},
+{
+"osm_id": "node/13043056171",
+"nome": "il Giardinetto",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1078794,
+"lon": 9.817657
+},
+{
+"osm_id": "node/13043056173",
+"nome": "Canese Dante",
+"categoria": "negozio",
+"sottotipo": "shop=hardware",
+"luogo": "la_spezia",
+"lat": 44.1080176,
+"lon": 9.8175479
+},
+{
+"osm_id": "node/13063627638",
+"nome": "BD Barber shop",
+"categoria": "negozio",
+"sottotipo": "shop=hairdresser",
+"luogo": "la_spezia",
+"lat": 44.1076876,
+"lon": 9.8161314
+},
+{
+"osm_id": "node/13103129054",
+"nome": "Parrucchiere Marrakech",
+"categoria": "negozio",
+"sottotipo": "shop=hairdresser",
+"luogo": "la_spezia",
+"lat": 44.1089866,
+"lon": 9.8161049
+},
+{
+"osm_id": "node/13103152191",
+"nome": "Casa gaga",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1090888,
+"lon": 9.8155915
+},
+{
+"osm_id": "node/13103168327",
+"nome": "Center Loft",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "la_spezia",
+"lat": 44.1087668,
+"lon": 9.8162431
+},
+{
+"osm_id": "node/13103168438",
+"nome": "Loft 19",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "la_spezia",
+"lat": 44.108791,
+"lon": 9.8161993
+},
+{
+"osm_id": "node/13103168491",
+"nome": "Civico 76",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1091347,
+"lon": 9.8152676
+},
+{
+"osm_id": "node/13103171053",
+"nome": "Titi rooms",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1091427,
+"lon": 9.8152473
+},
+{
+"osm_id": "node/13103175232",
+"nome": "35 via torino",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1090993,
+"lon": 9.8156101
+},
+{
+"osm_id": "node/13103179180",
+"nome": "Napoli 94",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1087942,
+"lon": 9.8153026
+},
+{
+"osm_id": "node/13103180010",
+"nome": "Casa Olga n_82",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1084955,
+"lon": 9.8157784
+},
+{
+"osm_id": "node/13103185202",
+"nome": "Design suite",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "la_spezia",
+"lat": 44.1091183,
+"lon": 9.8156077
+},
+{
+"osm_id": "node/13103193710",
+"nome": "Cinque terre fancy",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1087769,
+"lon": 9.8152818
+},
+{
+"osm_id": "node/13103193711",
+"nome": "Casa Giò n_82",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1084801,
+"lon": 9.8157792
+},
+{
+"osm_id": "node/13103206182",
+"nome": "CIBUS 39",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1074506,
+"lon": 9.8188658
+},
+{
+"osm_id": "node/13103216121",
+"nome": "La Taverna del Metallo ROOMS",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1077423,
+"lon": 9.8181559
+},
+{
+"osm_id": "node/13103236913",
+"nome": "LA CASA DI MATTIA",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1077388,
+"lon": 9.8181806
+},
+{
+"osm_id": "node/13103242410",
+"nome": "HOUSE NAUTILUS 2",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1075611,
+"lon": 9.8193388
+},
+{
+"osm_id": "node/13103243822",
+"nome": "BIANCA NEVE E I SETTI NANI di UN POSTO NEL MONDO",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1076061,
+"lon": 9.8182485
+},
+{
+"osm_id": "node/13103244450",
+"nome": "Aura holiday home",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1076723,
+"lon": 9.8192756
+},
+{
+"osm_id": "node/13103245891",
+"nome": "LE CASETTE",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1082585,
+"lon": 9.8187595
+},
+{
+"osm_id": "node/13103247284",
+"nome": "ROOMS LA SPEZIA",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1091128,
+"lon": 9.8176714
+},
+{
+"osm_id": "node/13103252502",
+"nome": "la Linea d'Acqua",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1076618,
+"lon": 9.8192595
+},
+{
+"osm_id": "node/13103252911",
+"nome": "Casa del Viandante",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1087898,
+"lon": 9.8174483
+},
+{
+"osm_id": "node/13103260096",
+"nome": "Elegant rooms",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1086603,
+"lon": 9.8184352
+},
+{
+"osm_id": "node/13103264729",
+"nome": "L'Opera",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.109099,
+"lon": 9.817706
+},
+{
+"osm_id": "node/13103273621",
+"nome": "CHIC & COSY",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1087816,
+"lon": 9.8174129
+},
+{
+"osm_id": "node/13103869758",
+"nome": "Ruffino",
+"categoria": "negozio",
+"sottotipo": "shop=windows",
+"luogo": "la_spezia",
+"lat": 44.1103141,
+"lon": 9.826982
+},
+{
+"osm_id": "node/13112819805",
+"nome": "il Fiore Del Prione",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "la_spezia",
+"lat": 44.1057618,
+"lon": 9.8195795
+},
+{
+"osm_id": "node/13112821839",
+"nome": "casalini punto caldo",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "la_spezia",
+"lat": 44.1056558,
+"lon": 9.8255897
+},
+{
+"osm_id": "node/13116216781",
+"nome": "BikeLab",
+"categoria": "negozio",
+"sottotipo": "shop=bicycle",
+"luogo": "la_spezia",
+"lat": 44.1123788,
+"lon": 9.833639
+},
+{
+"osm_id": "node/13116728404",
+"nome": "Ciclo point",
+"categoria": "negozio",
+"sottotipo": "shop=bicycle",
+"luogo": "la_spezia",
+"lat": 44.1083204,
+"lon": 9.8310175
+},
+{
+"osm_id": "node/13153039449",
+"nome": "DHL",
+"categoria": "servizio",
+"sottotipo": "amenity=post_office",
+"luogo": "la_spezia",
+"lat": 44.1073617,
+"lon": 9.8157434
+},
+{
+"osm_id": "node/13167674715",
+"nome": "Caffè barbaro Napoli",
+"categoria": "negozio",
+"sottotipo": "shop=coffee",
+"luogo": "la_spezia",
+"lat": 44.1131132,
+"lon": 9.8351604
+},
+{
+"osm_id": "node/13167674717",
+"nome": "In's Mercato",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "la_spezia",
+"lat": 44.1135539,
+"lon": 9.8346589
+},
+{
+"osm_id": "node/13167696714",
+"nome": "Banca Desio",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.1125038,
+"lon": 9.8346153
+},
+{
+"osm_id": "node/13167708344",
+"nome": "Farmacia Farina",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "la_spezia",
+"lat": 44.1146913,
+"lon": 9.8360373
+},
+{
+"osm_id": "node/13167708648",
+"nome": "Drogheria \"Moisio\"",
+"categoria": "negozio",
+"sottotipo": "shop=chemist",
+"luogo": "la_spezia",
+"lat": 44.1137274,
+"lon": 9.8348923
+},
+{
+"osm_id": "node/13167714490",
+"nome": "Gelateria Liberty",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "la_spezia",
+"lat": 44.1137799,
+"lon": 9.8349583
+},
+{
+"osm_id": "node/13167724650",
+"nome": "Giocheria",
+"categoria": "negozio",
+"sottotipo": "shop=toys",
+"luogo": "la_spezia",
+"lat": 44.1141147,
+"lon": 9.8353621
+},
+{
+"osm_id": "node/13175482212",
+"nome": "Dorelan",
+"categoria": "negozio",
+"sottotipo": "shop=bed",
+"luogo": "la_spezia",
+"lat": 44.114521,
+"lon": 9.8361482
+},
+{
+"osm_id": "node/13184497633",
+"nome": "Il Comera",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1091384,
+"lon": 9.8123457
+},
+{
+"osm_id": "node/13198370886",
+"nome": "Dimeglio",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "la_spezia",
+"lat": 44.1055955,
+"lon": 9.8238898
+},
+{
+"osm_id": "node/13200355045",
+"nome": "Casa Garibaldi",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1062924,
+"lon": 9.8140187
+},
+{
+"osm_id": "node/13200375702",
+"nome": "Sweet Dreams",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1064365,
+"lon": 9.8142042
+},
+{
+"osm_id": "node/13200473575",
+"nome": "Farmacia Tapparo",
+"categoria": "servizio",
+"sottotipo": "amenity=pharmacy",
+"luogo": "la_spezia",
+"lat": 44.1068305,
+"lon": 9.8155154
+},
+{
+"osm_id": "node/13208148528",
+"nome": "Nelli Rooms",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1036506,
+"lon": 9.8180652
+},
+{
+"osm_id": "node/13208349151",
+"nome": "Brico io",
+"categoria": "negozio",
+"sottotipo": "shop=doityourself",
+"luogo": "la_spezia",
+"lat": 44.1152207,
+"lon": 9.8330645
+},
+{
+"osm_id": "node/13234204483",
+"nome": "AudioNova",
+"categoria": "negozio",
+"sottotipo": "shop=hearing_aids",
+"luogo": "la_spezia",
+"lat": 44.1129846,
+"lon": 9.8354109
+},
+{
+"osm_id": "node/13234207600",
+"nome": "AL CADEπO",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1126596,
+"lon": 9.8343349
+},
+{
+"osm_id": "node/13234210763",
+"nome": "Crédit Agricole",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.1127407,
+"lon": 9.8357802
+},
+{
+"osm_id": "node/13234224870",
+"nome": "Bar gelateria Illy",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.112428,
+"lon": 9.8346201
+},
+{
+"osm_id": "node/13234253001",
+"nome": "Burger King",
+"categoria": "ristorazione",
+"sottotipo": "amenity=fast_food",
+"luogo": "la_spezia",
+"lat": 44.1123297,
+"lon": 9.8357478
+},
+{
+"osm_id": "node/13259526227",
+"nome": "BVLG (Banca Versilia, Lunigiana e Garfagnana)",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.1127242,
+"lon": 9.8358059
+},
+{
+"osm_id": "node/13261150685",
+"nome": "Pretty woman D' FANNY",
+"categoria": "negozio",
+"sottotipo": "shop=hairdresser",
+"luogo": "la_spezia",
+"lat": 44.1060427,
+"lon": 9.8157003
+},
+{
+"osm_id": "node/13261167671",
+"nome": "La casa di Luca",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "la_spezia",
+"lat": 44.1063719,
+"lon": 9.8151073
+},
+{
+"osm_id": "node/13261190431",
+"nome": "Franchinfissi",
+"categoria": "negozio",
+"sottotipo": "shop=doors",
+"luogo": "la_spezia",
+"lat": 44.1058886,
+"lon": 9.8159414
+},
+{
+"osm_id": "node/13261194817",
+"nome": "magniflex",
+"categoria": "negozio",
+"sottotipo": "shop=bed",
+"luogo": "la_spezia",
+"lat": 44.1061506,
+"lon": 9.8155238
+},
+{
+"osm_id": "node/13261196078",
+"nome": "Casa di May",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.105347,
+"lon": 9.8166094
+},
+{
+"osm_id": "node/13261199389",
+"nome": "Amplifon",
+"categoria": "negozio",
+"sottotipo": "shop=hearing_aids",
+"luogo": "la_spezia",
+"lat": 44.1056709,
+"lon": 9.816339
+},
+{
+"osm_id": "node/13261206876",
+"nome": "Holiday home \"La Sprugola\"",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1053459,
+"lon": 9.8166065
+},
+{
+"osm_id": "node/13261211764",
+"nome": "Voyage deluxe master room",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1054002,
+"lon": 9.8164952
+},
+{
+"osm_id": "node/13261212247",
+"nome": "Eurobet",
+"categoria": "negozio",
+"sottotipo": "shop=bookmaker",
+"luogo": "la_spezia",
+"lat": 44.1054388,
+"lon": 9.8164058
+},
+{
+"osm_id": "node/13261233931",
+"nome": "Cinque Terre \"Mon Amour\"",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1063876,
+"lon": 9.8148031
+},
+{
+"osm_id": "node/13261251000",
+"nome": "The One Sun 'n Sea Rooms",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1074061,
+"lon": 9.8158101
+},
+{
+"osm_id": "node/13261329293",
+"nome": "MARIL#IN",
+"categoria": "negozio",
+"sottotipo": "shop=hairdresser",
+"luogo": "la_spezia",
+"lat": 44.1058505,
+"lon": 9.8157296
+},
+{
+"osm_id": "node/13261329294",
+"nome": "BEBO Barber Shop",
+"categoria": "negozio",
+"sottotipo": "shop=hairdresser",
+"luogo": "la_spezia",
+"lat": 44.1058765,
+"lon": 9.8156911
+},
+{
+"osm_id": "node/13261964161",
+"nome": "Stefani Carta",
+"categoria": "negozio",
+"sottotipo": "shop=wholesale",
+"luogo": "la_spezia",
+"lat": 44.1063899,
+"lon": 9.8150764
+},
+{
+"osm_id": "node/13261964162",
+"nome": "VSL Beauty Centro Estetico",
+"categoria": "negozio",
+"sottotipo": "shop=beauty",
+"luogo": "la_spezia",
+"lat": 44.1050888,
+"lon": 9.8173392
+},
+{
+"osm_id": "node/13265727355",
+"nome": "Dolci Tentazioni",
+"categoria": "negozio",
+"sottotipo": "shop=confectionery",
+"luogo": "la_spezia",
+"lat": 44.1050583,
+"lon": 9.820894
+},
+{
+"osm_id": "node/13265727357",
+"nome": "Akter Tanjila",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "la_spezia",
+"lat": 44.1080728,
+"lon": 9.8165422
+},
+{
+"osm_id": "node/13265778980",
+"nome": "[PROSSIMA APERTURA] Niba",
+"categoria": "negozio",
+"sottotipo": "shop=shoes",
+"luogo": "la_spezia",
+"lat": 44.1049837,
+"lon": 9.8210219
+},
+{
+"osm_id": "node/13287109145",
+"nome": "Stella",
+"categoria": "negozio",
+"sottotipo": "shop=beauty",
+"luogo": "la_spezia",
+"lat": 44.1069767,
+"lon": 9.814828
+},
+{
+"osm_id": "node/13297420668",
+"nome": "Cinqueterre Behind",
+"categoria": "alloggio",
+"sottotipo": "tourism=apartment",
+"luogo": "la_spezia",
+"lat": 44.1099855,
+"lon": 9.8178138
+},
+{
+"osm_id": "node/13334671622",
+"nome": "Antica Osteria dei Camalli",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1055456,
+"lon": 9.8237178
+},
+{
+"osm_id": "node/13364200100",
+"nome": "H2∅",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1046566,
+"lon": 9.8215168
+},
+{
+"osm_id": "node/13367757803",
+"nome": "Ottica Nerio",
+"categoria": "negozio",
+"sottotipo": "shop=optician",
+"luogo": "la_spezia",
+"lat": 44.1059054,
+"lon": 9.8237488
+},
+{
+"osm_id": "node/13367781847",
+"nome": "Il Forno Di Giuliana",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "la_spezia",
+"lat": 44.1056737,
+"lon": 9.82324
+},
+{
+"osm_id": "node/13367783004",
+"nome": "Alfredo uomo",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1053411,
+"lon": 9.821972
+},
+{
+"osm_id": "node/13429279437",
+"nome": "Pulcinella",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.109076,
+"lon": 9.8166922
+},
+{
+"osm_id": "node/13460706475",
+"nome": "miao bau",
+"categoria": "negozio",
+"sottotipo": "shop=pet",
+"luogo": "la_spezia",
+"lat": 44.1050398,
+"lon": 9.8227045
+},
+{
+"osm_id": "node/13460717972",
+"nome": "honest",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1053724,
+"lon": 9.8224245
+},
+{
+"osm_id": "node/13519279391",
+"nome": "Estetista Marcella",
+"categoria": "negozio",
+"sottotipo": "shop=massage",
+"luogo": "la_spezia",
+"lat": 44.1089943,
+"lon": 9.8179403
+},
+{
+"osm_id": "node/13519279392",
+"nome": "Ambra",
+"categoria": "negozio",
+"sottotipo": "shop=beauty",
+"luogo": "la_spezia",
+"lat": 44.1089896,
+"lon": 9.8179143
+},
+{
+"osm_id": "node/13602355601",
+"nome": "Caffé Del Mercato",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1052754,
+"lon": 9.8184489
+},
+{
+"osm_id": "node/13625229994",
+"nome": "Rosselli Rooms",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1053356,
+"lon": 9.8184879
+},
+{
+"osm_id": "node/13625250284",
+"nome": "La Perla del Golfo",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1059191,
+"lon": 9.8191366
+},
+{
+"osm_id": "node/13625270009",
+"nome": "Frem Lord",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1060558,
+"lon": 9.8186215
+},
+{
+"osm_id": "node/13625270010",
+"nome": "Quiet Night",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1060546,
+"lon": 9.8186275
+},
+{
+"osm_id": "node/13625278630",
+"nome": "Lady's Home",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1070231,
+"lon": 9.8169826
+},
+{
+"osm_id": "node/13661434161",
+"nome": "Il Vicilo",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1066623,
+"lon": 9.8181851
+},
+{
+"osm_id": "node/13661436433",
+"nome": "no~ve~cèn~to",
+"categoria": "alloggio",
+"sottotipo": "tourism=hotel",
+"luogo": "la_spezia",
+"lat": 44.1065371,
+"lon": 9.8182023
+},
+{
+"osm_id": "node/13708519101",
+"nome": "Derby",
+"categoria": "negozio",
+"sottotipo": "shop=baby_goods",
+"luogo": "la_spezia",
+"lat": 44.1053632,
+"lon": 9.8203482
+},
+{
+"osm_id": "node/13708519201",
+"nome": "Lucy Bags!",
+"categoria": "negozio",
+"sottotipo": "shop=bag",
+"luogo": "la_spezia",
+"lat": 44.1052955,
+"lon": 9.8204018
+},
+{
+"osm_id": "node/13708521701",
+"nome": "Forty Seven",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1052189,
+"lon": 9.8203605
+},
+{
+"osm_id": "node/13708694701",
+"nome": "Barberloft",
+"categoria": "negozio",
+"sottotipo": "shop=hairdresser",
+"luogo": "la_spezia",
+"lat": 44.1051264,
+"lon": 9.8211407
+},
+{
+"osm_id": "node/13727076088",
+"nome": "Carrefour Express",
+"categoria": "negozio",
+"sottotipo": "shop=convenience",
+"luogo": "la_spezia",
+"lat": 44.110035,
+"lon": 9.8166842
+},
+{
+"osm_id": "node/14014179579",
+"nome": "Centro Commerciale \"Mirabello\"",
+"categoria": "negozio",
+"sottotipo": "shop=mall",
+"luogo": "la_spezia",
+"lat": 44.0995434,
+"lon": 9.8267453
+},
+{
+"osm_id": "node/14039702701",
+"nome": "San Giorgio Boutique Rooms",
+"categoria": "alloggio",
+"sottotipo": "tourism=guest_house",
+"luogo": "la_spezia",
+"lat": 44.1067006,
+"lon": 9.8204974
+},
+{
+"osm_id": "node/14045917801",
+"nome": "Gelateria Vernazza",
+"categoria": "ristorazione",
+"sottotipo": "amenity=ice_cream",
+"luogo": "la_spezia",
+"lat": 44.1069278,
+"lon": 9.8153425
+},
+{
+"osm_id": "node/14100484801",
+"nome": "Senauto",
+"categoria": "negozio",
+"sottotipo": "shop=car_repair",
+"luogo": "la_spezia",
+"lat": 44.1124747,
+"lon": 9.8236209
+},
+{
+"osm_id": "node/14100533501",
+"nome": "Gió Auto",
+"categoria": "negozio",
+"sottotipo": "shop=car_repair",
+"luogo": "la_spezia",
+"lat": 44.1124443,
+"lon": 9.82362
+},
+{
+"osm_id": "node/14189168901",
+"nome": "Orange Café",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.105271,
+"lon": 9.8221938
+},
+{
+"osm_id": "node/14192347401",
+"nome": "Yu's Noodles",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1033974,
+"lon": 9.8211383
+},
+{
+"osm_id": "node/14197396878",
+"nome": "Better Sushi",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1121881,
+"lon": 9.8355073
+},
+{
+"osm_id": "node/14204232004",
+"nome": "Casalini Puntocaldo",
+"categoria": "negozio",
+"sottotipo": "shop=bakery",
+"luogo": "la_spezia",
+"lat": 44.1104702,
+"lon": 9.8142705
+},
+{
+"osm_id": "node/14204232005",
+"nome": "PiùMe",
+"categoria": "negozio",
+"sottotipo": "shop=chemist",
+"luogo": "la_spezia",
+"lat": 44.1063252,
+"lon": 9.8167153
+},
+{
+"osm_id": "node/14225267540",
+"nome": "C.R.D.D",
+"categoria": "ristorazione",
+"sottotipo": "amenity=cafe",
+"luogo": "la_spezia",
+"lat": 44.1061265,
+"lon": 9.8106791
+},
+{
+"osm_id": "way/175935400",
+"nome": "Terminal Crociere di La Spezia",
+"categoria": "servizio",
+"sottotipo": "amenity=ferry_terminal",
+"luogo": "la_spezia",
+"lat": 44.1068326,
+"lon": 9.8303063
+},
+{
+"osm_id": "way/182890672",
+"nome": "Coop",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "la_spezia",
+"lat": 44.1120282,
+"lon": 9.8393827
+},
+{
+"osm_id": "way/191827120",
+"nome": "Il Faro",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "la_spezia",
+"lat": 44.1083673,
+"lon": 9.8106201
+},
+{
+"osm_id": "way/205835615",
+"nome": "Intesa Sanpaolo",
+"categoria": "servizio",
+"sottotipo": "amenity=bank",
+"luogo": "la_spezia",
+"lat": 44.1145834,
+"lon": 9.839615
+},
+{
+"osm_id": "way/205841927",
+"nome": "Lidl",
+"categoria": "negozio",
+"sottotipo": "shop=supermarket",
+"luogo": "la_spezia",
+"lat": 44.111555,
+"lon": 9.8236061
+},
+{
+"osm_id": "way/205843492",
+"nome": "PIN La Spezia",
+"categoria": "ristorazione",
+"sottotipo": "amenity=bar",
+"luogo": "la_spezia",
+"lat": 44.1030264,
+"lon": 9.8241655
+},
+{
+"osm_id": "way/205844333",
+"nome": "Poste Italiane La Spezia - Via A. Volta",
+"categoria": "servizio",
+"sottotipo": "amenity=post_office",
+"luogo": "la_spezia",
+"lat": 44.1151775,
+"lon": 9.8262615
+},
+{
+"osm_id": "way/379778076",
+"nome": "Akua da Oscar",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1001055,
+"lon": 9.8280776
+},
+{
+"osm_id": "way/497091555",
+"nome": "Pellegri",
+"categoria": "negozio",
+"sottotipo": "shop=clothes",
+"luogo": "la_spezia",
+"lat": 44.1046724,
+"lon": 9.8210399
+},
+{
+"osm_id": "way/764643257",
+"nome": "TotalErg",
+"categoria": "servizio",
+"sottotipo": "amenity=fuel",
+"luogo": "la_spezia",
+"lat": 44.1133426,
+"lon": 9.837043
+},
+{
+"osm_id": "way/851135245",
+"nome": "I Gabbiani",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1052574,
+"lon": 9.8305777
+},
+{
+"osm_id": "way/1194539060",
+"nome": "Le Clarisse di Apolline",
+"categoria": "ristorazione",
+"sottotipo": "amenity=restaurant",
+"luogo": "la_spezia",
+"lat": 44.1063433,
+"lon": 9.8221769
+},
+{
+"osm_id": "way/1348336026",
+"nome": "Nuovo Mondo Srl (Monteverdi)",
+"categoria": "negozio",
+"sottotipo": "shop=variety_store",
+"luogo": "la_spezia",
+"lat": 44.1101493,
+"lon": 9.8169272
+},
+{
+"osm_id": "way/1444664600",
+"nome": "Agip",
+"categoria": "servizio",
+"sottotipo": "amenity=fuel",
+"luogo": "la_spezia",
+"lat": 44.1077901,
+"lon": 9.8104609
+},
+{
+"osm_id": "way/1444664603",
+"nome": "IP",
+"categoria": "servizio",
+"sottotipo": "amenity=fuel",
+"luogo": "la_spezia",
+"lat": 44.1020636,
+"lon": 9.8239279
+}
+]
+}
