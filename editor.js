@@ -115,8 +115,8 @@ function pannelloAccount(){
     el("div",{class:"rowb"},el("button",{class:"ghost",text:"← Indietro",on:{click:pannelloIntro}})))}
 
 async function scaricaDati(){
-  const [p,q,n,c]=await Promise.all([sb.from("profili").select("*"),sb.from("proposte").select("*"),sb.from("note").select("*"),sb.rpc("il_mio_consenso")]);
-  const blob=new Blob([JSON.stringify({profilo:p.data,proposte:q.data,note:n.data,consenso_genitore:c.error?null:c.data},null,2)],{type:"application/json"});
+  const [p,q,n,c,f]=await Promise.all([sb.from("profili").select("*"),sb.from("proposte").select("*"),sb.from("note").select("*"),sb.rpc("il_mio_consenso"),sb.from("foto_controlli").select("borgo,edificio,quando,esito,motivo")]);
+  const blob=new Blob([JSON.stringify({profilo:p.data,proposte:q.data,note:n.data,consenso_genitore:c.error?null:c.data,controlli_foto:f.data},null,2)],{type:"application/json"});
   const a=el("a",{href:URL.createObjectURL(blob),download:"i-miei-dati-cinque-terre-a-blocchi.json"});document.body.append(a);a.click();a.remove()}
 
 function pannelloCasa(k){
@@ -170,7 +170,19 @@ async function salvaCasa(k,nota,out){
   if(nota){const {error}=await sb.from("note").insert({borgo:CFG.borgo,edificio:k,testo:nota});if(error)errori.push(error.message);else fatte++}
   await caricaMie();ridisegna();
   if(errori.length){out.replaceChildren(msg(errori[0],"ko"));return}
+  if(percorso)return controllaFoto(k,percorso,out);
   toast(fatte?"Salvato! Grazie 🧱":"Niente da salvare.");pannelloCasa(k)}
+
+// la foto la guarda l'AI sul server, che poi la cancella: qui arriva solo l'esito
+async function controllaFoto(k,percorso,out){
+  out.replaceChildren(msg("Salvato! Ora controllo la foto…"));
+  const {data,error}=await sb.functions.invoke("controlla-foto",{body:{foto:percorso}});
+  await caricaMie();ridisegna();pannelloCasa(k);
+  const r=document.createElement("div");ed.append(r);
+  if(error){const st=error.context&&error.context.status;r.replaceChildren(msg(st===429?"Hai controllato tante foto oggi. Riprova domani.":"Il controllo della foto non è riuscito, riprova più tardi.","ko"));return}
+  const titolo=data.esito==="ok"?"Foto approvata ✓":data.esito==="parziale"?`Foto approvata per ${data.approvati} dettagli su ${data.totale}`:"Foto non approvata";
+  r.replaceChildren(msg(titolo,data.esito==="ko"?"ko":"ok"),el("p",{class:"small",text:data.motivo}));r.scrollIntoView({block:"nearest"});
+  toast(data.esito==="ko"?"Foto da rifare":"Grazie! Foto controllata 🧱")}
 
 // ---------- avvio ----------
 bEdit.addEventListener("click",()=>{const on=bEdit.getAttribute("aria-pressed")!=="true";bEdit.setAttribute("aria-pressed",String(on));
