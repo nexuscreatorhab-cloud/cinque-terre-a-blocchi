@@ -25,6 +25,8 @@ button:disabled{opacity:.5;cursor:default}
 .chips{display:flex;flex-wrap:wrap;gap:5px}
 .chips button{border-color:var(--line)}
 .chips button[aria-pressed="false"]{color:var(--muted);text-decoration:line-through}
+.chips a.chip{font-family:var(--display);font-size:.85rem;color:var(--paper);text-decoration:none;border:1px solid var(--line);border-radius:5px;padding:5px 10px}
+.chips a.chip[aria-current="page"]{background:var(--ochre);color:var(--ink);border-color:var(--ochre)}
 .dot{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:5px}
 .dot.sleep{background:var(--sleep)}.dot.eat{background:var(--eat)}.dot.shop{background:var(--shop)}.dot.see{background:var(--see)}
 .act{background:var(--ochre);color:var(--ink);border-color:var(--ink)}

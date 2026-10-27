@@ -1,6 +1,12 @@
 // Mondo 3D a blocchi. Espone window.MONDO per l'editor delle facciate.
 (async function(){
-const WORLD=await (await fetch(window.CONFIG.mondo)).json();
+const CFG=window.CONFIG;
+// nomi e scelta del borgo (i testi arrivano da config.js, mai da HTML scritto a mano)
+document.title=CFG.nome+" a Blocchi";document.getElementById("nomeBorgo").textContent=CFG.nome;
+document.getElementById("load").textContent="Costruisco "+CFG.nome+"…";
+document.getElementById("giro").textContent=(CFG.borgo==="manarola"?"Il giro di ":"Da vedere a ")+CFG.nome;
+for(const [id,nome] of Object.entries(CFG.borghi)){const a=document.createElement("a");a.className="chip";a.textContent=nome;a.href="?borgo="+id;if(id===CFG.borgo)a.setAttribute("aria-current","page");document.getElementById("borghi").append(a)}
+const WORLD=await (await fetch(CFG.mondo)).json();
 const {GW,GH}=WORLD;
 const dec=s=>{const b=atob(s),u=new Uint8Array(b.length);for(let i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u};
 const tq=new Uint16Array(dec(WORLD.top).buffer), type=dec(WORLD.typ), bidr=new Uint16Array(dec(WORLD.bid).buffer);
@@ -112,7 +118,7 @@ const chim=new THREE.Mesh(new THREE.BoxGeometry(.35,.6,.35),new THREE.MeshLamber
 const done=new Set();for(let i=0;i<N;i++){if(type[i]!==5)continue;const k=bidr[i];if(done.has(k)||hash(k,3,9)>.45)continue;done.add(k);const m=chim.clone();m.position.set(i%GW+.5,top[i]+.3,Math.floor(i/GW)+.5);scene.add(m)}
 // gozzi alla marina
 const R=WORLD.route;
-{const mx=R[4].x,my=R[4].y;const cols=["#c8423a","#2f6fae","#3f8a55","#e0b13e","#f2efe6"];let n=0;
+if(R.length>4){const mx=R[4].x,my=R[4].y;const cols=["#c8423a","#2f6fae","#3f8a55","#e0b13e","#f2efe6"];let n=0;
  for(let r=1;r<7&&n<6;r++)for(let a=0;a<12&&n<6;a++){const x=Math.round(mx+Math.cos(a)*r),y=Math.round(my+Math.sin(a)*r);if(!inb(x,y))continue;const i=idx(x,y);if(type[i]!==3||hash(x,y,1)<.55)continue;
   const g=new THREE.Group();const hull=new THREE.Mesh(new THREE.BoxGeometry(1.6,.35,.6),new THREE.MeshLambertMaterial({color:cols[n%5]}));const rim=new THREE.Mesh(new THREE.BoxGeometry(1.62,.08,.62),new THREE.MeshLambertMaterial({color:"#f6efe0"}));rim.position.y=.2;g.add(hull,rim);g.position.set(x+.5,top[i]+.2,y+.5);g.rotation.y=hash(x,y,2)*3;scene.add(g);n++}}
 // evidenziazione della casa scelta
@@ -155,7 +161,7 @@ function setView(t){third=t;bView.setAttribute("aria-pressed",String(t))}
 bView.onclick=()=>setView(!third);
 let mode="fly",yaw=0,pitch=0;const pos=new THREE.Vector3(),vel=new THREE.Vector3();
 function lookAt(tx,ty,tz){const d=new THREE.Vector3(tx-pos.x,ty-pos.y,tz-pos.z).normalize();yaw=Math.atan2(-d.x,-d.z);pitch=Math.asin(d.y)}
-pos.set(R[5].x-8,groundAtCell(R[5].x,R[5].y)+22,R[5].y+16);lookAt(150,22,150);heading=yaw;
+{const r=R[R.length-1];if(R.length>1){pos.set(r.x-8,groundAtCell(r.x,r.y)+22,r.y+16);lookAt(150,22,150)}else{const g=groundAtCell(r.x,r.y);pos.set(r.x-25,g+40,r.y+35);lookAt(r.x,g,r.y)}}heading=yaw;
 function resize(){renderer.setSize(innerWidth,innerHeight,false);cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix()}addEventListener("resize",resize);resize();
 const typing=e=>/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
 const keys={};addEventListener("keydown",e=>{if(typing(e))return;if(e.target.tagName==="BUTTON"&&e.key===" ")return;keys[e.key.toLowerCase()]=true});addEventListener("keyup",e=>keys[e.key.toLowerCase()]=false);addEventListener("blur",()=>{for(const k in keys)keys[k]=false});
@@ -191,7 +197,7 @@ function markMode(m){mode=m;$("mWalk").setAttribute("aria-pressed",m==="walk");$
 // cambio modalita' sempre con un movimento morbido, mai un salto
 function setMode(m){if(m===mode||tw)return;
   if(m==="fly"){markMode("fly");tweenTo(pos.x,pos.y+18,pos.z,yaw,-.45,1);tut.ev("vola");return}
-  let c=nearestWalk(pos.x,pos.z,10),ty=yaw;if(!c){const r=R[1];c=[r.x,r.y];ty=yawTo(r.x+.5,r.y+.5,r.lx,r.ly)}
+  let c=nearestWalk(pos.x,pos.z,10),ty=yaw;if(!c){const r=R[Math.min(1,R.length-1)];c=[r.x,r.y];ty=yawTo(r.x+.5,r.y+.5,r.lx,r.ly)}
   tweenTo(c[0]+.5,groundAtCell(c[0],c[1])+.9,c[1]+.5,ty,-.05,1.2,()=>markMode("walk"))}
 function goTo(x,y,lx,ly){const far=Math.hypot(x-pos.x,y-pos.z);
   tweenTo(x+.5,groundAtCell(x,y)+.9,y+.5,yawTo(x+.5,y+.5,lx,ly),-.02,Math.min(2.4,.8+far/60),()=>markMode("walk"))}
@@ -220,7 +226,7 @@ const coach=$("coach"),tK=$("tK"),tDots=$("tDots"),tT=$("tT"),tP=$("tP"),tR=$("t
 const touch=matchMedia("(pointer:coarse)").matches;
 const store={get(){try{return localStorage.getItem("ctb-tutorial")}catch(e){return null}},set(v){try{localStorage.setItem("ctb-tutorial",v)}catch(e){}}};
 const STEPS=[
-  {t:"Benvenuto a Manarola",p:"È il paese vero, ricostruito a blocchi: 1 blocco = 2 metri. In un minuto ti mostro come si gioca.",go:"Iniziamo"},
+  {t:"Benvenuto a "+window.CONFIG.nome,p:"È il paese vero, ricostruito a blocchi: 1 blocco = 2 metri. In un minuto ti mostro come si gioca.",go:"Iniziamo"},
   {t:"Cammina",p:touch?"Usa il cerchio in basso a sinistra per camminare. Trascina il dito sullo schermo per guardarti intorno.":"Cammina con i tasti W A S D o con le frecce. Trascina col mouse per guardarti intorno.",wait:"passi"},
   {t:"Vola",p:"Ora tocca 🕊️ Vola qui sotto: ti alzi sopra i tetti e vedi tutto il paese.",wait:"vola",glow:"mFly"},
   {t:"Segna",p:"Le case non sono ancora tutte uguali a quelle vere. Tocca ✏️ Segna per aiutarci.",wait:"segna",glow:"bEdit"},
@@ -232,7 +238,7 @@ const tut={step:-1,walked:0,
     tDots.replaceChildren(...STEPS.map((_,i)=>{const d=document.createElement("i");if(i<=n)d.className="on";return d}));
     tR.replaceChildren();if(s.go)btn(tR,s.go,"act",()=>this.next());if(n<last)btn(tR,"Salta","ghost",()=>this.end());
     document.querySelectorAll("#bar button").forEach(b=>b.classList.toggle("glow",b.id===s.glow));
-    if(n===1){this.walked=0;const r=R[1];tw=null;goTo(r.x,r.y,r.lx,r.ly)}},
+    if(n===1){this.walked=0;const r=R[Math.min(1,R.length-1)];tw=null;goTo(r.x,r.y,r.lx,r.ly)}},
   next(){if(this.step<STEPS.length-1)this.show(this.step+1);else this.end()},
   ev(name){if(this.step<0)return;const s=STEPS[this.step];if(s.wait===name){const n=this.step;setTimeout(()=>{if(this.step===n)this.next()},name==="casa"?900:500)}},
   end(){const era=this.step;this.step=-1;coach.hidden=true;if(era>=3)esciSegna();document.querySelectorAll("#bar .glow").forEach(b=>b.classList.remove("glow"));store.set("fatto")}};
