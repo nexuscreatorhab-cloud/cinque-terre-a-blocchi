@@ -1,0 +1,1 @@
+-- Gia' incluso in 001_schema.sql: il controllo delle proposte lascia passare il server (service_role) e il pannello di controllo.

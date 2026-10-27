@@ -1,0 +1,7 @@
+:root{--bg:#f6efe0;--ink:#16191c;--muted:#5a554c;--accent:#8a5a10}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16191c;--ink:#f6efe0;--muted:#b9b2a3;--accent:#e6a93a}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,sans-serif}
+main{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+h1{font-size:1.6rem}h2{font-size:1.1rem;margin-top:1.6em}
+a{color:var(--accent)}
+.bozza{background:var(--accent);color:var(--bg);padding:6px 10px;border-radius:6px;font-weight:600}

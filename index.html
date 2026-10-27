@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self' https://jammrsiqgddxihxhhkbt.supabase.co wss://jammrsiqgddxihxhhkbt.supabase.co; worker-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Manarola a Blocchi</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;700&family=DM+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="load">Costruisco Manarola…</div>
+<div class="hud">
+  <div class="brand pane"><h1>Manarola a blocchi<span class="tag">PROTOTIPO</span></h1></div>
+  <button id="bMenu" class="pane round" aria-expanded="false" aria-controls="menu" aria-label="Apri il menu">☰</button>
+</div>
+<nav id="menu" class="pane" hidden aria-label="Menu">
+  <h2>Il giro di Manarola</h2>
+  <ol id="rList"></ol>
+  <h2>Mostra sulla mappa</h2>
+  <div class="chips" role="group" aria-label="Mostra sulla mappa">
+    <button data-cat="sleep" aria-pressed="true"><span class="dot sleep"></span>Dormire</button>
+    <button data-cat="eat" aria-pressed="true"><span class="dot eat"></span>Mangiare</button>
+    <button data-cat="shop" aria-pressed="false"><span class="dot shop"></span>Negozi</button>
+    <button data-cat="see" aria-pressed="true"><span class="dot see"></span>Da vedere</button>
+  </div>
+  <h2>Vista</h2>
+  <div class="chips"><button id="bView" aria-pressed="true">Personaggio visibile</button></div>
+  <div class="menu-foot"><button id="bTut" class="ghost">Rivedi il tutorial</button><a href="privacy.html">Privacy</a></div>
+</nav>
+<section id="coach" class="pane" hidden aria-live="polite">
+  <div class="top"><span class="k" id="tK"></span><span class="dots" id="tDots" aria-hidden="true"></span></div>
+  <h2 id="tT"></h2>
+  <p id="tP"></p>
+  <div class="row" id="tR"></div>
+</section>
+<section id="card" class="pane" hidden aria-live="polite">
+  <div class="top"><span class="k" id="cK"></span><button id="cX" aria-label="Chiudi scheda">✕</button></div>
+  <h2 id="cT"></h2>
+  <p id="cP"></p>
+  <div class="row" id="cR"></div>
+</section>
+<aside id="ed" class="pane" hidden aria-live="polite" aria-label="Segna le facciate"></aside>
+<div id="toast" class="pane" hidden role="status"></div>
+<div id="joy" aria-hidden="true"><div id="knob"></div></div>
+<div id="updown"><button class="pane" id="bUp" aria-label="Sali">▲</button><button class="pane" id="bDn" aria-label="Scendi">▼</button></div>
+<nav id="bar" class="pane" aria-label="Modalità">
+  <button id="mWalk" aria-pressed="false"><span class="ic" aria-hidden="true">🚶</span>Cammina</button>
+  <button id="mFly" aria-pressed="true"><span class="ic" aria-hidden="true">🕊️</span>Vola</button>
+  <button id="bEdit" aria-pressed="false"><span class="ic" aria-hidden="true">✏️</span>Segna</button>
+</nav>
+<div id="attr">© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a> · quote: AWS Terrain Tiles</div>
+
+<script src="vendor/three-r128.min.js"></script>
+<script src="vendor/supabase-2.45.4.js"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+<script src="editor.js"></script>
+</body>
+</html>
