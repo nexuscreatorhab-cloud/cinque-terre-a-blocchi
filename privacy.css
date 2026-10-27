@@ -5,3 +5,8 @@ main{max-width:680px;margin:0 auto;padding:24px 16px 48px}
 h1{font-size:1.6rem}h2{font-size:1.1rem;margin-top:1.6em}
 a{color:var(--accent)}
 .bozza{background:var(--accent);color:var(--bg);padding:6px 10px;border-radius:6px;font-weight:600}
+.small{color:var(--muted);font-size:.9rem}
+.breve{border:1px solid var(--muted);border-radius:8px;padding:4px 16px;margin:1em 0}
+.tab{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.92rem}
+th,td{border-bottom:1px solid var(--muted);padding:6px 8px;text-align:left;vertical-align:top}
