@@ -1,34 +1,92 @@
-:root{--bg:#f6efe0;--card:#fffaf0;--ink:#16191c;--muted:#5a554c;--accent:#c9543b;--ok:#3f7d4e;--line:#e2d6bf}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16191c;--card:#20252a;--ink:#f6efe0;--muted:#b9b2a3;--accent:#e2794f;--ok:#7cc48c;--line:#343b42}}
+:root{
+  --bg:#f3ead6;--card:#fffaf0;--ink:#16191c;--muted:#5a554c;--line:#16191c;
+  --accent:#e2794f;--giallo:#e9b24a;--mare:#1d6f8f;--notte:#1d3b53;--ok:#4f9a5e;
+  --ombra:4px 4px 0 var(--line)
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#12161a;--card:#1d2328;--ink:#f6efe0;--muted:#b9b2a3;--line:#000;
+  --accent:#f08a5d;--giallo:#f0c05a;--ok:#7cc48c
+}}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,sans-serif}
-header,main,footer{max-width:640px;margin:0 auto;padding:0 16px}
-header{padding-top:16px}
-h1{font-size:2rem;margin:.3em 0 0}
-h2{font-size:1.15rem;margin:0 0 .6em}
-.claim{font-weight:700;color:var(--accent);margin:.2em 0 1em}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+main,footer{max-width:640px;margin:0 auto;padding:0 16px}
 a{color:var(--accent)}
-.back{font-size:.95rem;text-decoration:none}
 .muted{color:var(--muted)}
-section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin:0 0 16px}
-section:empty{display:none}
-.big{font-size:1.4rem;font-weight:800;margin:.1em 0}
-.tempo{display:inline-block;background:var(--accent);color:#fff;border-radius:999px;padding:2px 10px;font-size:.85rem;font-weight:600}
-.barra{height:12px;background:var(--line);border-radius:6px;overflow:hidden;margin:8px 0 4px}
-.barra>i{display:block;height:100%;background:var(--accent);transition:width .4s}
-.fatta .barra>i{background:var(--ok)}
-.missione{padding:10px 0;border-top:1px solid var(--line)}
+h2{font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;margin:0 0 .8em}
+
+/* ---------- testata: cielo, borgo a blocchi, mare ---------- */
+.hero{position:relative;overflow:hidden;color:#fff;padding:16px 16px 0;
+  background:linear-gradient(#f2a65a 0%,#e2794f 30%,#7a4a6e 62%,var(--notte) 100%)}
+.hero>*{max-width:608px;margin-left:auto;margin-right:auto}
+.back{display:block;color:#fff;text-decoration:none;font-weight:600;opacity:.9}
+.hero h1{font-size:clamp(2.6rem,12vw,4.2rem);line-height:1;margin:.25em auto .1em;letter-spacing:.04em;font-weight:900;
+  text-shadow:4px 4px 0 #16191c}
+.claim{font-size:1.25rem;font-weight:800;margin:0 auto 18px;text-shadow:2px 2px 0 #16191c}
+.claim span{color:var(--giallo)}
+.borgo{display:flex;align-items:flex-end;gap:3px;height:96px}
+.borgo i{flex:1;border:3px solid #16191c;border-bottom:0;position:relative;
+  background-image:linear-gradient(#16191c33 0 0);background-size:8px 10px;background-repeat:space;background-position:6px 8px}
+.borgo i::before{content:"";position:absolute;left:-3px;right:-3px;top:-10px;height:10px;background:#4a5560;border:3px solid #16191c}
+.c1{background-color:#e9b24a}.c2{background-color:#c9543b}.c3{background-color:#f3c69c}.c4{background-color:#e99a8a}
+.c5{background-color:#a8c49a}.c6{background-color:#e2794f}.c7{background-color:#93b7c6}.c8{background-color:#f4de9e}
+.h3{height:48%}.h4{height:62%}.h5{height:78%}.h6{height:92%}
+.mare{height:22px;max-width:none;background:repeating-linear-gradient(90deg,var(--mare) 0 16px,#2387ad 16px 32px);border-top:3px solid #16191c}
+
+/* ---------- regole in cima ---------- */
+.regole{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0}
+.regola{display:flex;gap:10px;align-items:center;background:var(--card);border:3px solid var(--line);box-shadow:var(--ombra);padding:10px;font-size:.88rem;line-height:1.3}
+.regola b{flex:none;display:grid;place-items:center;width:40px;height:40px;background:var(--giallo);color:#16191c;border:3px solid #16191c;font-size:1.1rem;font-weight:900}
+
+/* ---------- blocchi ---------- */
+.blocco{background:var(--card);border:3px solid var(--line);box-shadow:6px 6px 0 var(--line);padding:16px;margin:0 0 22px}
+.blocco:empty{display:none}
+.big{font-size:1.6rem;font-weight:900;margin:.1em 0;line-height:1.15}
+
+.missione-top{background:var(--notte);color:#fff;position:relative}
+.missione-top h2{color:var(--giallo)}
+.missione-top .muted{color:#c9d3db}
+.tempo{display:inline-block;margin-top:8px;background:var(--accent);color:#fff;border:3px solid #16191c;padding:4px 12px;font-weight:800;box-shadow:3px 3px 0 #16191c}
+
+/* barra a blocchi: un blocco per casa */
+.blocchi{display:flex;gap:4px;margin:8px 0 6px;flex-wrap:wrap}
+.blocchi i{width:26px;height:26px;border:3px solid var(--line);background:transparent}
+.blocchi i.si{background:var(--accent)}
+.fatta .blocchi i.si{background:var(--ok)}
+.missione{padding:12px 0;border-top:3px dashed var(--muted)}
 .missione:first-of-type{border-top:0}
-.targhette{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:8px 0 0}
-.targhette li{border:1px solid var(--line);border-radius:10px;padding:6px 10px;font-size:.9rem}
-.livelli{list-style:none;padding:0;margin:0}
-.livelli li{padding:6px 0;border-top:1px solid var(--line)}
-.livelli li:first-child{border-top:0}
-.livelli li.mio{font-weight:700}
-.tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
-.tabs button{font:inherit;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:4px 12px;cursor:pointer}
+
+.chi{display:flex;align-items:center;gap:12px}
+.chi .icona{display:grid;place-items:center;width:58px;height:58px;font-size:1.9rem;background:var(--giallo);border:3px solid #16191c;box-shadow:3px 3px 0 #16191c}
+.chi small{display:block;color:var(--muted);font-weight:600}
+
+.targhette{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px;list-style:none;padding:0;margin:8px 0 0}
+.targhette li{text-align:center;border:3px solid var(--line);background:var(--bg);padding:10px 6px;font-size:.85rem;font-weight:700;box-shadow:3px 3px 0 var(--line)}
+.targhette li span{display:block;font-size:2rem;line-height:1.2}
+
+.btn{display:inline-block;margin-top:6px;background:var(--accent);color:#fff;border:3px solid #16191c;box-shadow:4px 4px 0 #16191c;padding:10px 18px;font-weight:900;text-decoration:none;text-transform:uppercase;letter-spacing:.04em}
+.btn:active{transform:translate(3px,3px);box-shadow:1px 1px 0 #16191c}
+
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.tabs button{font:inherit;font-weight:700;border:3px solid var(--line);background:var(--bg);color:var(--ink);padding:4px 12px;cursor:pointer}
 .tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg)}
-#lista{margin:0;padding-left:1.6em}
-#lista li{padding:3px 0}
-.btn{display:inline-block;background:var(--accent);color:#fff;border-radius:8px;padding:8px 14px;font-weight:700;text-decoration:none}
+.podio{list-style:none;margin:0;padding:0;counter-reset:pos}
+.podio li{counter-increment:pos;display:flex;align-items:center;gap:10px;padding:8px 0;border-top:3px dashed var(--muted);font-weight:600}
+.podio li:first-child{border-top:0}
+.podio li::before{content:counter(pos);display:grid;place-items:center;flex:none;width:34px;height:34px;border:3px solid #16191c;background:var(--card);color:var(--ink);font-weight:900}
+.podio li:nth-child(1)::before{background:#f0c05a;color:#16191c}
+.podio li:nth-child(2)::before{background:#c9ced3;color:#16191c}
+.podio li:nth-child(3)::before{background:#d08a4f;color:#16191c}
+.podio li.vuoto::before{display:none}
+.podio .pt{margin-left:auto;font-weight:900}
+
+.scalata{list-style:none;margin:0;padding:0;display:flex;flex-direction:column-reverse;gap:10px}
+.scalata li{display:flex;gap:12px;align-items:center;border:3px solid var(--line);padding:10px;background:var(--bg)}
+.scalata li .icona{font-size:1.7rem}
+.scalata li small{display:block;color:var(--muted)}
+.scalata li.mio{background:var(--giallo);color:#16191c;box-shadow:4px 4px 0 var(--line)}
+.scalata li.mio small{color:#16191c}
+.scalata li:nth-child(2){margin-left:14px}.scalata li:nth-child(3){margin-left:28px}
+
 footer{font-size:.8rem;color:var(--muted);padding-bottom:32px}
+@media (max-width:380px){.regole{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:no-preference){.btn,.tabs button{transition:transform .08s}}

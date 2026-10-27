@@ -25,10 +25,11 @@ function mancano(fine) {
   return g > 0 ? `mancano ${g} g e ${h} h` : `mancano ${h} h`;
 }
 
+// un blocco per ogni casa da completare
 function barra(fatto, obiettivo) {
-  const p = Math.min(100, Math.round(fatto / obiettivo * 100));
-  return el("div", { class: "barra", role: "progressbar", "aria-valuemin": "0", "aria-valuemax": String(obiettivo), "aria-valuenow": String(fatto) },
-    el("i", { style: `width:${p}%` }));
+  const blocchi = [];
+  for (let i = 0; i < obiettivo; i++) blocchi.push(el("i", { class: i < fatto ? "si" : "" }));
+  return el("div", { class: "blocchi", role: "progressbar", "aria-valuemin": "0", "aria-valuemax": String(obiettivo), "aria-valuenow": String(fatto) }, ...blocchi);
 }
 
 let livelli = [];
@@ -47,7 +48,7 @@ async function settimana() {
   box.replaceChildren(el("h2", { text: "Missione della settimana" }),
     el("p", { class: "big", text: m.titolo }),
     el("p", { text: m.descrizione }),
-    el("span", { class: "tempo", text: mancano(m.fine) }));
+    el("span", { class: "tempo", text: "⏳ " + mancano(m.fine) }));
 }
 
 async function io() {
@@ -77,8 +78,9 @@ async function io() {
   for (const li of $("elenco-livelli").children) li.classList.toggle("mio", li.dataset.n === String(prof.data.livello));
   const nomi = Object.fromEntries((tipi.data || []).map(t => [t.tipo, t]));
   box.replaceChildren(
-    el("h2", { text: prof.data.soprannome }),
-    el("p", { class: "big", text: liv ? `${liv.icona} ${liv.nome}` : "" }),
+    el("h2", { text: "Il tuo profilo" }),
+    el("div", { class: "chi" }, el("span", { class: "icona", text: liv ? liv.icona : "🌱" }),
+      el("div", {}, el("small", { text: prof.data.soprannome }), el("div", { class: "big", text: liv ? liv.nome : "" }))),
     prossimo ? el("p", { class: "muted", text: `Prossimo: ${prossimo.icona} ${prossimo.nome}. ${prossimo.descrizione}` }) : el("p", { class: "muted", text: "Livello massimo. Il borgo è tuo." }),
     ...(mis.data || []).map(m => el("div", { class: "missione" + (m.fatto >= m.obiettivo ? " fatta" : "") },
       el("b", { text: `${m.icona} ${m.titolo}` }), barra(m.fatto, m.obiettivo),
@@ -87,7 +89,7 @@ async function io() {
     (tar.data || []).length
       ? el("ul", { class: "targhette" }, ...tar.data.map(t => {
           const n = nomi[t.tipo] || { icona: "🏅", nome: t.tipo };
-          return el("li", { text: `${n.icona} ${n.nome}${t.borgo ? " · " + t.borgo : ""}` });
+          return el("li", {}, el("span", { text: n.icona }), document.createTextNode(n.nome + (t.borgo ? " · " + t.borgo : "")));
         }))
       : el("p", { class: "muted", text: "Ancora nessuna. Chiudi una missione per la prima." }));
 }
@@ -99,10 +101,10 @@ async function classifica() {
     for (const t of tabs.children) t.setAttribute("aria-selected", String(t.dataset.id === b.id));
     const { data } = await sb.rpc("classifica", { p_borgo: b.id });
     const lista = $("lista");
-    if (!data || !data.length) { lista.replaceChildren(el("li", { class: "muted", text: `Nessuno in classifica a ${b.nome}. Il primo posto è libero.` })); return; }
+    if (!data || !data.length) { lista.replaceChildren(el("li", { class: "muted vuoto", text: `Nessuno in classifica a ${b.nome}. Il primo posto è libero.` })); return; }
     lista.replaceChildren(...data.map(r => {
       const l = livelli.find(x => x.numero === r.livello);
-      return el("li", { text: `${r.soprannome} ${l ? l.icona : ""} · ${r.ufficiali} dettagli` });
+      return el("li", {}, document.createTextNode(`${r.soprannome} ${l ? l.icona : ""}`), el("span", { class: "pt", text: `${r.ufficiali} 🧱` }));
     }));
   };
   tabs.replaceChildren(...(borghi || []).map(b => el("button", { role: "tab", "data-id": b.id, text: b.nome, on: { click: () => mostra(b) } })));
@@ -112,7 +114,8 @@ async function classifica() {
 async function elencoLivelli() {
   livelli = (await sb.from("livelli").select("*").order("numero")).data || [];
   $("elenco-livelli").replaceChildren(...livelli.filter(l => l.numero > 0).map(l =>
-    el("li", { "data-n": String(l.numero) }, el("b", { text: `${l.icona} ${l.nome}` }), document.createTextNode(" · " + l.descrizione))));
+    el("li", { "data-n": String(l.numero) }, el("span", { class: "icona", text: l.icona }),
+      el("div", {}, el("b", { text: l.nome }), el("small", { text: l.descrizione })))));
 }
 
 (async () => {
