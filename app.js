@@ -195,7 +195,9 @@ function setMode(m){if(m===mode||tw)return;
   tweenTo(c[0]+.5,groundAtCell(c[0],c[1])+.9,c[1]+.5,ty,-.05,1.2,()=>markMode("walk"))}
 function goTo(x,y,lx,ly){const far=Math.hypot(x-pos.x,y-pos.z);
   tweenTo(x+.5,groundAtCell(x,y)+.9,y+.5,yawTo(x+.5,y+.5,lx,ly),-.02,Math.min(2.4,.8+far/60),()=>markMode("walk"))}
-$("mWalk").onclick=()=>setMode("walk");$("mFly").onclick=()=>setMode("fly");
+// Cammina e Vola chiudono sempre la modalita' Segna, cosi' il personaggio torna visibile
+function esciSegna(){if(API.editing)$("bEdit").click()}
+$("mWalk").onclick=()=>{esciSegna();setMode("walk")};$("mFly").onclick=()=>{esciSegna();setMode("fly")};
 // ---------- menu ----------
 const menu=$("menu"),bMenu=$("bMenu");
 function closeMenu(){if(menu.hidden)return;menu.hidden=true;bMenu.setAttribute("aria-expanded","false")}
@@ -233,7 +235,7 @@ const tut={step:-1,walked:0,
     if(n===1){this.walked=0;const r=R[1];tw=null;goTo(r.x,r.y,r.lx,r.ly)}},
   next(){if(this.step<STEPS.length-1)this.show(this.step+1);else this.end()},
   ev(name){if(this.step<0)return;const s=STEPS[this.step];if(s.wait===name){const n=this.step;setTimeout(()=>{if(this.step===n)this.next()},name==="casa"?900:500)}},
-  end(){this.step=-1;coach.hidden=true;document.querySelectorAll("#bar .glow").forEach(b=>b.classList.remove("glow"));store.set("fatto")}};
+  end(){const era=this.step;this.step=-1;coach.hidden=true;if(era>=3)esciSegna();document.querySelectorAll("#bar .glow").forEach(b=>b.classList.remove("glow"));store.set("fatto")}};
 $("bEdit").addEventListener("click",()=>setTimeout(()=>{if(API.editing)tut.ev("segna")},0));
 // ---------- API per l'editor ----------
 const API={editing:false,onBuilding:null,palette:PAL,count:B.length,
